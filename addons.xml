@@ -1,20 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="flechanegra.github.io" name="[B][COLOR red]Flecha Negra [COLOR red]repository[/B][/COLOR]" version="1.2" provider-name="Flecha Negra">
-	<extension point="xbmc.addon.repository" name="[B][COLOR red]Flecha Negra [COLOR red]repositorio[/B][/COLOR]">
-		    <info compressed="false">https://raw.githubusercontent.com/flechanegra/flechanegra.github.io/master/addons.xml</info>
-		    <checksum>https://raw.githubusercontent.com/flechanegra/flechanegra.github.io/master/addons.xml.md5</checksum>
-		    <datadir zip="true">https://raw.githubusercontent.com/flechanegra/flechanegra.github.io/master</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>repositorysitorio Flecha Negra</summary>
-		<description>repositorysitorio oficial Flecha Negra - Proibido reproducao sem previa autorizacao</description>
-		<disclaimer></disclaimer>
-		<platform>all</platform>
-		<news>[I]v1.2[/I][CR]- Suporte para uma Skin!</news>
-	</extension>
-</addon>
-
 <addon id="lanik.repo" name="Lanik Repository" provider-name="Dalibor Lanik" version="1.0.2">
         <requires>
             <import addon="xbmc.addon" version="12.0.0" />
@@ -337,6 +322,21 @@ Toda a fonte  vem de utilizadores do Youtube. Addon criado pela Kodiazor Team.</
 		<summary lang="en">Exodus Redux is a educational add-on. We do not host any of the contents streamed.</summary>
 		<description lang="en"></description>
 		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="repository.flechanegra" name="[B][COLOR red]Flecha Negra [COLOR red]repository[/B][/COLOR]" version="1.2" provider-name="Flecha Negra">
+	<extension point="xbmc.addon.repository" name="[B][COLOR red]Flecha Negra [COLOR red]repositorio[/B][/COLOR]">
+		    <info compressed="false">https://raw.githubusercontent.com/flechanegra/flechanegra.github.io/master/addons.xml</info>
+		    <checksum>https://raw.githubusercontent.com/flechanegra/flechanegra.github.io/master/addons.xml.md5</checksum>
+		    <datadir zip="true">https://raw.githubusercontent.com/flechanegra/flechanegra.github.io/master</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>repositorysitorio Flecha Negra</summary>
+		<description>repositorysitorio oficial Flecha Negra - Proibido reproducao sem previa autorizacao</description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+		<news>[I]v1.2[/I][CR]- Suporte para uma Skin!</news>
 	</extension>
 </addon>
 
