@@ -325,7 +325,7 @@ Toda a fonte  vem de utilizadores do Youtube. Addon criado pela Kodiazor Team.</
 	</extension>
 </addon>
 
-<addon id="repository.flechanegra" name="[B][COLOR red]Flecha Negra [COLOR red]repositorysitorio[/B][/COLOR]" version="0.0.1" provider-name="Flecha Negra">
+<addon id="repository.flechanegra" name="[B][COLOR red]Flecha Negra [COLOR red]repository[/B][/COLOR]" version="0.0.1" provider-name="Flecha Negra">
 	<requires>
         <import addon="xbmc.python" version="2.1.0"/>
 		<import addon="xbmc.addon" version="12.0.0"/>
