@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="service.subtitles.opensubtitles.free" name="OpenSubtitles Free" provider-name="amet and Flecha" version="0.0.2">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension library="service.py" point="xbmc.subtitle.module"/>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Retrieved from version 5.0.16 OpenSubtitles.</summary>
+	<summary lang="pt">Retirado da versao 5.0.16 OpenSubtitles.</summary>
+    <description lang="en">Search and download subtitles on opensubtitles.org without resistance.</description>
+	<description lang="pt">Pesquise e baixe legendas em opensubtitles.org sem resisto.</description>
+    <disclaimer lang="en"/>
+    <platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <forum></forum>
+    <website/>
+    <email/>
+    <source></source>    
+  </extension>
+</addon>

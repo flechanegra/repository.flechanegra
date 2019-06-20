@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="skin.flechanegra" version="0.0.2" name="Skin: Flecha Negra" provider-name="Flecha Negra"> 
+	<requires>
+	    <import addon="xbmc.gui" version="5.14.0" />
+		<import addon="script.skinshortcuts" version="1.0.10" />
+		<import addon="service.library.data.provider" version="0.0.7" />
+		<import addon="script.grab.fanart" version="0.12.8" />
+		<import addon="resource.images.studios.white" version="0.0.1" />
+		<import addon="resource.images.recordlabels.white" version="0.0.1" />
+	</requires>
+	<extension point="xbmc.gui.skin" debugging="false">
+		<res width="1920" height="1080" aspect="16:9" default="true" folder="files" />
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_EN">Created by BigNoid, Modded by Flecha Negra, and Widgets by Mr. V</summary>
+		<summary lang="pt_BR">Created by BigNoid, Modded by Flecha Negra, and Widgets by Mr. V</summary>
+		<summary lang="pt_PT">Criado por BigNoid, Modded por Flecha Negra, e Widgets por Mr. V</summary>
+		<description lang="en_EN">Completely redesigned from the "6.1.8" version to create a modern look while retaining the classic Aeon touch.</description>
+		<description lang="pt_BR">Completamente redesenhado a partir da versão "6.1.8" para criar um visual moderno enquanto retém o toque clássico Aeon.</description>
+		<description lang="pt_PT">Completamente redesenhado a partir da versão "6.1.8" para criar um visual moderno enquanto retém o toque clássico Aeon.</description>
+		<platform>all</platform>
+		<license>CC BY-NC-SA 4.0</license>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.jpg</fanart>
+			<screenshot>resources/screenshots/screenshot-01.jpg</screenshot>
+			<screenshot>resources/screenshots/screenshot-02.jpg</screenshot>
+			<screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
+			<screenshot>resources/screenshots/screenshot-04.jpg</screenshot>
+			<screenshot>resources/screenshots/screenshot-05.jpg</screenshot>
+			<screenshot>resources/screenshots/screenshot-06.jpg</screenshot>
+			<screenshot>resources/screenshots/screenshot-07.jpg</screenshot>
+			<screenshot>resources/screenshots/screenshot-08.jpg</screenshot>
+			<screenshot>resources/screenshots/screenshot-09.jpg</screenshot>
+			<screenshot>resources/screenshots/screenshot-10.jpg</screenshot>
+			<screenshot>resources/screenshots/screenshot-11.jpg</screenshot>
+			<screenshot>resources/screenshots/screenshot-12.jpg</screenshot>
+		</assets>
+		<news>[I]All Versions[/I][CR] New Verson by Flecha Negra [CR][I]v0.0.1[/I][CR]</news>
+		</extension>
+    <extension point="kodi.context.item">
+	    <menu id="kodi.core.main">
+		  <item library="extras/uploadlog.py">
+		    <label>@By FlechaNegra Skin Settings!</label>
+		    <visible>true</visible>
+		  </item>
+	    </menu>
+	</extension>
+ </addon>
