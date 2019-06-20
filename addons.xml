@@ -4,24 +4,14 @@
 	<extension point="xbmc.addon.repository" name="[B][COLOR red]Flecha Negra [COLOR red]repositorio[/B][/COLOR]">
 		    <info compressed="false">https://raw.githubusercontent.com/flechanegra/flechanegra.github.io/master/addons.xml</info>
 		    <checksum>https://raw.githubusercontent.com/flechanegra/flechanegra.github.io/master/addons.xml.md5</checksum>
-		    <datadir zip="true">https://raw.githubusercontent.com/flechanegra/flechanegra.github.io/master/</datadir>
-		<dir minversion="17.0.0">
-		    <info compressed="true">https://raw.githubusercontent.com/flechanegra/flechanegra.github.io/master/krypton/addons.xml</info>
-		    <checksum>https://raw.githubusercontent.com/flechanegra/flechanegra.github.io/master/krypton/addons.xml.md5</checksum>
-		    <datadir zip="true">https://raw.githubusercontent.com/flechanegra/flechanegra.github.io/master/krypton</datadir>
-		</dir>
-		<dir minversion="18.1.0">
-		    <info compressed="true">https://raw.githubusercontent.com/flechanegra/flechanegra.github.io/master/leia/addons.xml</info>
-		    <checksum>https://raw.githubusercontent.com/flechanegra/flechanegra.github.io/master/leia/addons.xml.md5</checksum>
-		    <datadir zip="true">https://raw.githubusercontent.com/flechanegra/flechanegra.github.io/master/leia</datadir>
-		</dir>
+		    <datadir zip="true">https://raw.githubusercontent.com/flechanegra/flechanegra.github.io/master</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary>repositorysitorio Flecha Negra</summary>
 		<description>repositorysitorio oficial Flecha Negra - Proibido reproducao sem previa autorizacao</description>
 		<disclaimer></disclaimer>
 		<platform>all</platform>
-		<news>[I]v1.1[/I][CR]- Suporte para uma Skin!</news>
+		<news>[I]v1.2[/I][CR]- Suporte para uma Skin!</news>
 	</extension>
 </addon>
 
