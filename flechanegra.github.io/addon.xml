@@ -5,12 +5,12 @@
 		    <checksum>https://raw.githubusercontent.com/flechanegra/flechanegra.github.io/master/addons.xml.md5</checksum>
 		    <datadir zip="true">https://raw.githubusercontent.com/flechanegra/flechanegra.github.io/master/</datadir>
 		<dir minversion="17.0.0">
-		    <info compressed="false">https://raw.githubusercontent.com/flechanegra/flechanegra.github.io/master/krypton/addons.xml</info>
+		    <info compressed="true">https://raw.githubusercontent.com/flechanegra/flechanegra.github.io/master/krypton/addons.xml</info>
 		    <checksum>https://raw.githubusercontent.com/flechanegra/flechanegra.github.io/master/krypton/addons.xml.md5</checksum>
 		    <datadir zip="true">https://raw.githubusercontent.com/flechanegra/flechanegra.github.io/master/krypton</datadir>
 		</dir>
 		<dir minversion="18.1.0">
-		    <info compressed="false">https://raw.githubusercontent.com/flechanegra/flechanegra.github.io/master/leia/addons.xml</info>
+		    <info compressed="true">https://raw.githubusercontent.com/flechanegra/flechanegra.github.io/master/leia/addons.xml</info>
 		    <checksum>https://raw.githubusercontent.com/flechanegra/flechanegra.github.io/master/leia/addons.xml.md5</checksum>
 		    <datadir zip="true">https://raw.githubusercontent.com/flechanegra/flechanegra.github.io/master/leia</datadir>
 		</dir>
