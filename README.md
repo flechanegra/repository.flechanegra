@@ -1,4 +1,4 @@
-# REPOSITORY FLECHANEGRA
+# FLECHANEGRA REPOSITORY
 # Versão Actual: 1.4
 
 Instruções para a adição deste repo:
