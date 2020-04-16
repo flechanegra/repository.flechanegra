@@ -512,6 +512,19 @@ Toda a fonte  vem de utilizadores do Youtube. Addon criado pela Kodiazor Team.</
 	</extension>
 </addon>
 
+<addon id="repository.tempest" name="Tempest Repo" version="0.0.5" provider-name="Tempest">
+	<extension point="xbmc.addon.repository" name="Tempest Repo">
+        <info compressed="false">https://raw.githubusercontent.com/Tempest0580/tempest/master/zips/addons.xml</info>
+	    <checksum>https://raw.githubusercontent.com/Tempest0580/tempest/master/zips/addons.xml.md5</checksum>
+	    <datadir zip="true">https://raw.githubusercontent.com/Tempest0580/tempest/master/zips/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">kodi addon</summary>
+		<description lang="en">Watch Movies and Tv Shows</description>
+		<genre>movies,tvshows,usa</genre>
+	</extension>
+</addon>
+
 <addon id="resource.images.recordlabels.white" name="Recordlabel Icons - White" version="0.0.7" provider-name="Team Kodi">
 	<extension point="kodi.resource.images" compile="true" type="recordlabels" />
 	<requires>
