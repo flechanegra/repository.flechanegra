@@ -1,83 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="lanik.repo" name="Lanik Repository" provider-name="Dalibor Lanik" version="1.0.2">
-        <requires>
-            <import addon="xbmc.addon" version="12.0.0" />
-        </requires>
-        <extension name="Lanik Repository" point="xbmc.addon.repository">
-            <info compressed="false">http://kodi.lanik.org/_repo/addons.xml</info>
-            <checksum>http://kodi.lanik.org/_repo/addons.xml.md5</checksum>
-            <datadir zip="true">http://kodi.lanik.org/_repo/</datadir>
-            <hashes>false</hashes>
-        </extension>
-        <extension point="xbmc.addon.metadata">
-            <summary>Repository for my KODI plugins</summary>
-            <description>KODI Repository for stuff made by D. Lanik</description>
-            <platform>all</platform>
-    </extension>
-</addon>
-
-<addon id="plugin.googledrive" name="Google Drive" version="1.3.4" provider-name="Carlos Guzman (cguZZman)">
-	<requires>
-		<import addon="xbmc.python" version="2.25.0" />
-		<import addon="script.module.clouddrive.common" version="1.2.12"/>
-	</requires>
-	<extension point="xbmc.python.pluginsource" library="addon.py">
-		<provides>image audio video</provides>
-	</extension>
-	<extension point="xbmc.service" library="service.py" start="login" />
-	<extension point="xbmc.addon.metadata">
-		<platform>all</platform>
-		<summary lang="en_GB">Google Drive for KODI</summary>
-		<description lang="en_GB">
-Play all your media from Google Drive including Videos, Music and Pictures (including Google Photos).
- - Unlimited number of accounts.
- - Team Drives support
- - Google Photos support
- - Search over your drive.
- - Auto-Refreshed slideshow.
- - Export your videos to your library (.strm files)
- - Use Google Drive as a source
- - This program is not affiliated with or sponsored by Google.
-		</description>
-		<summary lang="he_IL">כונן Google Drive של מיקרוסופט עבור קודי</summary>
-		<description lang="he_IL">
-הפעל את כל המדיה שלך מ- Google Drive כולל וידאו, מוסיקה ותמונות.
-  - מספר בלתי מוגבל של חשבונות.
-  - חיפוש ומציאת הכונן שלך.
-  - ריענון מצגת אוטומטית.
-  - ייצוא קטעי הווידאו לספרייה שלך (קבצי .strm)
-  - שימוש ב-Google Drive כמקור
-  - תוכנית זו אינה קשורה או ממומנת על ידי Google.
-		</description>
-		<license>GPL-3.0-or-later</license>
-		<source>https://github.com/cguZZman/plugin.googledrive</source>
-		<forum>https://github.com/cguZZman/plugin.googledrive/issues</forum>
-		<website>https://addons.kodi.tv/show/plugin.googledrive</website>
-		<assets>
-			<icon>icon.png</icon>
-			<fanart>fanart.jpg</fanart>
-		</assets>
-		<news>
-v1.3.4 released Mar 3, 2020:
-- NFO export
-		</news>
-		<disclaimer lang="en_GB">
-This cloud drive addon uses a third-party authentication mechanism commonly known as OAuth 2.0.
-If you want to know more about OAuth 2.0 you can visit the following pages:
-- https://oauth.net/2/
-- https://developers.google.com/identity/protocols/OAuth2
-- https://docs.microsoft.com/en-us/onedrive/developer/rest-api/getting-started/msa-oauth
-
-Kodi and myself take no responsibility or liability.
-
-The authentication server URL is specified in Settings / Advanced / Sign-in Server. The Sign-in Server implements the OAuth 2.0 protocol.
-The complete source code of the Sign-in Server can be download here: https://github.com/cguZZman/drive-login
-You can clone the project and host it in your own server.
-		</disclaimer>
-	</extension>
-</addon>
-
 <addon id="plugin.program.flechanegra" name=" [B][COLOR orange]Flecha Negra Wizard[/COLOR][/B]" version="1.0" provider-name="[B][COLOR red]Flecha Negra[/COLOR][/B]">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -103,7 +25,7 @@ You can clone the project and host it in your own server.
   <extension point="xbmc.service" library="startup.py" start="startup" />
   <extension point="xbmc.addon.metadata">
 	<summary lang="en">KodiazorFlecha TEAM</summary>
-    <description lang="en">KodiazorFlecha Team Wizard. Um enorme abraço á **FTG** Team pois sem a sua ajuda tal não nos teria sido possível. Sim!!! Fomos ajudados internacionalmente no intuito de conseguir a wizard. Créditos á nossa Team e aos criadores da wizard em conjunto conosco, Jeremy e Todd. Esta build é unica,fruto de muito trabalho. Nada de clones...</description>
+    <description lang="en">KodiazorFlecha Team Wizard. Um enorme abraÃ§o Ã¡ **FTG** Team pois sem a sua ajuda tal nÃ£o nos teria sido possÃ­vel. Sim!!! Fomos ajudados internacionalmente no intuito de conseguir a wizard. CrÃ©ditos Ã¡ nossa Team e aos criadores da wizard em conjunto conosco, Jeremy e Todd. Esta build Ã© unica,fruto de muito trabalho. Nada de clones...</description>
     <platform>all</platform>
   </extension>
 </addon>
@@ -145,8 +67,8 @@ You can clone the project and host it in your own server.
         <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">[COLOR red][B]Flecha[/B][/COLOR] [COLOR black][B]Negra[/B][/COLOR] [COLORorange][B]é um addon da familia Kodiazor Team.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/B][/COLOR]</summary>
-    <description lang="en">[COLOR red][B]Flecha[/B][/COLOR] [COLOR black][B]Negra[/B][/COLOR] [COLORorange][B]é um addon da familia Kodiazor Team.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/B][/COLOR]</description>
+    <summary lang="en">[COLOR red][B]Flecha[/B][/COLOR] [COLOR black][B]Negra[/B][/COLOR] [COLORorange][B]Ã© um addon da familia Kodiazor Team.TODOS OS LINKS ESTÃƒO DISPONIVEIS NA INTERNET![/B][/COLOR]</summary>
+    <description lang="en">[COLOR red][B]Flecha[/B][/COLOR] [COLOR black][B]Negra[/B][/COLOR] [COLORorange][B]Ã© um addon da familia Kodiazor Team.TODOS OS LINKS ESTÃƒO DISPONIVEIS NA INTERNET![/B][/COLOR]</description>
     <platform>all</platform>
   </extension>
 </addon>
@@ -189,45 +111,6 @@ Toda a fonte  vem de utilizadores do Youtube. Addon criado pela Kodiazor Team.</
   </extension>
 </addon>
 
-<addon id="plugin.video.kodipopcorntime" name="KODI Popcorn Time" version="1.7.3" provider-name="Markop159">
-    <requires>
-        <import addon="xbmc.python" version="2.14.0"/>
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="addon.py">
-        <provides>video</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <reuselanguageinvoker>false</reuselanguageinvoker>
-        <platform>all</platform>
-        <website><![CDATA[https://markop159.github.io/KodiPopcornTime/]]></website>
-        <forum><![CDATA[http://forums.tvaddons.ag/addon-releases/47568-kodi-popcorn-time]]></forum>
-        <source><![CDATA[https://github.com/Diblo/KODI-Popcorn-Time]]></source>
-        <license><![CDATA[GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007]]></license>
-        <summary lang="de"><![CDATA[Immediately stream movies, TV Shows and Animes.]]></summary>
-        <summary lang="en"><![CDATA[Immediately stream movies, TV Shows and Animes.]]></summary>
-        <summary lang="es"><![CDATA[Immediately stream movies, TV Shows and Animes.]]></summary>
-        <summary lang="fr"><![CDATA[Immediately stream movies, TV Shows and Animes.]]></summary>
-        <summary lang="hr"><![CDATA[Trenutačno gledajte filmove, TV Serije i Anime.]]></summary>
-        <summary lang="zh"><![CDATA[Immediately stream movies, TV Shows and Animes.]]></summary>
-        <summary lang="nl"><![CDATA[Immediately stream movies, TV Shows and Animes.]]></summary>
-        <summary lang="pl"><![CDATA[Immediately stream movies, TV Shows and Animes.]]></summary>
-        <summary lang="pt"><![CDATA[Immediately stream movies, TV Shows and Animes.]]></summary>
-        <summary lang="pt_BR"><![CDATA[Immediately stream movies, TV Shows and Animes.]]></summary>
-        <summary lang="sl"><![CDATA[Takojšnji ogled Filmov, TV Serij ter Anime.]]></summary>
-        <description lang="de"><![CDATA[With KODI Popcorn Time you can search for movies, TV shows and Animes that you can see immediately in KODI. NOTE: KODI Popcorn Time will continue sharing content while watching a movie TV show or Anime.]]></description>
-        <description lang="en"><![CDATA[With KODI Popcorn Time you can search for movies, TV shows and Animes that you can see immediately in KODI. NOTE: KODI Popcorn Time will continue sharing content while watching a movie TV show or Anime.]]></description>
-        <description lang="es"><![CDATA[With KODI Popcorn Time you can search for movies, TV shows and Animes that you can see immediately in KODI. NOTE: KODI Popcorn Time will continue sharing content while watching a movie TV show or Anime.]]></description>
-        <description lang="fr"><![CDATA[With KODI Popcorn Time you can search for movies, TV shows and Animes that you can see immediately in KODI. NOTE: KODI Popcorn Time will continue sharing content while watching a movie TV show or Anime.]]></description>
-        <description lang="hr"><![CDATA[Sa KODI Popcorn Time možete pretraživati filmove, TV serije i Anime koje možete odmah gledati u KODIJU. NAPOMENA: KODI Popcorn Time će nastaviti dijeliti sadržaj dok gledate film, TV seriju ili Anime.]]></description>
-        <description lang="zh"><![CDATA[With KODI Popcorn Time you can search for movies, TV shows and Animes that you can see immediately in KODI. NOTE: KODI Popcorn Time will continue sharing content while watching a movie TV show or Anime.]]></description>
-        <description lang="nl"><![CDATA[With KODI Popcorn Time you can search for movies, TV shows and Animes that you can see immediately in KODI. NOTE: KODI Popcorn Time will continue sharing content while watching a movie TV show or Anime.]]></description>
-        <description lang="pl"><![CDATA[With KODI Popcorn Time you can search for movies, TV shows and Animes that you can see immediately in KODI. NOTE: KODI Popcorn Time will continue sharing content while watching a movie TV show or Anime.]]></description>
-        <description lang="pt"><![CDATA[With KODI Popcorn Time you can search for movies, TV shows and Animes that you can see immediately in KODI. NOTE: KODI Popcorn Time will continue sharing content while watching a movie TV show or Anime.]]></description>
-        <description lang="pt_BR"><![CDATA[With KODI Popcorn Time you can search for movies, TV shows and Animes that you can see immediately in KODI. NOTE: KODI Popcorn Time will continue sharing content while watching a movie TV show or Anime.]]></description>
-        <description lang="sl"><![CDATA[Z KODI Popcorn Time lahko iščete Filme, TV Serije in Anime, ki si jih lahko takoj ogledaš v KODI-ju. OPOMBA: KODI Popcorn Time med ogledom filmov, TV Serij ter Anime deli video dalje tudi drugim uporabnikom.]]></description>
-    </extension>
-</addon>
-
 <addon id="plugin.video.live.kodiazor" name="[COLOR orange][B]Kodiazor [COLOR orange]Team [COLOR orange]Addon[/B][/COLOR]" version="2.4" provider-name="[COLOR orange][B]Ricardo Pedroso[/B][/COLOR]">
   <requires>
 	<import addon="script.module.t0mm0.common" version="2.0.0"/>
@@ -248,7 +131,7 @@ Toda a fonte  vem de utilizadores do Youtube. Addon criado pela Kodiazor Team.</
         <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary>[COLOR yellow][B]Kodiazor Team Addon, tv grátis para todos.[/B][/COLOR]</summary>
+    <summary>[COLOR yellow][B]Kodiazor Team Addon, tv grÃ¡tis para todos.[/B][/COLOR]</summary>
     <description>
         [COLOR orange][B]Kodiazor Team Addon[/B][/COLOR]
 
@@ -308,13 +191,13 @@ Toda a fonte  vem de utilizadores do Youtube. Addon criado pela Kodiazor Team.</
   <extension point="xbmc.addon.metadata">
     <summary>SopCast and AceStream</summary>
     <description lang="en">AceStream and Sopcast in your favourite media center! Watch peer-to-peer streams in Kodi without the need for external players. Project page: https://github.com/enen92/P2P-Streams-Kodi</description>
-    <description lang="pt">AceStream e Sopcast no seu Media-Center de eleição! Assista a streams peer-to-peer no Kodi sem a necessidade de players externos. Página do projecto: https://github.com/enen92/P2P-Streams-Kodi</description>
+    <description lang="pt">AceStream e Sopcast no seu Media-Center de eleiÃ§Ã£o! Assista a streams peer-to-peer no Kodi sem a necessidade de players externos. PÃ¡gina do projecto: https://github.com/enen92/P2P-Streams-Kodi</description>
     <description lang="nl">Acestream en Sopcast in jouw favoriete media center. Kijk peer-to-peer streams in Kodi zonder de noodzaak voor externe spelers. Project pagina: https://github.com/enen92/P2P-Streams-Kodi/</description>
-    <description lang="it">AceStream e SopCast nel tuo Media Center preferito! Guarda i canali peer-to-peer in Kodi senza la necessità di player esterni. Pagina del progetto: https://github.com/enen92/P2P-Streams-Kodi/</description>
+    <description lang="it">AceStream e SopCast nel tuo Media Center preferito! Guarda i canali peer-to-peer in Kodi senza la necessitÃ  di player esterni. Pagina del progetto: https://github.com/enen92/P2P-Streams-Kodi/</description>
     <disclaimer lang="en">The authors does not host nor distribute any of the content you may watch using this addon. The authors have no affiliation with any of the content providers. This addon does not track its users.</disclaimer>
-    <disclaimer lang="pt">Os autores não alojam nem distribuem nenhum do conteúdo acessível a partir deste addon. Os autores não têm qualquer afiliação com nenhum dos sites utilizados por este addon. O addon não contem nenhuma ferramenta de tracking.</disclaimer>
+    <disclaimer lang="pt">Os autores nÃ£o alojam nem distribuem nenhum do conteÃºdo acessÃ­vel a partir deste addon. Os autores nÃ£o tÃªm qualquer afiliaÃ§Ã£o com nenhum dos sites utilizados por este addon. O addon nÃ£o contem nenhuma ferramenta de tracking.</disclaimer>
     <disclaimer lang="nl">De auteurs houden of delen niets van de inhoud die u kunt bekijken met behulp van deze addon. De auteurs hebben geen banden met welke leverancier van inhoud dan ook. Deze addon houdt geen gegevens bij van zijn gebruikers.</disclaimer>
-    <disclaimer lang="it">L'autore non detiene o distribuisce alcun contenuto fruibile tramite l'utilizzo di questo addon. L'autore non è affiliato con nessun fornitore dei contenuti. Questo addon non traccia i suoi utenti.</disclaimer>
+    <disclaimer lang="it">L'autore non detiene o distribuisce alcun contenuto fruibile tramite l'utilizzo di questo addon. L'autore non Ã¨ affiliato con nessun fornitore dei contenuti. Questo addon non traccia i suoi utenti.</disclaimer>
     <forum>http://forum.kodi.tv/showthread.php?tid=201894</forum>
     <source>https://github.com/enen92/P2P-Streams-Kodi | https://github.com/enen92/P2P-Streams-Kodi--Modules-</source>
     <website>https://code.google.com/p/p2p-strm/</website>
@@ -335,7 +218,7 @@ Toda a fonte  vem de utilizadores do Youtube. Addon criado pela Kodiazor Team.</
     </extension>
   <extension point="xbmc.addon.metadata">
     <summary lang="en">Sport365 originally made by GalAnonim</summary>
-    <description lang="en">Fork version 1.0 by GalAnonim!Kindly note that Sport365 Live is not an official part of the media player you are running, and therefore not to be mentioned within official support channels, this addon has nothing to do with the media player itself, nor it’s intended use, it is simply a third party plugin which has been added to your system.</description>
+    <description lang="en">Fork version 1.0 by GalAnonim!Kindly note that Sport365 Live is not an official part of the media player you are running, and therefore not to be mentioned within official support channels, this addon has nothing to do with the media player itself, nor itâ€™s intended use, it is simply a third party plugin which has been added to your system.</description>
     <disclaimer lang="en">Sport365 Live does not provide any streams of its own. Stream quality, content and copyright are responsibility of the ad-financed source web site.</disclaimer>
     <language>en</language>
     <platform>all</platform>
@@ -428,10 +311,10 @@ Toda a fonte  vem de utilizadores do Youtube. Addon criado pela Kodiazor Team.</
   <extension point="xbmc.addon.metadata">
     <summary>SopCast and AceStream for Kodi</summary>
     <description lang="en">Plexus - Any complex structure containing an intricate network of parts. Plexus brings native peer-to-peer support (AceStream and SopCast) for Kodi Entertainment Center for several platforms.[CR][CR]Documentation: (missing)</description>
-    <description lang="pt">Plexus - Uma estrutura complexa constituída por uma rede de partes. O Plexus adiciona suporte peer-to-peer nativo (AceStream e Sopcast) ao Kodi Entertainment Center para várias plataformas.[CR][CR]Documentação: (em falta)</description>
-    <description lang="es">Plexus - Una estructura compleja conteniendo una intrincada red de partes. Plexus añade soporte nativo peer-to-peer (AceStream y SopCast) al Centro de Entretenimiento Kodi para varias plataformas.[CR][CR]Documentacion: (falta)</description>
+    <description lang="pt">Plexus - Uma estrutura complexa constituÃ­da por uma rede de partes. O Plexus adiciona suporte peer-to-peer nativo (AceStream e Sopcast) ao Kodi Entertainment Center para vÃ¡rias plataformas.[CR][CR]DocumentaÃ§Ã£o: (em falta)</description>
+    <description lang="es">Plexus - Una estructura compleja conteniendo una intrincada red de partes. Plexus aÃ±ade soporte nativo peer-to-peer (AceStream y SopCast) al Centro de Entretenimiento Kodi para varias plataformas.[CR][CR]Documentacion: (falta)</description>
 	<disclaimer lang="en">The author does not host nor distribute any of the content you may watch using this addon. The author has no part in the development of any included technologies. When seeking help in Kodi's forum please respect rules (http://kodi.wiki/view/Forum_rules).</disclaimer>
-    <disclaimer lang="pt">Os autores não alojam nem distribuem nenhum do conteúdo que poderá ser reproduzido a partir deste addon. Os autores não têm qualquer parte no desenvolvimento de qualquer uma das tecnologias. Se procurar ajuda no fórum oficial do Kodi por favor respeite as regras do fórum (http://kodi.wiki/view/Forum_rules).</disclaimer>
+    <disclaimer lang="pt">Os autores nÃ£o alojam nem distribuem nenhum do conteÃºdo que poderÃ¡ ser reproduzido a partir deste addon. Os autores nÃ£o tÃªm qualquer parte no desenvolvimento de qualquer uma das tecnologias. Se procurar ajuda no fÃ³rum oficial do Kodi por favor respeite as regras do fÃ³rum (http://kodi.wiki/view/Forum_rules).</disclaimer>
    	<disclaimer lang="es">El autor no aloja ni distribuye cualquier contenido que ud. pudiera reproducir usando este addon. El autor no tiene participacion en el desarrollo de cualquier tecnologia incluida. Cuando requiera ayuda en el foro de Kodi por favor respete las reglas (http://kodi.wiki/view/Forum_rules).</disclaimer>
     <platform>all</platform>
   </extension>
@@ -757,26 +640,6 @@ Toda a fonte  vem de utilizadores do Youtube. Addon criado pela Kodiazor Team.</
   </extension>
 </addon>
 
-<addon id="script.module.resolveurl" name="ResolveURL" version="5.0.31" provider-name="jsergio">
-	<requires>
-		<import addon="xbmc.python" version="2.1.0" />
-		<import addon="plugin.video.youtube" optional="true" />
-		<import addon="script.module.python.twitch" optional="true" />
-		<import addon="script.module.cryptopy" version="1.2.6" optional="true" />
-		<import addon="plugin.video.gdrive" optional="true" />
-	</requires>
-	<extension point="xbmc.python.module" library="lib" />
-	<extension point="xbmc.python.pluginsource" library="lib/default.py" />
-	<extension point="xbmc.addon.metadata">
-		<platform>all</platform>
-		<summary lang="en">Resolve common video host URL's to be playable in XBMC/Kodi.</summary>
-		<summary lang="es">Resolver enlaces a videos de sitios populares para poder reproducirlos en XBMC/Kodi.</summary>
-		<summary lang="hr">Prilagodi najčešće URL-ove video izvora kako bi radili u XBMC/Kodiju.</summary>
-		<description lang="en">Resolve common video host URL's to be playable in XBMC/Kodi, simplify addon development of video plugins requiring multi video hosts.</description>
-		<description lang="hr">Prilagodi najčešće URL-ove video izvora kako bi radili u XBMC/Kodiju, pojednostavnjuje razvoj priključaka za video dodatke koji zahtjevaju višestruke video izvore.</description>
-	</extension>
-</addon>
-
 <addon id="script.module.simple.downloader" name="Simple Downloader for xbmc plugins" provider-name="TheCollective" version="1.9.5">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
@@ -902,51 +765,6 @@ Toda a fonte  vem de utilizadores do Youtube. Addon criado pela Kodiazor Team.</
 		<icon>icon.png</icon>
 	</assets>
 	<news>Updated for Leia by Latts.</news>
-	</extension>
-</addon>
-
-<addon id="script.skinshortcuts" name="Skin Shortcuts" version="1.0.18" provider-name="BigNoid,marcelveldt">
-	<requires>
-		<import addon="xbmc.python" version="2.20.0"/>
-		<import addon="script.module.simplejson" version="3.3.0"/>
-		<import addon="script.module.unidecode" version="0.4.14"/>
-	</requires>
-	<extension point="xbmc.python.library" library="default.py"/>
-	<extension point="xbmc.addon.metadata">
-		<news>Template improvements and bug fixes</news>
-		<description lang="bg">Добавка за облици, която осигурява просто управление и списък с потребителски преки пътища (изисква поддръжка от облика)</description>
-		<description lang="de">Add-on für Skins für einfache Bearbeitung und Auflistung von benutzerdefinierten Verknüpfungen (erfordert Skin-Unterstützung)</description>
-		<description lang="el">Πρόσθετο για κελύφη, το οποίο παρέχει έναν απλό τρόπο διαχείρισης και κατηγοριοποίησης των συντομεύσεων του χρήστη (πρέπει να υποστηρίζεται από το κέλυφος)</description>
-		<description lang="en">Add-on for skins to provide simple managing and listing of user shortcuts (requires skin support)</description>
-		<description lang="en_NZ">Add-on for skins to provide simple managing and listing of user shortcuts (requires skin support)</description>
-		<description lang="en_US">Add-on for skins to provide simple managing and listing of user shortcuts (requires skin support)</description>
-		<description lang="es">Complemento para las pieles para proporcionar una gestión sencilla y lista de atajos de usuario (requiere que la piel lo soporte)</description>
-		<description lang="fr_CA">Addiciel pour habillages qui fournit une gestion simple et un listage des raccourcis utilisateurs (exige la prise en charge de l'habillage)</description>
-		<description lang="gl">Complemento que fornece aos temas dunha xestión sinxela dos atallos dos usuarios (require soporte do tema)</description>
-		<description lang="hr">Dodatak za presvlake koja omogućava jednostavno upravljanje i prikaz korisnikovih prečaca (zahtijeva podršku presvlake) </description>
-		<description lang="hu">Felszín kiegészítő amely könnyen kezelhetővé és listázhatóvá teszi a felhasználói parancsikonokat (Felszín támogatás szükséges)</description>
-		<description lang="is">Viðbót fyrir viðmót til að halda utan um flýtivísa og fá yfirlit yfir þá (þarfnast stuðnings frá viðmóti)</description>
-		<description lang="it">Add-on per gli skin per consentire un facile gestione ed elenco delle scorciatoie utente (richiede che lo skin lo supporti)</description>
-		<description lang="lt">Priedas teminėms išvaizdoms, kad jos turėtų galimybę paprastai tvarkyti ir atvaizduoti vartotojo  sukurtas nuorodas (reikalingas teminės išvaizdos palaikymas)</description>
-		<description lang="nl">Add-on voor skins om te voorzien in het eenvoudig beheren en sorteren van gebruikers snelkoppelingen (vereist skin ondersteuning)</description>
-		<description lang="no">Tillegg for enkel administrering og opplisting av bruker-snarveier i tema (krever støtte i tema)</description>
-		<description lang="pl">Wtyczka dla skór, która zapewnia proste zarządzanie i tworzenie list skrótów użytkownika (wymaga wsparcia skóry)</description>
-		<description lang="pt">Um add-on que permite que os temas tenham recursos simples para gerir e listar atalhos de utilizadores (é necessário suporte do tema)</description>
-		<description lang="pt_BR">Add-on para que as skins possam prover gerenciamento de lista de atalhos para o menu principal (requer suporte da skin)</description>
-		<description lang="ru">Дополнение для обложек, предоставляющее простой способ управления и список пользовательских ярлыков (требуется поддержка обложкой)</description>
-		<description lang="sv">Skinntillägg som tillhandahåller enkel hantering och översikt av användargenvägar (om skinnet stöder det)</description>
-		<description lang="zh">插件为皮肤提供了简单的管理和用户连接方式列表 (需要皮肤支持)</description>
-		<language></language>
-		<platform>all</platform>
-		<license>GNU General Public License, v2</license>
-		<forum>http://forum.xbmc.org/showthread.php?tid=178294</forum>
-		<website></website>
-		<email></email>
-		<source>https://github.com/BigNoid/script.skinshortcuts</source>
-	<assets>
-		<icon>icon.png</icon>
-		<fanart>fanart.jpg</fanart>
-	</assets>
 	</extension>
 </addon>
 
