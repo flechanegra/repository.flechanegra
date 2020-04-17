@@ -16,9 +16,9 @@ key_sets = {
     },
     'provided': {
         '0': {
-            'id': '',
-            'key': '',
-            'secret': ''
+            'id': 'AIzaSyA9nG9Co3Vwu3UwJU3uzDoiyW9KcZ9ZJ-Y',
+            'key': '799190732597-d8ksmfulg9a7u5g4b8t5rjanc9160ovo',
+            'secret': 'ELOdfhsz-UNCMxsbLyAwlfL5'
         }
     }
 }
