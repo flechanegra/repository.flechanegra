@@ -270,7 +270,7 @@ Toda a fonte  vem de utilizadores do Youtube. Addon criado pela Kodiazor Team.</
   </extension>
 </addon>
 
-<addon id="plugin.video.marvelrus" version="1.0.0" name="[B][COLOR maroon]Marvel [COLOR white]R[/COLOR] uS[/COLOR][/B]" provider-name="Marvelrus">
+<addon id="plugin.video.marvelrus" version="1.0.1" name="[B][COLOR maroon]Marvel [COLOR white]R[/COLOR] uS[/COLOR][/B]" provider-name="Marvelrus">
    <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.marvelrus" />
@@ -279,7 +279,9 @@ Toda a fonte  vem de utilizadores do Youtube. Addon criado pela Kodiazor Team.</
         <import addon="script.module.resolveurl" />
         <import addon="script.module.requests" />
         <import addon="script.module.metahandler" />
-        <import addon="script.module.civitasscrapers" />
+<!--    <import addon="script.module.lambdascrapers" />-->  
+        <import addon="script.module.openscrapers" />
+        <import addon="script.module.beautifulsoup4" />
     </requires>
     <extension point="xbmc.python.pluginsource" library="marvelrus.py">
         <provides>video</provides>
@@ -301,7 +303,7 @@ Toda a fonte  vem de utilizadores do Youtube. Addon criado pela Kodiazor Team.</
     <news></news>
     </extension>
 </addon>
-
+  
 <addon id="plugin.video.sport365.live" name="Sport365" version="2.6.1" provider-name="Bugatsinho">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
@@ -1402,7 +1404,7 @@ Toda a fonte  vem de utilizadores do Youtube. Addon criado pela Kodiazor Team.</
   </extension>
 </addon>
 
-<addon id="script.module.marvelrus" version="2.0.6" name="[B][COLOR red]Marvelrus[/COLOR] Script.Module[/B]" provider-name="Marvelrus">
+<addon id="script.module.marvelrus" version="2.0.7" name="[B][COLOR red]Marvelrus[/COLOR] Script.Module[/B]" provider-name="Marvelrus">
     <requires>
         <import addon="xbmc.python" version="2.1.0" />
         <import addon="script.module.beautifulsoup4"/>
