@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.marvelrus" version="1.0.0" name="[B][COLOR maroon]Marvel [COLOR white]R[/COLOR] uS[/COLOR][/B]" provider-name="Marvelrus">
+<addon id="plugin.video.marvelrus" version="1.0.1" name="[B][COLOR maroon]Marvel [COLOR white]R[/COLOR] uS[/COLOR][/B]" provider-name="Marvelrus">
    <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.marvelrus" />
@@ -8,7 +8,9 @@
         <import addon="script.module.resolveurl" />
         <import addon="script.module.requests" />
         <import addon="script.module.metahandler" />
-        <import addon="script.module.civitasscrapers" />
+<!--		<import addon="script.module.lambdascrapers" />-->  
+        <import addon="script.module.openscrapers" />
+        <import addon="script.module.beautifulsoup4" />
     </requires>
     <extension point="xbmc.python.pluginsource" library="marvelrus.py">
         <provides>video</provides>
