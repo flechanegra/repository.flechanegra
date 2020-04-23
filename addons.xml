@@ -91,6 +91,29 @@ You can clone the project and host it in your own server.
   </extension>
 </addon>
 
+<addon id="plugin.video.blackarrowplaylist" name="blackarrow" version="1.0" provider-name="Flechanegra">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.requests" version="2.9.1"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">blackarrowplaylist</summary>
+    <summary lang="he">blackarrowplaylist</summary>
+    <description lang="en">blackarrowplaylist</description>
+    <description lang="he">blackarrowplaylist</description>
+    <platform>all</platform>
+
+</extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">[COLOR red][B]Blackarrow[/B][/COLOR] [COLOR black][B]playlist[/B][/COLOR] [COLORorange][B]é um addon da familia Flecha Negra Team.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/B][/COLOR]</summary>
+    <description lang="en">[COLOR red][B]Blackarrow[/B][/COLOR] [COLOR black][B]playlist[/B][/COLOR] [COLORorange][B]é um addon da familia Flecha Negra Team.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/B][/COLOR]</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="plugin.video.Blackarrowtorrent"
        name="[COLOR red][B]BlackArrow [B][/COLOR] [COLOR red][B]Torrent[/B][/COLOR]"
        version="1.2"
@@ -279,7 +302,7 @@ Toda a fonte  vem de utilizadores do Youtube. Addon criado pela Kodiazor Team.</
         <import addon="script.module.resolveurl" />
         <import addon="script.module.requests" />
         <import addon="script.module.metahandler" />
-<!--    <import addon="script.module.lambdascrapers" />-->  
+<!--		<import addon="script.module.lambdascrapers" />-->
         <import addon="script.module.openscrapers" />
         <import addon="script.module.beautifulsoup4" />
     </requires>
@@ -303,7 +326,7 @@ Toda a fonte  vem de utilizadores do Youtube. Addon criado pela Kodiazor Team.</
     <news></news>
     </extension>
 </addon>
-  
+
 <addon id="plugin.video.sport365.live" name="Sport365" version="2.6.1" provider-name="Bugatsinho">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
