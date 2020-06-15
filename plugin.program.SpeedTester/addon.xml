@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.program.SpeedTester" name="[COLOR red]Flecha Negra[/COLOR][COLORblack] Speed Tester[/COLOR]" version="1.0.0.1" provider-name="Flecha Negra">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">[COLOR red]Flecha Negra[/COLOR][COLORblack] Speed Tester[/COLOR] - Teste a velocidade de sua Internet no seu KODI.</summary>
+    <description lang="en">Flecha Negra Speed Tester powered by speedtest.net will give you accurate Internet speed/ping test results. - Teste a velocidade da Internet no seu KODI.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
