@@ -2,8 +2,8 @@
 <addon
   id="pvr.flechanegraios"
   version="0.0.1"
-  name="flechanegra Client"
-  provider-name="flechanegra">
+  name="Flechanegra Client"
+  provider-name="Flechanegra">
   <requires>
 <import addon="kodi.binary.global.main" version="1.0.14"/>
 <import addon="kodi.binary.instance.pvr" version="5.10.3"/></requires>
