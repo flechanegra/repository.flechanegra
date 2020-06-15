@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.flechanegra" name="[COLOR red][B]Flecha[/B][/COLOR] [COLOR black][B]Negra[/B][/COLOR] Repository" version="1.4" provider-name="Flecha Negra">
+<addon id="repository.flechanegra" name="[COLOR red][B]Flecha[/B][/COLOR] [COLOR black][B]Negra[/B][/COLOR] Repository" version="2.5" provider-name="Flecha Negra">
 	<requires>
         <import addon="xbmc.python" version="2.1.0"/>
 		<import addon="xbmc.addon" version="12.0.0"/>
