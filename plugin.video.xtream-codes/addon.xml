@@ -9,7 +9,6 @@
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary lang="en">Flecha Negra-Codes IPTV</summary>
-    <website>http://www.xtream-codes.com/</website>
     <description></description>
     <forum>http://www.xtream-codes.com/forum</forum>
     <email></email>

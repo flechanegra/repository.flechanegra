@@ -136,7 +136,7 @@ version="1.0" provider-name="Flechanegra">
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary lang="en">[COLOR red][B]Flecha[/B][/COLOR] [COLOR black][B]Negra[/B][/COLOR] [COLORorange][B]Ã© um addon da familia Kodiazor Team.TODOS OS LINKS ESTÃƒO DISPONIVEIS NA INTERNET![/B][/COLOR]</summary>
-    <description lang="en">[COLOR red][B]Flecha[/B][/COLOR] [COLOR black][B]Negra[/B][/COLOR] [COLORorange][B]Ã© um addon da familia Kodiazor Team.TODOS OS LINKS ESTÃƒO DISPONIVEIS NA INTERNET![/B][/COLOR]</description>
+    <description lang="en">[COLOR red][B]Flecha[/B][/COLOR] [COLOR black][B]Negra[/B][/COLOR] [COLORorange][B]Ã© um addon da familia Kodiazor Team.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/B][/COLOR]</description>
     <platform>all</platform>
   </extension>
 </addon>
@@ -342,7 +342,6 @@ Toda a fonte  vem de utilizadores do Youtube. Addon criado pela Kodiazor Team.</
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary lang="en">Flecha Negra-Codes IPTV</summary>
-    <website>http://www.xtream-codes.com/</website>
     <description></description>
     <forum>http://www.xtream-codes.com/forum</forum>
     <email></email>
