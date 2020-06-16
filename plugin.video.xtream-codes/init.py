@@ -252,35 +252,35 @@ def get_live(channel):
     video = base64.b64decode(channel)
     return video
 def execute_ainfo(params):
-    plugintools.log(pnimi+get_live("TXkgYWNjb3VudCBNZW51IA==")+repr(params))
+    plugintools.log(pnimi+get_live("")+repr(params))
     andmed = grab_epg()
-    kasutajaAndmed = andmed[sync_data("dXNlcl9pbmZv")]
-    seis = kasutajaAndmed[get_live("c3RhdHVz")]
-    aegub = kasutajaAndmed[sync_data("ZXhwX2RhdGU=")]
+    kasutajaAndmed = andmed[sync_data("")]
+    seis = kasutajaAndmed[get_live("")]
+    aegub = kasutajaAndmed[sync_data("")]
     if aegub:
        aegub = datetime.datetime.fromtimestamp(int(aegub)).strftime('%H:%M %d.%m.%Y')
     else:
-       aegub = vod_channels("TmV2ZXI=") 
-    rabbits = kasutajaAndmed[vod_channels("aXNfdHJpYWw=")]
+       aegub = vod_channels("") 
+    rabbits = kasutajaAndmed[vod_channels("")]
     if rabbits == "0":
-       rabbits = sync_data("Tm8=")
+       rabbits = sync_data("")
     else:
-       rabbits = sync_data("WWVz")
-    leavemealone = kasutajaAndmed[get_live("bWF4X2Nvbm5lY3Rpb25z")]
-    polarbears = kasutajaAndmed[sync_data("dXNlcm5hbWU=")]
-    plugintools.add_item( action="",   title=sync_data("W0NPTE9SID0gd2hpdGVdVXNlcjogWy9DT0xPUl0=")+polarbears , thumbnail="" , fanart=os.path.join(LOAD_LIVE,sync_data("YmFja2dyb3VuZC5wbmc=")) , folder=False )
-    plugintools.add_item( action="",   title=sync_data("W0NPTE9SID0gd2hpdGVdU3RhdHVzOiBbL0NPTE9SXQ==")+seis , thumbnail="" , fanart=os.path.join(LOAD_LIVE,sync_data("YmFja2dyb3VuZC5wbmc=")) , folder=False )
-    plugintools.add_item( action="",   title=get_live("W0NPTE9SID0gd2hpdGVdRXhwaXJlczogWy9DT0xPUl0=")+aegub , thumbnail="" , fanart=os.path.join(LOAD_LIVE,sync_data("YmFja2dyb3VuZC5wbmc=")) , folder=False )
-    plugintools.add_item( action="",   title=vod_channels("W0NPTE9SID0gd2hpdGVdVHJpYWwgYWNjb3VudDogWy9DT0xPUl0=")+rabbits , thumbnail="" , fanart=os.path.join(LOAD_LIVE,sync_data("YmFja2dyb3VuZC5wbmc=")) , folder=False )
-    plugintools.add_item( action="",   title=vod_channels("W0NPTE9SID0gd2hpdGVdTWF4IGNvbm5lY3Rpb25zOiBbL0NPTE9SXQ==")+leavemealone , thumbnail="" , fanart=os.path.join(LOAD_LIVE,sync_data("YmFja2dyb3VuZC5wbmc=")) , folder=False )
+       rabbits = sync_data("")
+    leavemealone = kasutajaAndmed[get_live("")]
+    polarbears = kasutajaAndmed[sync_data("")]
+    plugintools.add_item( action="",   title=sync_data("")+polarbears , thumbnail="" , fanart=os.path.join(LOAD_LIVE,sync_data("")) , folder=False )
+    plugintools.add_item( action="",   title=sync_data("")+seis , thumbnail="" , fanart=os.path.join(LOAD_LIVE,sync_data("")) , folder=False )
+    plugintools.add_item( action="",   title=get_live("")+aegub , thumbnail="" , fanart=os.path.join(LOAD_LIVE,sync_data("")) , folder=False )
+    plugintools.add_item( action="",   title=vod_channels("")+rabbits , thumbnail="" , fanart=os.path.join(LOAD_LIVE,sync_data("")) , folder=False )
+    plugintools.add_item( action="",   title=vod_channels("")+leavemealone , thumbnail="" , fanart=os.path.join(LOAD_LIVE,sync_data("")) , folder=False )
     plugintools.set_view( plugintools.LIST )
 def vanema_lukk(name):
-        plugintools.log(pnimi+sync_data("UGFyZW50YWwgbG9jayA="))
+        plugintools.log(pnimi+sync_data(""))
         a = 'XXX', 'Adult', 'Adults','ADULT','ADULTS','adult','adults','Porn','PORN','porn','Porn','xxx'
         if any(s in name for s in a):
            xbmc.executebuiltin((u'XBMC.Notification("Parental Lock", "Channels may contain adult content", 2000)'))
-           text = plugintools.keyboard_input(default_text="", title=get_live("UGFyZW50YWwgbG9jaw=="))
-           if text==plugintools.get_setting(sync_data("dmFuZW1ha29vZA==")):
+           text = plugintools.keyboard_input(default_text="", title=get_live(""))
+           if text==plugintools.get_setting(sync_data("")):
               return
            else:
               exit()
@@ -288,7 +288,7 @@ def vanema_lukk(name):
            name = ""
 def kontrolli_uuendusi():
         req = urllib2.Request(uuenduslink)
-        req.add_header(vod_channels("VXNlci1BZ2VudA==") , sync_data("S29kaSBwbHVnaW4gYnkgTWlra00="))
+        req.add_header(vod_channels("") , sync_data(""))
         response = urllib2.urlopen(req)
         repoversion=response.read()
         repoversion = repoversion.partition("\n")
@@ -299,15 +299,15 @@ def kontrolli_uuendusi():
         if iversion <> version:
            update = " "
         else:
-           if plugintools.message_yes_no(pnimi,sync_data("TmV3IHVwZGF0ZSBpcyBhdmFpbGFibGUh"),get_live("RG8geW91IHdhbnQgdG8gdXBkYXRlIHBsdWdpbiBub3c/")):
-              plugintools.log( pnimi+vod_channels("VHJ5aW5nIHRvIHVwZGF0ZSBwbHVnaW4uLi4="))
+           if plugintools.message_yes_no(pnimi,sync_data(""),get_live("")):
+              plugintools.log( pnimi+vod_channels(""))
               try:
-                  destpathname = xbmc.translatePath(os.path.join(sync_data("c3BlY2lhbDovLw=="),sync_data("aG9tZS9hZGRvbnMv")))
-                  local_file_name = os.path.join( plugintools.get_runtime_path() , get_live("dXBkYXRlLnppcA==") )
+                  destpathname = xbmc.translatePath(os.path.join(sync_data(""),sync_data("")))
+                  local_file_name = os.path.join( plugintools.get_runtime_path() , get_live("") )
                   plugintools.log(pnimi+local_file_name)
                   urllib.urlretrieve(dlink, local_file_name )
                   DownloaderClass(dlink,local_file_name)
-                  plugintools.log(pnimi+sync_data("RXh0cmFjdGluZyB1cGRhdGUuLi4="))
+                  plugintools.log(pnimi+sync_data(""))
                   import ziptools
                   unzipper = ziptools.ziptools()
                   #destpathname = xbmc.translatePath(os.path.join('special://','home'))
@@ -317,16 +317,16 @@ def kontrolli_uuendusi():
                   xbmc.executebuiltin((u'XBMC.Notification("Updated", "The add-on has been updated", 2000)'))
                   #import updater
                   xbmc.executebuiltin( "Container.Refresh" )
-                  plugintools.log(pnimi+get_live("VXBkYXRlIHN1Y2Nlc3M="))
+                  plugintools.log(pnimi+get_live(""))
               except:
-                  plugintools.log(pnimi+get_live("VXBkYXRlIGZhaWxlZA=="))
+                  plugintools.log(pnimi+get_live(""))
                   xbmc.executebuiltin((u'XBMC.Notification("Not updated", "An error causes the update to fail", 2000)'))
 def DownloaderClass(url,dest):
     dp = xbmcgui.DialogProgress()
-    dp.create(sync_data("R2V0dGluZyB1cGRhdGU="),get_live("RG93bmxvYWRpbmc="))
+    dp.create(sync_data(""),get_live(""))
     urllib.urlretrieve(url,dest,lambda nb, bs, fs, url=url: _pbhook(nb,bs,fs,url,dp))
 def check_user():
-    plugintools.message(get_live("RVJST1I="),vod_channels("VU5BVVRIT1JJWkVEIEVESVQgT0YgQURET04h"))
+    plugintools.message(get_live(""),vod_channels(""))
     sys.exit()
 def _pbhook(numblocks, blocksize, filesize, url=None,dp=None):
     try:
@@ -340,41 +340,41 @@ def _pbhook(numblocks, blocksize, filesize, url=None,dp=None):
         print "DOWNLOAD CANCELLED" # need to get this part working
         dp.close()
 def load_channels():
-    statinfo = os.stat(LOAD_LIVE+"/"+get_live("YmFja2dyb3VuZC5wbmc="))
+    statinfo = os.stat(LOAD_LIVE+"/"+get_live(""))
     if statinfo.st_size <> 448988:
-       plugintools.message(get_live("RVJST1I="),vod_channels("VU5BVVRIT1JJWkVEIEVESVQgT0YgQURET04h"))
+       plugintools.message(get_live(""),vod_channels(""))
        sys.exit()
-    statinfo = os.stat(LOAD_LIVE+"/"+get_live("ZGVmYXVsdGxvZ28ucG5n"))
+    statinfo = os.stat(LOAD_LIVE+"/"+get_live(""))
     if statinfo.st_size <> 36293:
-       plugintools.message(get_live("RVJST1I="),vod_channels("VU5BVVRIT1JJWkVEIEVESVQgT0YgQURET04h"))
+       plugintools.message(get_live(""),vod_channels(""))
        sys.exit()
-    statinfo = os.stat(LOAD_LIVE+"/"+get_live("aG9tZXRoZWF0ZXIuanBn"))
+    statinfo = os.stat(LOAD_LIVE+"/"+get_live(""))
     if statinfo.st_size <> 239707:
-       plugintools.message(get_live("RVJST1I="),vod_channels("VU5BVVRIT1JJWkVEIEVESVQgT0YgQURET04h"))
+       plugintools.message(get_live(""),vod_channels(""))
        sys.exit()
-    statinfo = os.stat(LOAD_LIVE+"/"+get_live("bm9wb3N0ZXIuanBn"))
+    statinfo = os.stat(LOAD_LIVE+"/"+get_live(""))
     if statinfo.st_size <> 7129:
-       plugintools.message(get_live("RVJST1I="),vod_channels("VU5BVVRIT1JJWkVEIEVESVQgT0YgQURET04h"))
+       plugintools.message(get_live(""),vod_channels(""))
        sys.exit()
-    statinfo = os.stat(LOAD_LIVE+"/"+get_live("dGhlYXRlci5qcGc="))
+    statinfo = os.stat(LOAD_LIVE+"/"+get_live(""))
     if statinfo.st_size <> 664032:
-       plugintools.message(get_live("RVJST1I="),vod_channels("VU5BVVRIT1JJWkVEIEVESVQgT0YgQURET04h"))
+       plugintools.message(get_live(""),vod_channels(""))
        sys.exit()
-    statinfo = os.stat(addonDir+"/"+get_live("YWRkb24ueG1s"))
+    statinfo = os.stat(addonDir+"/"+get_live(""))
     if statinfo.st_size <> 993:
-       plugintools.message(get_live("RVJST1I="),vod_channels("VU5BVVRIT1JJWkVEIEVESVQgT0YgQURET04h"))
+       plugintools.message(get_live(""),vod_channels(""))
        sys.exit()
-    statinfo = os.stat(addonDir+"/"+get_live("aW5pdC5weQ=="))
+    statinfo = os.stat(addonDir+"/"+get_live(""))
     if statinfo.st_size <> 22100:
-       plugintools.message(get_live("RVJST1I="),vod_channels("VU5BVVRIT1JJWkVEIEVESVQgT0YgQURET04h"))
+       plugintools.message(get_live(""),vod_channels(""))
        sys.exit()
-    statinfo = os.stat(addonDir+"/"+get_live("aWNvbi5wbmc="))
+    statinfo = os.stat(addonDir+"/"+get_live(""))
     if statinfo.st_size <> 100627:
-       plugintools.message(get_live("RVJST1I="),vod_channels("VU5BVVRIT1JJWkVEIEVESVQgT0YgQURET04h"))
+       plugintools.message(get_live(""),vod_channels(""))
        sys.exit()
-    statinfo = os.stat(addonDir+"/"+vod_channels("ZmFuYXJ0LnBuZw=="))
+    statinfo = os.stat(addonDir+"/"+vod_channels(""))
     if statinfo.st_size <> 448988:
-       plugintools.message(vod_channels("RVJST1I="),vod_channels("VU5BVVRIT1JJWkVEIEVESVQgT0YgQURET04h"))
+       plugintools.message(vod_channels(""),vod_channels(""))
        sys.exit()
 def vod_channels(channel):
     video = base64.b64decode(channel)
