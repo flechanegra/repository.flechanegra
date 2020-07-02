@@ -7,6 +7,40 @@
     - Source is open, so you can fork everything.
     - Some bug fixes or updates can come, to keep things working and have the latest versions.
 
+[B][COLOR red]0.1.57-0.1.58[/COLOR][/B]
+    - Added functionality to allow using both memory and file storages. Running 'Download' from context menu will download with file storage.
+    - Fixed cleaning torrent history from Elementum settings.
+
+[B][COLOR red]0.1.56[/COLOR][/B]
+    - Some changes to allow running on Kodi 16 with old python and Kodi 19 with Python 3.
+    - Changed logic to start playback even if there is a busy window (can cause Kodi restarts, please report if found!).
+    - Added context item in torrents list to select which file to download.
+    - Splitted Auto Choose setting for different media types.
+    - Fixed Seek to make sure we seek the media.
+    - Added proper /info web endpoint to show torrents health and information with files/piece priorities.
+    - Refactored work with files, priorities, showing proper progress.
+    - Enabled tuned storage for non-memory storage by default.
+
+[B][COLOR red]0.1.53-0.1.55[/COLOR][/B]
+    - Fixed issue with dropping connections when resuming torrent.
+    - Fixed issue with cleaning search history.
+    - Updated to new version of libtorrent-go, which uses Golang exception handling.
+    - Added resolve timeout for magnets.
+    - Reorganized next file pre-download to allow pre-download for non-episode torrents (for example from search or external plugin).
+    - Added &nindex (next file index), &noindex (next original file index) for defining what file to pre-download next.
+    - Added option to automatically start next file playback (without asking).
+    - Added option to manually define which binary file to use (platform selection).
+
+[B][COLOR red]0.1.52[/COLOR][/B]
+    - Added context menu item for cleaning up search queries.
+    - Increased TMDB rate limits to allow more queries.
+    - Added option for using earliest available year for searching. Added years per country for searching through providers.
+    - Added local caching for downloaded torrent files.
+    - Small changes to next episode autostart.
+    - Fixed issue with crashing because of virtual memory calculation error.
+    - Modified episode matching regex.
+    - Added oindex parameter to /play to start with specific file index.
+
 [B][COLOR red]0.1.51[/COLOR][/B]
     - Reorganized Elementum settings to make easier to understand them.
     - Added option to totally disable Trakt/Kodi synchronization.

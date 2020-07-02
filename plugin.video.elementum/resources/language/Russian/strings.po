@@ -2138,3 +2138,59 @@ msgstr "Включить синхронизацию Trakt"
 msgctxt "#30601"
 msgid "Enable synchronization while playback"
 msgstr "Включить синхронизацию во время проигрывания"
+
+msgctxt "#30602"
+msgid "Retry plugin requests after timeout (seconds)"
+msgstr "Повторный запрос к дополнению после таймаута (секунды)"
+
+msgctxt "#30603"
+msgid "Addon Startup"
+msgstr "Старт Дополнения"
+
+msgctxt "#30604"
+msgid "Clean all history"
+msgstr "Очистить всю историю"
+
+msgctxt "#30605"
+msgid "Cache downloaded torrent files after searches"
+msgstr "Кешировать скачанные торрент файлы после поисков"
+
+msgctxt "#30606"
+msgid "Show watched state for torrent's files"
+msgstr "Показывать статус просмотренного для файлов торрента"
+
+msgctxt "#30607"
+msgid "Use earliest release date as basic for searching"
+msgstr "Использовать раннюю дату выпуска как базовую для поиска"
+
+msgctxt "#30608"
+msgid "Match found in your active torrents, play it?[CR]%s"
+msgstr "Найдено совпадение в ваших активных торрентах, воспроизвести его?[CR]%s"
+
+msgctxt "#30609"
+msgid "Automatically start next episode if available"
+msgstr "Автоматически выбирать следующую серию если доступна"
+
+msgctxt "#30610"
+msgid "Magnet resolve timeout (seconds)"
+msgstr "Таймаут нахождения Magnet'a (секунд)"
+
+msgctxt "#30611"
+msgid "Application platform type"
+msgstr "Тип платформы для приложения"
+
+msgctxt "#30612"
+msgid "Select file to download"
+msgstr "Выбрать файл для скачивания"
+
+msgctxt "#30613"
+msgid "... for movie"
+msgstr "... для фильмов"
+
+msgctxt "#30614"
+msgid "... for tv show"
+msgstr "... для сериалов"
+
+msgctxt "#30615"
+msgid "... for search"
+msgstr "... для поиска"

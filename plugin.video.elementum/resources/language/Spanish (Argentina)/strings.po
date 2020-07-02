@@ -812,7 +812,7 @@ msgstr "¿Borrar los archivos descargados '%s'?"
 
 msgctxt "#30270"
 msgid "Match found in your active torrents, play it?"
-msgstr "Coincidencia encontrada en sus torrents activos ¿Reproducir?"
+msgstr "Coincide con uno de sus torrents activos ¿Reproducir?"
 
 msgctxt "#30271"
 msgid "There is now an official multi-provider for Elementum called [COLOR FFFF6B00]Burst[/COLOR], would you like to install it now?"
@@ -2084,56 +2084,112 @@ msgstr "Mostrar bienvenida al arrancar"
 
 msgctxt "#30588"
 msgid "Pre-Play Buffering"
-msgstr ""
+msgstr "Buffering previo a reproducción"
 
 msgctxt "#30589"
 msgid "Speed limiting"
-msgstr ""
+msgstr "Limitar velocidad"
 
 msgctxt "#30590"
 msgid "Torrents autoload on plugin startup"
-msgstr ""
+msgstr "Cargar torrents automáticamente en arranque"
 
 msgctxt "#30591"
 msgid "Connection limits"
-msgstr ""
+msgstr "Limites de conexiones"
 
 msgctxt "#30592"
 msgid "Seeding"
-msgstr ""
+msgstr "Seeding"
 
 msgctxt "#30593"
 msgid "Seed forever (unless disk space needed)"
-msgstr ""
+msgstr "Seed para siempre (hasta que se necesite usar disco)"
 
 msgctxt "#30594"
 msgid "Network"
-msgstr ""
+msgstr "Red"
 
 msgctxt "#30595"
 msgid "Miscellaneous"
-msgstr ""
+msgstr "Miscelánea"
 
 msgctxt "#30596"
 msgid "Enable read/write caching for storage"
-msgstr ""
+msgstr "Activar caching lectura/escritura para almacenamiento"
 
 msgctxt "#30597"
 msgid "Cache size (MB)"
-msgstr ""
+msgstr "Tamaño cache (MB)"
 
 msgctxt "#30598"
 msgid "Enable caching if using File storage and have speed problems.[CR]Will use more memory, but can improve the speed."
-msgstr ""
+msgstr "Activar cache si usa almac. en archivos y tiene problemas de velocidad[CR]Usa mas memoria, pero puede mejorar velocidad"
 
 msgctxt "#30599"
 msgid "Enable Kodi library synchronization"
-msgstr ""
+msgstr "Activar sincronización con Colección Kodi"
 
 msgctxt "#30600"
 msgid "Enable Trakt synchronization"
-msgstr ""
+msgstr "Activar sincronización con Trakt"
 
 msgctxt "#30601"
 msgid "Enable synchronization while playback"
+msgstr "Activar sincronización mientras reproduce"
+
+msgctxt "#30602"
+msgid "Retry plugin requests after timeout (seconds)"
+msgstr "Reintentar requerimientos plugin al superar (s)"
+
+msgctxt "#30603"
+msgid "Addon Startup"
+msgstr "Inicio de Addon"
+
+msgctxt "#30604"
+msgid "Clean all history"
+msgstr "Borrar todo el historial"
+
+msgctxt "#30605"
+msgid "Cache downloaded torrent files after searches"
+msgstr "Cache de archivos de torrents descargados luego de búsquedas"
+
+msgctxt "#30606"
+msgid "Show watched state for torrent's files"
+msgstr "Mostrar estado 'visto' en archivos torrents"
+
+msgctxt "#30607"
+msgid "Use earliest release date as basic for searching"
+msgstr "Usar primera fecha lanzamiento como base para búsqueda"
+
+msgctxt "#30608"
+msgid "Match found in your active torrents, play it?[CR]%s"
+msgstr "Coincide con uno de sus torrents activos ¿Reproducir?[CR]%s"
+
+msgctxt "#30609"
+msgid "Automatically start next episode if available"
+msgstr "Iniciar próximo episodio automáticamente si está disponible"
+
+msgctxt "#30610"
+msgid "Magnet resolve timeout (seconds)"
+msgstr "Tiempo límite resolución magnets (s)"
+
+msgctxt "#30611"
+msgid "Application platform type"
+msgstr "Tipo plataforma aplicación"
+
+msgctxt "#30612"
+msgid "Select file to download"
+msgstr ""
+
+msgctxt "#30613"
+msgid "... for movie"
+msgstr ""
+
+msgctxt "#30614"
+msgid "... for tv show"
+msgstr ""
+
+msgctxt "#30615"
+msgid "... for search"
 msgstr ""

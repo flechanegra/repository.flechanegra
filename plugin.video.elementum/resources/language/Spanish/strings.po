@@ -7,7 +7,8 @@ msgid ""
 msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-01-27 19:53+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2020-04-24 00:00+ZONE\n"
+"Last-Translator: roliverosc\n"
 "Language: es_ES\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -2071,68 +2072,124 @@ msgstr "Eliminar archivos reproducidos del historial, dejar solo uno"
 
 msgctxt "#30585"
 msgid "Enable library integration with Kodi"
-msgstr ""
+msgstr "Habilitar integración con biblioteca Kodi"
 
 msgctxt "#30586"
 msgid "If disabled - Elementum will not get/insert items[CR]to Kodi library and skip[CR]watched management with Kodi."
-msgstr ""
+msgstr "Si está deshabilitado - Elementum no obtendrá/insertará elementos[CR]en la biblioteca Kodi y omitirá[CR]la gestión observada con Kodi."
 
 msgctxt "#30587"
 msgid "Show welcome message on start"
-msgstr ""
+msgstr "Mostrar mensaje de bienvenida durante inicio"
 
 msgctxt "#30588"
 msgid "Pre-Play Buffering"
-msgstr ""
+msgstr "Almacenamiento previo a la reproducción"
 
 msgctxt "#30589"
 msgid "Speed limiting"
-msgstr ""
+msgstr "Limites de velocidad"
 
 msgctxt "#30590"
 msgid "Torrents autoload on plugin startup"
-msgstr ""
+msgstr "Carga automática de torrents al iniciar el complemento"
 
 msgctxt "#30591"
 msgid "Connection limits"
-msgstr ""
+msgstr "Límites de conexión"
 
 msgctxt "#30592"
 msgid "Seeding"
-msgstr ""
+msgstr "Siembra"
 
 msgctxt "#30593"
 msgid "Seed forever (unless disk space needed)"
-msgstr ""
+msgstr "Sembrar constantemente (a menos que se necesite espacio en disco)"
 
 msgctxt "#30594"
 msgid "Network"
-msgstr ""
+msgstr "Red"
 
 msgctxt "#30595"
 msgid "Miscellaneous"
-msgstr ""
+msgstr "Misceláneo"
 
 msgctxt "#30596"
 msgid "Enable read/write caching for storage"
-msgstr ""
+msgstr "Habilitar almacenamiento caché para lectura/escritura"
 
 msgctxt "#30597"
 msgid "Cache size (MB)"
-msgstr ""
+msgstr "Tamaño caché (MB)"
 
 msgctxt "#30598"
 msgid "Enable caching if using File storage and have speed problems.[CR]Will use more memory, but can improve the speed."
-msgstr ""
+msgstr "Habilite el almacenamiento en caché si usa archivos y tiene problemas[CR]de velocidad. Utilizará más memoria, pero puede mejorar la velocidad."
 
 msgctxt "#30599"
 msgid "Enable Kodi library synchronization"
-msgstr ""
+msgstr "Habilitar sincronización con biblioteca Kodi"
 
 msgctxt "#30600"
 msgid "Enable Trakt synchronization"
-msgstr ""
+msgstr "Habilitar sincronización con Trakt"
 
 msgctxt "#30601"
 msgid "Enable synchronization while playback"
+msgstr "Habilitar sincronización durante la reproducción"
+
+msgctxt "#30602"
+msgid "Retry plugin requests after timeout (seconds)"
+msgstr ""
+
+msgctxt "#30603"
+msgid "Addon Startup"
+msgstr ""
+
+msgctxt "#30604"
+msgid "Clean all history"
+msgstr ""
+
+msgctxt "#30605"
+msgid "Cache downloaded torrent files after searches"
+msgstr ""
+
+msgctxt "#30606"
+msgid "Show watched state for torrent's files"
+msgstr ""
+
+msgctxt "#30607"
+msgid "Use earliest release date as basic for searching"
+msgstr ""
+
+msgctxt "#30608"
+msgid "Match found in your active torrents, play it?[CR]%s"
+msgstr ""
+
+msgctxt "#30609"
+msgid "Automatically start next episode if available"
+msgstr ""
+
+msgctxt "#30610"
+msgid "Magnet resolve timeout (seconds)"
+msgstr ""
+
+msgctxt "#30611"
+msgid "Application platform type"
+msgstr ""
+
+msgctxt "#30612"
+msgid "Select file to download"
+msgstr ""
+
+msgctxt "#30613"
+msgid "... for movie"
+msgstr ""
+
+msgctxt "#30614"
+msgid "... for tv show"
+msgstr ""
+
+msgctxt "#30615"
+msgid "... for search"
 msgstr ""

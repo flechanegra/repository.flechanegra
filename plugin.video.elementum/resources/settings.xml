@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <settings>
     <category label="30000">
+        <!-- Startup -->
+        <setting label="30603" type="lsep" />
+        <setting id="greeting_enabled" label="30587" type="bool" default="true" />
+        <setting id="preload_timeout" label="30602" type="slider" option="int" range="1,1,120" default="1" />
+        <setting id="binary_platform" label="30611" type="select" values="Auto|android_arm|android_arm64|android_x86|android_x64|windows_x86|windows_x64" default="Auto" />
+
         <!-- Storage -->
         <setting label="30327" type="lsep" />
         <setting id="download_storage" type="enum" label="30315" lvalues="30316|30317" default="1" />
@@ -53,10 +59,17 @@
         <setting id="autoyes_enabled" label="30574" type="bool" default="true" enable="eq(-1,false)" />
         <setting id="autoyes_timeout" label="30575" type="slider" option="int" range="1,1,120" default="5" enable="eq(-2,false)" />
 
-        <setting id="choose_stream_auto" type="bool" label="30023" default="false" />
         <setting id="force_link_type" type="bool" label="30324" default="false" />
         <setting id="smart_episode_match" type="bool" label="30333" default="true" />
         <setting id="smart_episode_start" type="bool" label="30525" default="true" />
+        <setting id="smart_episode_choose" type="bool" label="30609" default="true" />
+        <setting id="use_cache_torrents" type="bool" label="30605" default="true" />
+        <setting id="show_files_watched" type="bool" label="30606" default="true" />
+
+        <setting label="30023" type="lsep" />
+        <setting id="choose_stream_auto_movie" type="bool" label="30613" default="false" />
+        <setting id="choose_stream_auto_show" type="bool" label="30614" default="false" />
+        <setting id="choose_stream_auto_search" type="bool" label="30615" default="false" />
     </category>
     <category label="30326">
         <!-- General -->
@@ -109,7 +122,6 @@
     <category label="30033">
         <!-- Appearance -->
         <setting label="30033" type="lsep" />
-        <setting id="greeting_enabled" label="30587" type="bool" default="true" />
         <setting id="do_not_disturb" label="30093" type="bool" default="false" />
         <setting id="enable_overlay_status" type="bool" label="30022" default="true" />
           <setting id="overlay_status_offset" type="number" label="30030" default="150" subsetting="true" enable="eq(-1,true)" />
@@ -176,10 +188,11 @@
         <setting id="listen_autodetect_port" label="30371" type="bool" default="true" />
         <setting id="listen_port_min" label="30006" type="number" default="6891" enable="eq(-1,false)" />
         <setting id="listen_port_max" label="30007" type="number" default="6899" enable="eq(-2,false)" />
+        <setting id="magnet_resolve_timeout" label="30610" type="slider" option="int" range="1,1,600" default="20" />
 
         <setting label="30327" type="lsep" />
         <setting type="text" label="30598" enable="false" />
-        <setting id="tuned_storage" label="30086" type="bool" default="false" />
+        <setting id="tuned_storage" label="30086" type="bool" default="true" />
         <setting id="disk_cache_size" label="30597" type="number" enable="eq(-1,true)" default="12" />
 
         <setting label="30595" type="lsep" />
@@ -199,6 +212,7 @@
         <setting label="30478" type="lsep" />
         <setting id="use_original_title" type="bool" label="30038" default="false" />
         <setting id="use_anime_en_title" type="bool" label="30526" default="true" />
+        <setting id="use_lowest_release_date" type="bool" label="30607" default="true" />
 
         <setting label="30522" type="lsep" />
         <setting id="min_candidate_size" label="30523" type="slider" option="int" range="0,1,1000" default="100" />

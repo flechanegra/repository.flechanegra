@@ -2137,3 +2137,59 @@ msgstr ""
 msgctxt "#30601"
 msgid "Enable synchronization while playback"
 msgstr ""
+
+msgctxt "#30602"
+msgid "Retry plugin requests after timeout (seconds)"
+msgstr ""
+
+msgctxt "#30603"
+msgid "Addon Startup"
+msgstr ""
+
+msgctxt "#30604"
+msgid "Clean all history"
+msgstr ""
+
+msgctxt "#30605"
+msgid "Cache downloaded torrent files after searches"
+msgstr ""
+
+msgctxt "#30606"
+msgid "Show watched state for torrent's files"
+msgstr ""
+
+msgctxt "#30607"
+msgid "Use earliest release date as basic for searching"
+msgstr ""
+
+msgctxt "#30608"
+msgid "Match found in your active torrents, play it?[CR]%s"
+msgstr ""
+
+msgctxt "#30609"
+msgid "Automatically start next episode if available"
+msgstr ""
+
+msgctxt "#30610"
+msgid "Magnet resolve timeout (seconds)"
+msgstr ""
+
+msgctxt "#30611"
+msgid "Application platform type"
+msgstr ""
+
+msgctxt "#30612"
+msgid "Select file to download"
+msgstr ""
+
+msgctxt "#30613"
+msgid "... for movie"
+msgstr ""
+
+msgctxt "#30614"
+msgid "... for tv show"
+msgstr ""
+
+msgctxt "#30615"
+msgid "... for search"
+msgstr ""
