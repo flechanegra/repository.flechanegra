@@ -1,0 +1,19 @@
+ó
+ü‚Xc           @   s"   d  Z  d d l Z e d „ Z d S(   sŒ  
+This check has been put in place to stop the inclusion of TVA (and friends) addons in builds
+from build makers that publicly insult or slander TVA's developers and friends. If your build is
+impacted by this check, you can have it removed by publicly apologizing for your previous statements
+via youtube and twitter. Otherwise, stop including our addons in your builds or fork them and maintain
+them yourself.
+                                                                                           http://i.imgur.com/TqIEnYB.gif
+                                                                                           TVA developers (and friends)
+iÿÿÿÿNc            sü  d  SyZ d d  l  } d d  l } i  } | j d ƒ j ƒ  | U| d |  ƒ rY | j ƒ  n  d  SWn+ e k
+ r{ | j ƒ  n e j ƒ  n Xd d  l } d d  l	 } d d  l
+ ‰  d d d d d d d  g } d d g } e } xT | D]L \ }	 }
+ | j |	 ƒ } | j | j ƒ  ƒ j ƒ  } | |
+ k rä e } Pqä qä We ‡  f d †  | Dƒ ƒ } | s\| rød d  l } d d  l } |  r€d n d } | j ƒ  j d d | ƒ |  rëd d  l } d d  l } | j ƒ  j d ƒ j d ƒ } | j | ƒ n  | j ƒ  n  d  S(!   Niÿÿÿÿs-   http://offshoregit.com/tknorris/block_code.pyt
+   real_checks   special://home/media/splash.pngt    926dc482183da52644e08658f4bf80e8t    084e2bc2ce2bf099ce273aabe331b02esB   special://home/addons/skin.hybrid.dev/backgrounds/MUSIC/142740.jpgt    9ad06a57315bf66c9dc2f5d2d4d5fdbdsh   special://home/addons/skin.hybrid.dev/backgrounds/GEARS TV/Woman-and-superman-wallpaper-HD-1920-1200.jpgt    4c46914b2b310ca11f145a5f32f59730sf   special://home/addons/skin.hybrid.dev/backgrounds/PROGRAMS/terminator-genesys-robot-skull-gun-face.jpgt    1496772b01e301807ea835983180e4e6s=   special://home/addons/skin.hybrid.dev/backgrounds/50-Cent.jpgt    c45fd079e48fa692ebf179406e66d741sK   special://home/addons/skin.hybrid.dev/backgrounds/kevin-hart-screw-face.jpgt    0fa8f320016798adef160bb8880479bcs"   plugin.program.targetin1080pwizards    plugin.video.targetin1080pwizardc         3   s"   |  ] } ˆ  j  d  | ƒ Vq d S(   s   System.HasAddon(%s)N(   t   getCondVisibility(   t   .0t   addon(   t   xbmc(    s8   /home/magellan/.kodi/addons/plugin.video.live.magellan/checkbad.pys	   <genexpr>/   s    s    Press OK to uninstall this addons   Press OK to exit this addons   Incompatible Systems:   This addon will not work with the build you have installedt   paths   utf-8(   s   special://home/media/splash.pngR   (   s   special://home/media/splash.pngR   (   sB   special://home/addons/skin.hybrid.dev/backgrounds/MUSIC/142740.jpgR   (   sh   special://home/addons/skin.hybrid.dev/backgrounds/GEARS TV/Woman-and-superman-wallpaper-HD-1920-1200.jpgR   (   sf   special://home/addons/skin.hybrid.dev/backgrounds/PROGRAMS/terminator-genesys-robot-skull-gun-face.jpgR   (   s=   special://home/addons/skin.hybrid.dev/backgrounds/50-Cent.jpgR   (   sK   special://home/addons/skin.hybrid.dev/backgrounds/kevin-hart-screw-face.jpgR   (   t   urllib2t   syst   urlopent   readt   exitt
+   SystemExitt	   tracebackt	   print_exct   hashlibt   xbmcvfsR   t   Falset   Filet   md5t	   hexdigestt   Truet   anyt   xbmcguit   Dialogt   okt	   xbmcaddont   shutilt   Addont   getAddonInfot   decodet   rmtree(   t	   uninstallR   R   t	   namespaceR   R   t   bad_md5st
+   bad_addonst	   found_md5R   t   bad_md5t   fR   t   has_bad_addonR   t   line2R    R!   t
+   addon_path(    (   R   s8   /home/magellan/.kodi/addons/plugin.video.live.magellan/checkbad.pyt   do_block_check   sX    
+	(   t   __doc__R   R   R0   (    (    (    s8   /home/magellan/.kodi/addons/plugin.video.live.magellan/checkbad.pyt   <module>	   s   
