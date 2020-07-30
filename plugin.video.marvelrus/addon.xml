@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.marvelrus" version="1.0.1" name="[B][COLOR maroon]Marvel [COLOR white]R[/COLOR][COLORdarkblue] uS[/COLOR][/B]" provider-name="Marvelrus">
+<addon id="plugin.video.marvelrus" version="1.0.0" name="[B][COLOR maroon]Marvel [COLOR white]R[/COLOR][COLORdarkblue] uS[/COLOR][/B]" provider-name="Marvelrus">
    <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.marvelrus" />
