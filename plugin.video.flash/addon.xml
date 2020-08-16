@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.flash" name="[COLOR red][B]fl[/B][/COLOR] [COLOR lime][B]ash[/B][/COLOR]" version="2.2" provider-name="FlechaNEGRA">
+<addon id="plugin.video.flash" name="[COLOR red]Fl[/COLOR][COLOR lime]ash[/COLOR]" version="2.2" provider-name="FlechaNEGRA">
   <requires>
 	<import addon="script.module.t0mm0.common" version="2.0.0"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
@@ -19,8 +19,8 @@
         <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">[COLOR red][B]fl[/B][/COLOR] [COLOR lime][B]ash[/B][/COLOR] [COLORorange][B]é um addon da familia FLECHANEGRA Team.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/B][/COLOR]</summary>
-    <description lang="en">[COLOR red][B]fl[/B][/COLOR] [COLOR lime][B]ash[/B][/COLOR] [COLORorange][B]é um addon da familia FLECHAMEGRA Team.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/B][/COLOR]</description>
+    <summary lang="en">[COLOR red]Fl[/COLOR][COLOR lime]ash[/COLOR] [COLORorange]é um addon da familia FLECHANEGRA Team.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/COLOR]</summary>
+    <description lang="en">[COLOR red]Fl[/COLOR][COLOR lime]ash[/COLOR] [COLORorange]é um addon da familia FLECHAMEGRA Team.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/COLOR]</description>
     <platform>all</platform>
   </extension>
 </addon>
