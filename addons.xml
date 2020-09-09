@@ -1799,7 +1799,29 @@ Toda a fonte  vem de utilizadores do Youtube. Addon criado pela Kodiazor Team.</
   </extension>
   <extension library="lib" point="xbmc.python.module" />
 </addon>
-
+<addon id="script.module.slyguy" name="SlyGuy Shared" provider-name="SlyGuy" version="0.10.4">
+  <requires>
+    <!-- <import addon="xbmc.python" version="2.1.0"/> -->
+    <import addon="repository.slyguy"/>
+  </requires>
+  <!-- <extension point="xbmc.python.script" library="default.py">
+    <provides>executable</provides>
+  </extension> -->
+  <extension point="xbmc.python.module" library="resources/modules" />
+  <extension point="xbmc.service" library="service.py" start="login" />
+  <extension point="xbmc.addon.metadata">
+    <description lang="en"></description>
+    <reuselanguageinvoker>true</reuselanguageinvoker>
+    <license></license>
+    <language></language>
+    <website></website>
+    <news></news>
+    <assets>
+      <icon>icon.png</icon>
+      <fanart>fanart.jpg</fanart>
+    </assets>
+  </extension>
+</addon>
 <addon id="script.module.slproxy" name="SLProxy" version="0.0.3" provider-name="devilsport">
   <requires>
     <import addon="xbmc.python" version="2.24.0"/>
