@@ -16,7 +16,7 @@
 	<setting type="sep" />
 	<setting id="sourcefile" type="bool" label="Ativar as listas inseridas" enable="!eq(-1,0,false)" default="false"/>				
     <setting id="new_url_source" type="text" label="Adicionar URL" default="" visible="!eq(-1,false)"/>
-    <setting type="action" label="Adicionar nome:" option="close" visible="!eq(-2,false)" action="RunPlugin(plugin://plugin.video.flash/?mode=7)" />
+    <setting type="action" label="Adicionar nome:" option="close" visible="!eq(-2,false)" action="RunPlugin(plugin://plugin.video.flash_brasil/?mode=7)" />
   </category>  
    <category label="Controlo Parental">
     	<setting id="parentalblockedpin" label="Pin do Controlo Parental" type="text"  option="hidden" default="1234"/> 

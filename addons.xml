@@ -170,7 +170,7 @@ version="1.0" provider-name="Flechanegra">
         <platform>all</platform>
     </extension>
 </addon>
-<addon id="plugin.video.flash" name="[COLOR red]Fl[/COLOR][COLOR lime]ash[/COLOR]" version="2.2" provider-name="FlechaNEGRA">
+<addon id="plugin.video.flash_brasil" name="[COLOR orange]Flash[/COLOR][COLORlime]Brasil[/COLOR]" version="2.2" provider-name="FlechaNEGRA">
   <requires>
   <import addon="script.module.t0mm0.common" version="2.0.0"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
@@ -190,11 +190,12 @@ version="1.0" provider-name="Flechanegra">
         <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">[COLOR red]Fl[/COLOR][COLOR lime]ash[/COLOR] [COLORorange]é um addon da familia FLECHANEGRA Team.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/COLOR]</summary>
-    <description lang="en">[COLOR red]Fl[/COLOR][COLOR lime]ash[/COLOR] [COLORorange]é um addon da familia FLECHAMEGRA Team.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/COLOR]</description>
+    <summary lang="en">[COLOR orange]Flash[/COLOR][COLORlime]Brasil[/COLOR] [COLORred]é um addon da familia FLECHANEGRA Team.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/COLOR]</summary>
+    <description lang="en">[COLOR orange]Flash[/COLOR][COLORlime]Brasil[/COLOR] [COLORred]it´s a FLECHANEGRA Team family´s addon. ALL THE LINKS ARE AVAILABLE ON THE INTERNET![/COLOR]</description>
     <platform>all</platform>
   </extension>
 </addon>
+
 <addon id="plugin.video.flechanegra" name="[COLOR red][B]Flecha[/B][/COLOR] [COLOR black][B]Negra[/B][/COLOR]" version="2.7" provider-name="Flecha">
   <requires>
 	<import addon="script.module.t0mm0.common" version="2.0.0"/>
