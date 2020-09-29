@@ -324,9 +324,9 @@ Toda a fonte  vem de utilizadores do Youtube. Addon criado pela Kodiazor Team.</
     <website></website>
   </extension>
 </addon>
-<addon id="plugin.video.live.kodiazor" name="[COLOR orange][B]Kodiazor [COLOR orange]Team [COLOR orange]Addon[/B][/COLOR]" version="2.4" provider-name="[COLOR orange][B]Ricardo Pedroso[/B][/COLOR]">
+<addon id="plugin.video.K-PT" name="[COLOR orange]K-PT[/COLOR]" version="3.0" provider-name="[COLOR orange]@By_flecha_negra[/COLOR]">
   <requires>
-	<import addon="script.module.t0mm0.common" version="2.0.0"/>
+  <import addon="script.module.t0mm0.common" version="2.0.0"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
     <import addon="script.module.simple.downloader" version="0.9.4"/>
     <import addon="script.module.beautifulsoup4" />
@@ -336,7 +336,7 @@ Toda a fonte  vem de utilizadores do Youtube. Addon criado pela Kodiazor Team.</
     <import addon="script.module.youtube.dl" />
     <import addon="plugin.video.youtube" version="3.0.0"/>
     <import addon="script.module.urlresolver" optional="true"/>
-    <import addon="script.module.simplejson" />
+    <import addon="script.module.simplejson" /> 
     <import addon="script.common.plugin.cache" version="2.5.2"/>
     <import addon="script.module.metahandler" version="2.5.1"/>
   </requires>
@@ -344,10 +344,10 @@ Toda a fonte  vem de utilizadores do Youtube. Addon criado pela Kodiazor Team.</
         <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary>[COLOR yellow][B]Kodiazor Team Addon, tv grÃ¡tis para todos.[/B][/COLOR]</summary>
+    <summary>[COLOR yellow]K-PT addon, tv grátis para todos.[/COLOR]</summary>
     <description>
-        [COLOR orange][B]Kodiazor Team Addon[/B][/COLOR]
-
+        [COLOR orange]K-PT[/COLOR]
+        
     </description>
     <platform>all</platform>
   </extension>

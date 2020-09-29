@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.live.kodiazor" name="[COLOR orange][B]Kodiazor [COLOR orange]Team [COLOR orange]Addon[/B][/COLOR]" version="2.4" provider-name="[COLOR orange][B]Ricardo Pedroso[/B][/COLOR]">
+<addon id="plugin.video.K-PT" name="[COLOR orange]K-PT[/COLOR]" version="3.0" provider-name="[COLOR orange]@By_flecha_negra[/COLOR]">
   <requires>
 	<import addon="script.module.t0mm0.common" version="2.0.0"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
@@ -19,9 +19,9 @@
         <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary>[COLOR yellow][B]Kodiazor Team Addon, tv grátis para todos.[/B][/COLOR]</summary>
+    <summary>[COLOR yellow]K-PT addon, tv grátis para todos.[/COLOR]</summary>
     <description>
-        [COLOR orange][B]Kodiazor Team Addon[/B][/COLOR]
+        [COLOR orange]K-PT[/COLOR]
         
     </description>
     <platform>all</platform>
