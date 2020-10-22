@@ -1,5 +1,5 @@
 # FLECHANEGRA REPOSITORY
-# Versão Actual: 1.4
+# Versão Actual: 2.6
 
 Instruções para a adição deste repo:
 
