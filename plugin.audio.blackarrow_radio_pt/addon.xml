@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.audio.blackarrrow_radio_pt" name="[COLORred]Blackarrow[/COLOR] [COLOR black]Radio[/COLOR]" provider-name="@by_flecha_negra" version="4.0.4">
+<addon id="plugin.audio.blackarrow_radio_pt" name="[COLORred]Blackarrow[/COLOR] [COLOR black]Radio[/COLOR]" provider-name="@by_flecha_negra" version="4.0.4">
     <requires>
         <import addon="xbmc.python" version="2.14.0" />
         <import addon="script.module.xbmcswift2" version="2.5.0" />
