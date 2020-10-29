@@ -49,7 +49,12 @@
     <extension library="addon.py" point="xbmc.python.pluginsource">
         <provides>audio</provides>
     </extension>
-    <extension point="xbmc.addon.metadata">
+   <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <website>https://www.radio.pt/</website>
+        <source>https://github.com/flechanegra/repository.flechanegra/tree/master/plugin.audio.blackarrow_radio_pt</source>
+        <forum>https://forum.kodi.tv/showthread.php?</forum>
+        <license>GPL-2.0-only</license>
        
         <summary lang="be_BY">Access &gt;30000 radio broadcasts</summary>
         <summary lang="ca_ES">accedeix a mes de 30000 emissores de radio</summary>
@@ -110,6 +115,7 @@
         </assets>
     </extension>
 </addon>
+
 <addon id="plugin.video.blackarrow1click" name="[COLOR red]BLACKARROW[/COLOR][COLORblack] 1CLICK[/COLOR]" version="2.3" provider-name="@by_flecha_negra">
   <requires>
   <import addon="script.module.t0mm0.common" version="2.0.0"/>

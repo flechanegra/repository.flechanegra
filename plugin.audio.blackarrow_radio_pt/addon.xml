@@ -7,7 +7,12 @@
     <extension library="addon.py" point="xbmc.python.pluginsource">
         <provides>audio</provides>
     </extension>
-    <extension point="xbmc.addon.metadata">
+   <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <website>https://www.radio.pt/</website>
+        <source>https://github.com/flechanegra/repository.flechanegra/tree/master/plugin.audio.blackarrow_radio_pt</source>
+        <forum>https://forum.kodi.tv/showthread.php?</forum>
+        <license>GPL-2.0-only</license>
        
         <summary lang="be_BY">Access &gt;30000 radio broadcasts</summary>
         <summary lang="ca_ES">accedeix a mes de 30000 emissores de radio</summary>
