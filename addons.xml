@@ -399,7 +399,7 @@ Toda a fonte  vem de utilizadores do Youtube. Addon criado pela Kodiazor Team.</
     <website></website>
   </extension>
 </addon>
-<addon id="plugin.video.K-PT" name="[COLOR orange]K-PT[/COLOR]" version="3.0" provider-name="[COLOR orange]@By_flecha_negra[/COLOR]">
+<addon id="plugin.video.K-PT" name="[COLOR orange]K-PT[/COLOR]" version="3.2" provider-name="[COLOR orange]@By_flecha_negra[/COLOR]">
   <requires>
   <import addon="script.module.t0mm0.common" version="2.0.0"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
