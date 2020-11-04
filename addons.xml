@@ -2064,19 +2064,6 @@ Abbonamento richiesto.</description>
     <email/>
     <source></source>
   </extension>
-</addon>
-<addon id="slyguy.disney.plus" name="Disney+" provider-name="Slyguy" version="0.3.7">
-  <requires>
-    <import addon="script.module.slyguy"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py" provides="video">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <description lang="en">Disney+ is the exclusive home for your favorite movies and TV shows from Disney, Pixar, Marvel, Star Wars, and National Geographic.
-
-Subscription required.</description>
-    <description lang="it">Disney+ è la casa esclusiva per i tuoi film e programmi TV preferiti di Disney, Pixar, Marvel, Star Wars e National Geographic.
 
 Abbonamento richiesto.</description>
     <reuselanguageinvoker>true</reuselanguageinvoker>
