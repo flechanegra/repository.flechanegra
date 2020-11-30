@@ -277,9 +277,9 @@ version="1.0" provider-name="Flechanegra">
     <platform>all</platform>
   </extension>
 </addon>
-<addon id="plugin.video.Infinity" name="[COLOR yellow][B]Infi[/B][/COLOR][COLOR yellow][B]nity[/B][/COLOR]" version="0.2" provider-name="Flechanegra">
+<addon id="plugin.video.Infinity" name="[COLOR yellow][B]Infi[/B][/COLOR][COLOR yellow][B]nity[/B][/COLOR]" version="2.1" provider-name="Flechanegra">
   <requires>
-  <import addon="script.module.t0mm0.common" version="2.0.0"/>
+	<import addon="script.module.t0mm0.common" version="2.0.0"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
     <import addon="script.module.simple.downloader" version="0.9.4"/>
     <import addon="script.module.beautifulsoup4" />
@@ -302,6 +302,7 @@ version="1.0" provider-name="Flechanegra">
     <platform>all</platform>
   </extension>
 </addon>
+
 
 
 <addon id="plugin.video.k.doc" name="K DOC" version="1.0" provider-name="KODIAZOR">
