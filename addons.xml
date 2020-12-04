@@ -14,43 +14,17 @@
     <platform>all</platform>
   </extension>
 </addon>
-<addon id="plugin.program.kodiazorflecha" name="[COLOR orange][B]KodiazorFlecha TEAM[/B][/COLOR]" version="1.0" provider-name="[COLOR yellow]kodiazorflecha[/COLOR]">
+
+<addon id="plugin.video.blackarrow1click" name="[COLOR red]Blackarrow[/COLOR][COLORblack] 1Cick[/COLOR]" version="2.3" provider-name="@by_flecha_negra">
   <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>executable</provides>
-  </extension>
-  <extension point="xbmc.service" library="startup.py" start="startup" />
-  <extension point="xbmc.addon.metadata">
-	<summary lang="en">KodiazorFlecha TEAM</summary>
-    <description lang="en">KodiazorFlecha Team Wizard. Um enorme abraÃ§o Ã¡ **FTG** Team pois sem a sua ajuda tal nÃ£o nos teria sido possÃ­vel. Sim!!! Fomos ajudados internacionalmente no intuito de conseguir a wizard. CrÃ©ditos Ã¡ nossa Team e aos criadores da wizard em conjunto conosco, Jeremy e Todd. Esta build Ã© unica,fruto de muito trabalho. Nada de clones...</description>
-    <platform>all</platform>
-  </extension>
-</addon>
-<addon id="plugin.program.SpeedTester.net" name="[COLOR red]Flecha Negra[/COLOR][COLORblack] Speed Tester[/COLOR]" version="10.0.2.2" provider-name="Flecha Negra">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">[COLOR red]Flecha Negra[/COLOR][COLORblack] Speed Tester[/COLOR] - Teste a velocidade de sua Internet no seu KODI.</summary>
-    <description lang="en">Flecha Negra Speed Tester powered by speedtest.net will give you accurate Internet speed/ping test results. - Teste a velocidade da Internet no seu KODI.</description>
-    <platform>all</platform>
-  </extension>
-</addon>
-<addon id="plugin.video.blackarrow1click" name="[COLOR red]BLACKARROW[/COLOR][COLORblack] 1CLICK[/COLOR]" version="2.3" provider-name="FLECHANEGRA">
-  <requires>
-  <import addon="script.module.t0mm0.common" version="2.0.0"/>
+	<import addon="script.module.t0mm0.common" version="2.0.0"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
     <import addon="script.module.simple.downloader" version="0.9.4"/>
     <import addon="script.module.beautifulsoup4" />
     <import addon="script.module.simple.downloader" version="0.9.4"/>
     <import addon="script.module.requests" />
     <import addon="script.module.httplib2" />
-    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="script.module.youtube.dl" />
     <import addon="plugin.video.youtube" version="3.0.0"/>
     <import addon="script.module.urlresolver" optional="true"/>
     <import addon="script.module.simplejson" /> 
@@ -61,8 +35,8 @@
         <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="pt"></summary>
-    <description lang="pt">Todas as lista estão online via a uma procura live na internet e afins.</description>
+    <summary lang="en">[COLOR red][B]Flecha[/B][/COLOR] [COLOR black][B]Negra[/B][/COLOR] [COLORorange][B]é um addon da familia K-PT FLECHANEGRA.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/B][/COLOR]</summary>
+    <description lang="en">[COLOR red][B]Flecha[/B][/COLOR] [COLOR black][B]Negra[/B][/COLOR] [COLORorange][B]é um addon da familia K-PT FLECHANEGRA..TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/B][/COLOR]</description>
     <platform>all</platform>
   </extension>
 </addon>
