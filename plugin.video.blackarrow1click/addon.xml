@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.blackarrow1click" name="[COLOR red]BLACKARROW[/COLOR][COLORblack] 1CLICK[/COLOR]" version="2.3" provider-name="@by_flecha_negra">
+<addon id="plugin.video.blackarrow1click" name="[COLOR red]Blackarrow[/COLOR][COLORblack] 1Cick[/COLOR]" version="2.3" provider-name="@by_flecha_negra">
   <requires>
 	<import addon="script.module.t0mm0.common" version="2.0.0"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
