@@ -226,7 +226,7 @@ version="1.0" provider-name="Flechanegra">
   <extension point="xbmc.service" library="service.py" start="login">
     </extension>
 </addon>
-<addon id="plugin.video.IncoGnit" name="[COLOR lime]IncoGnit[/COLOR]" version="2.2" provider-name="Flechanegra">
+<addon id="plugin.video.IncoGnit" name="[COLOR lime]IncoGnit[/COLOR]" version="2.3" provider-name="Flechanegra">
   <requires>
   <import addon="script.module.t0mm0.common" version="2.0.0"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
