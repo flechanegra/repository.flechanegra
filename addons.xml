@@ -2039,7 +2039,7 @@ Abbonamento richiesto.</description>
   </extension>
 </addon>
 
-<addon id="service.subtitles.opensubtitles.free" name="OpenSubtitles Free" provider-name="amet and Flecha" version="0.0.3">
+<addon id="service.subtitles.opensubtitles.free" name="OpenSubtitles Free" provider-name="amet and Flecha" version="0.0.2">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -2055,6 +2055,7 @@ Abbonamento richiesto.</description>
     <forum></forum>
     <website/>
     <email/>
-    <source></source>    
+    <source></source>
   </extension>
 </addon>
+</addons>
