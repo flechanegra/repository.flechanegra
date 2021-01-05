@@ -2059,7 +2059,7 @@ Abbonamento richiesto.</description>
   </extension>
 </addon>
 
-<addon id="program..blackarrowlimpa" version="0.0.3" name="blackarrowlimpa " provider-name="Flechanegra">
+<addon id="program..blackarrowlimpa" version="0.0.4" name="blackarrowlimpa " provider-name="Flechanegra">
     <requires>
         <import addon="xbmc.python" version="2.19.0"/>
     </requires>
