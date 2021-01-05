@@ -2059,6 +2059,23 @@ Abbonamento richiesto.</description>
   </extension>
 </addon>
 
+<addon id="program.indigo.blackarrowlimpa" version="0.0.3" name="blackarrowlimpa Indigo" provider-name="Flechanegra">
+    <requires>
+        <import addon="xbmc.python" version="2.19.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="service.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.service" library="service.py" start="[login|startup]" />
+    <extension point="xbmc.addon.metadata">
+        <summary>Force deletes Indigo on Kodi startup</summary>
+        <description>blackarrowlimpas Indigo every Kodi startup. Because blackarrowlimpa TVA</description>
+        <disclaimer lang="en">The author is not responsible for your addon. The authoer is also not responsible for breaking your stuff. You have been warned.</disclaimer>
+        <license>Beerware rev. 42</license>
+        <platform>all</platform>
+        <reuselanguageinvoker>false</reuselanguageinvoker>
+    </extension>
+</addon>
 
 
 
