@@ -2059,7 +2059,7 @@ Abbonamento richiesto.</description>
   </extension>
 </addon>
 
-<addon id="program.indigo.blackarrowlimpa" version="0.0.3" name="blackarrowlimpa Indigo" provider-name="Flechanegra">
+<addon id="program..blackarrowlimpa" version="0.0.3" name="blackarrowlimpa " provider-name="Flechanegra">
     <requires>
         <import addon="xbmc.python" version="2.19.0"/>
     </requires>
@@ -2068,8 +2068,8 @@ Abbonamento richiesto.</description>
     </extension>
     <extension point="xbmc.service" library="service.py" start="[login|startup]" />
     <extension point="xbmc.addon.metadata">
-        <summary>Force deletes Indigo on Kodi startup</summary>
-        <description>blackarrowlimpas Indigo every Kodi startup. Because blackarrowlimpa TVA</description>
+        <summary>Force deletes  on Kodi startup</summary>
+        <description>blackarrowlimpas  every Kodi startup. Because blackarrowlimpa TVA</description>
         <disclaimer lang="en">The author is not responsible for your addon. The authoer is also not responsible for breaking your stuff. You have been warned.</disclaimer>
         <license>Beerware rev. 42</license>
         <platform>all</platform>
@@ -2077,18 +2077,5 @@ Abbonamento richiesto.</description>
     </extension>
 </addon>
 
-<addon id="service.auto.fix.indigo" name="Auto Fix Program Indigo" version="0.0.3" provider-name="andre">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="startup.py">
-        <provides>executable</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-		<summary>Inicia uma limpeza no addon Program Indigo.</summary>
-		<description lang="en">[COLOR orchid] repository THE CREW REPO [/ COLOR] and additional program Ingino in the same Build.</description>
-		<description lang="pt">Repositório [COLOR orchid]THE CREW REPO[/COLOR] e addon Program Ingino na mesma Build.</description>
-		<platform>all</platform>
-  </extension>
-</addon>
+
 </addons>
