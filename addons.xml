@@ -647,23 +647,7 @@ Toda a fonte  vem de utilizadores do Youtube. Addon criado pela Kodiazor Team.</
 	</extension>
 </addon>
 
-<addon id="plugin.video.xtream-codes" name="[COLORred]Flecha Negra[/COLOR]-[COLORblack]Codes IPTV[/COLOR]" version="2.2" provider-name="Flecha Negra">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-	<import addon="script.module.addon.common" />
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="init.py">
-        <provides>video executable</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">Flecha Negra-Codes IPTV</summary>
-    <description></description>
-    <forum>http://www.xtream-codes.com/forum</forum>
-    <email></email>
-    <disclaimer></disclaimer>
-    <platform>all</platform>
-  </extension>
-</addon>
+
 
 <addon id="plugin.video.youtube" name="YouTube" version="6.8.2" provider-name="anxdpanic, bromix">
     <requires>
