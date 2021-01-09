@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.blackarrow18" name="[COLOR red][B]black[/COLOR] [COLOR yellow][B]arrow18[/COLOR]" version="0.1" provider-name="Flechanegra">
+<addon id="plugin.video.blackarrow18" name="[COLOR red][B]black[/B][/COLOR] [COLOR yellow][B]arrow18[/B][/COLOR]" version="0.1" provider-name="Flechanegra">
   <requires>
 	<import addon="script.module.t0mm0.common" version="2.0.0"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
