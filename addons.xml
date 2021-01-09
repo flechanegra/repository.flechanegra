@@ -90,21 +90,6 @@
   </extension>
 </addon>
 
-<addon id="plugin.program.kodiazorflecha" name="[COLOR orange][B]KodiazorFlecha TEAM[/B][/COLOR]" version="1.0" provider-name="[COLOR yellow]kodiazorflecha[/COLOR]">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>executable</provides>
-  </extension>
-  <extension point="xbmc.service" library="startup.py" start="startup" />
-  <extension point="xbmc.addon.metadata">
-	<summary lang="en">KodiazorFlecha TEAM</summary>
-    <description lang="en">KodiazorFlecha Team Wizard. Um enorme abraço á **FTG** Team pois sem a sua ajuda tal não nos teria sido possível. Sim!!! Fomos ajudados internacionalmente no intuito de conseguir a wizard. Créditos á nossa Team e aos criadores da wizard em conjunto conosco, Jeremy e Todd. Esta build é unica,fruto de muito trabalho. Nada de clones...</description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
 <addon id="plugin.program.SpeedTester.net" name="[COLOR red]Flecha Negra[/COLOR][COLORblack] Speed Tester[/COLOR]" version="10.0.2.2" provider-name="Flecha Negra">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -119,7 +104,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.blackarrow18" name="[COLOR red][B]black[/B][/COLOR] [COLOR yellow][B]arrow[/B][/COLOR]" version="0.1" provider-name="Flechanegra">
+<addon id="plugin.video.blackarrow18" name="[COLOR red][B]black[/COLOR] [COLOR yellow][B]arrow18[/COLOR]" version="0.1" provider-name="Flechanegra">
   <requires>
 	<import addon="script.module.t0mm0.common" version="2.0.0"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
@@ -139,8 +124,8 @@
         <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">[COLOR red][B]Flecha[/B][/COLOR] [COLOR black][B]Negra[/B][/COLOR] [COLORorange][B]é um addon da familia Kodiazor Team.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/B][/COLOR]</summary>
-    <description lang="en">[COLOR red][B]Flecha[/B][/COLOR] [COLOR black][B]Negra[/B][/COLOR] [COLORorange][B]é um addon da familia Kodiazor Team.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/B][/COLOR]</description>
+    <summary lang="en">[COLOR red][B]Flecha[/B][/COLOR] [COLOR black][B]Negra[/B][/COLOR] [COLORorange][B]é um addon da familia K-PT FLECHANEGRA Team.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/B][/COLOR]</summary>
+    <description lang="en">[COLOR red][B]Flecha[/B][/COLOR] [COLOR black][B]Negra[/B][/COLOR] [COLORorange][B]é um addon da familia K-PT FLECHANEGRA Team.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/B][/COLOR]</description>
     <platform>all</platform>
   </extension>
 </addon>
