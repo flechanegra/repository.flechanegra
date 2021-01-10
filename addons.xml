@@ -375,7 +375,7 @@ version="1.0" provider-name="Flechanegra">
   </extension>
 </addon>
 
-<addon id="plugin.video.Infinity" name="[COLOR yellow][B]Infi[/B][/COLOR][COLOR yellow][B]nity[/B][/COLOR]" version="2.1" provider-name="Flechanegra">
+<addon id="plugin.video.Infinity" name="[COLOR yellow][B]Infi[/B][/COLOR][COLOR yellow][B]nity[/B][/COLOR]" version="2.3" provider-name="Flechanegra">
   <requires>
 	<import addon="script.module.t0mm0.common" version="2.0.0"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
