@@ -1,80 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.audio.blackarrow_radio_pt" name="[COLORred]Blackarrow[/COLOR] [COLOR black]Radio[/COLOR]" provider-name="@by_flecha_negra" version="4.0.4">
-    <requires>
-        <import addon="xbmc.python" version="2.14.0" />
-        <import addon="script.module.xbmcswift2" version="2.5.0" />
-    </requires>
-    <extension library="addon.py" point="xbmc.python.pluginsource">
-        <provides>audio</provides>
-    </extension>
-   <extension point="xbmc.addon.metadata">
-        <platform>all</platform>
-        <website>https://www.radio.pt/</website>
-        <source>https://github.com/flechanegra/repository.flechanegra/tree/master/plugin.audio.blackarrow_radio_pt</source>
-        <forum>https://forum.kodi.tv/showthread.php?</forum>
-        <license>GPL-2.0-only</license>
-
-        <summary lang="be_BY">Access &gt;30000 radio broadcasts</summary>
-        <summary lang="ca_ES">accedeix a mes de 30000 emissores de radio</summary>
-        <summary lang="da_DK">Få adgang til &gt;30000 radioudsendelser</summary>
-        <summary lang="de_DE">Zugriff auf &gt;30000 Radiosender</summary>
-        <summary lang="el_GR">Πρόσβαση σε πάνω από 30000 εκπομπές</summary>
-        <summary lang="en_GB">Access &gt;30000 radio broadcasts</summary>
-        <summary lang="en_NZ">Access &gt;30000 radio broadcasts</summary>
-        <summary lang="en_US">Access &gt;30000 radio broadcasts</summary>
-        <summary lang="es_ES">Escuche más de 30000 emisoras de radio</summary>
-        <summary lang="fr_FR">Ecoutez plus de 30000 stations de radio</summary>
-        <summary lang="fr_CA">Accéder à &gt; 30000 radiodiffusions</summary>
-        <summary lang="gl_ES">Escoite máis de 30000 emisoras de radio</summary>
-        <summary lang="he_IL">גישה ליותר מ־30000 שידורי רדיו</summary>
-        <summary lang="hr_HR">Pristup &gt;30000 radio emitiranja</summary>
-        <summary lang="hu_HU">Hozzáférés 30000-nél is több rádióadáshoz</summary>
-        <summary lang="id_ID">Akses &gt;30000 siaran radio</summary>
-        <summary lang="it_IT">Accedi a più di 30000 trasmissioni radio</summary>
-        <summary lang="lt_LT">Prieiga&gt; 30000 radijo transliacijų</summary>
-        <summary lang="nl_NL">Toegang tot &gt;30000 radio uitzendingen</summary>
-        <summary lang="pl_PL">Dostęp do ponad 30000 stacji radiowych</summary>
-        <summary lang="pt_PT">Aceda a mais de 30000 transmissões de rádio</summary>
-        <summary lang="pt_BR">Acesse&gt;30000 broadcasts rádios</summary>
-        <summary lang="sk_SK">Pristupujte k vyše 30000 vysielaniam</summary>
-        <summary lang="sv_SE">Access &gt;30000 radiosändningar</summary>
-        <summary lang="ta_IN">30000 க்கும் மேல் வானொலி ஒளிபரப்புகளை அணுகவும்</summary>
-        <summary lang="zh_CN">访问大于7000个电台广播</summary>
-        <description lang="be_BY">Music plugin to access over 30000 international radio broadcasts from rad.io, radio.de and radio.fr[CR]Currently features[CR]- English, german and french translated[CR]- Browse stations by location, genre, topic, country, city and language[CR]- Search for stations[CR]- 115 genres, 59 topics, 94 countrys, 1010 citys, 63 languages</description>
-        <description lang="ca_ES">Plugin de música per escoltar més de 30000 emissores de ràdio internacionals des rad.io, radio.de i radio.fr. [CR] Característiques: [CR]- Traduccions a l'anglès, alemany, francès i espanyol. [CR]- Cercador de emissores per ubicació, gènere, tema, país, ciutat o idioma. [CR]- Cercador d'emissores. [CR]- 115 gèneres, 59 temes, 94 països, 1010 ciutats, 63 idiomes.</description>
-        <description lang="da_DK">Musikplugin som giver adgang til over 30000 internationale radioudsendelser fra rad.io, radio.de og radio.fr[CR]Nuværende funktioner[CR]- Oversat til engelsk, tysk og fransk[CR]- Gennemse stationer efter lokalitet, genre, emne, land, by og sprog[CR]- Søg efter stationer[CR]- 115 genrer, 59 emner, 94 lande, 1010 byer og 63 sprog</description>
-        <description lang="de_DE">Das Radio im Internet mit über 30000 Radiosendern, Internetradio Stationen, gratis Streams und Podcasts live von rad.io, radio.de und radio.fr.[CR]Features[CR]- Auf deutsch, englisch und französisch übersetzt[CR]- Sortiert nach: in der Nähe, Genre, Thema, Land und Sprache[CR]- nach Sendern suchen[CR]- 115 Genre, 59 Themen, 94 Länder, 1010 Städte, 63 Sprachen</description>
-        <description lang="el_GR">Μουσικό plugin για πρόσβαση σε περισσότερους από 30000 διεθνείς ραδιοφωνικές εκπομπές από τα rad.io, radio.de και radio.fr[CR]Υποστηρίζονται[CR]- Μεταφράσεις σε Αγγλικά, Γερμανικά και Γαλλικά[CR]- Περιήγηση σταθμών ανά τοποθεσία, είδος, θέμα, χώρα, πόλη και γλώσσα[CR]- Αναζήτηση σταθμών[CR]- 115 είδη, 59 θέματα, 94 χώρες, 1010 πόλεις, 63 γλώσσες</description>
-        <description lang="en_GB">Music plugin to access over 30000 international radio broadcasts from rad.io, radio.de, radio.fr, radio.pt and radio.es[CR]Currently features[CR]- English, german, french translated[CR]- Browse stations by location, genre, topic, country, city and language[CR]- Search for stations[CR]- 115 genres, 59 topics, 94 countrys, 1010 citys, 63 languages</description>
-        <description lang="en_NZ">Music plugin to access over 30000 international radio broadcasts from rad.io, radio.de, radio.fr, radio.pt and radio.es[CR]Currently features[CR]- English, german and french translated[CR]- Browse stations by location, genre, topic, country, city and language[CR]- Search for stations[CR]- 115 genres, 59 topics, 94 countrys, 1010 citys, 63 languages</description>
-        <description lang="en_US">Music plugin to access over 30000 international radio broadcasts from rad.io, radio.de and radio.fr[CR]Currently features[CR]- English, german and french translated[CR]- Browse stations by location, genre, topic, country, city and language[CR]- Search for stations[CR]- 115 genres, 59 topics, 94 countrys, 1010 citys, 63 languages</description>
-        <description lang="es_ES">Complemento de música para escuchar más de 30000 emisoras de radio de todo el mundo desde rad.io, radio.de, radio.fr, radio.pt y radio.es.[CR]Funciones:[CR]- Traducciones al inglés, alemán, francés, portugués y español.[CR]- Buscador de emisoras por ubicación, género, tema, país, ciudad o idioma.[CR]- Buscador de emisoras por nombre.[CR]- 73 géneros, 103 temas, 174 países y multitud de ciudades e idiomas.</description>
-        <description lang="fr_FR">Plugin musical pour écouter plus de 30000 stations de radio internationales de rad.io, radio.de et radio.fr[CR]Fonctionnalités[CR]- Traduit en Anglais, Allemand et Français[CR]- Parcourir les stations par genre, thème, pays, ville et langue[CR]- Recherche de stations[CR]- 115 genres, 59 thèmes, 94 pays, 1010 villes, 63 langues</description>
-        <description lang="fr_CA">Plugiciel de musique pour accéder à plus de 30000 radiodiffusions internationales de rad.io, radio.de et radio.fr[CR]Offre présentement [CR]- Traductions en anglais, allemand et français[CR]- Parcourir des stations par lieux, genres, sujets, pays, villes et langues[CR]- Rechercher des stations[CR]- 115 genres, 59 sujets, 94 pays, 1 010 villes, 63 langues.</description>
-        <description lang="gl_ES">Engadido de música para escoitar máis de 30000 emisoras de radio internacionais de rad.io, radio.de e radio.fr.[CR]Características:[CR]- Traducións ao inglés, alemán, francés e castelán.[CR]- Busca de emisoras por localización, xénero, tema, país, cidade ou idioma.[CR]- Busca de emisoras.[CR]- 115 xéneros, 59 temas, 94 países, 1010 cidades, 63 idiomas.</description>
-        <description lang="he_IL">הרחבת מוזיקה המספקת גישה ליותר מ־30000 שידורי רדיו בינלאומים מ־rad.io, radio.de ו־radio.fr[CR]מאפיינים נוכחיים[CR]- שפות אנגלית, גרמנית וצרפתית[CR]- עיון לפי מיקום, סגנון, נושא, מדינה, עיר ושפה[CR]- חיפוש תחנות[CR]- 115 סגנונות, 59 נושאים, 94 מדינות 1010 ערים, 63 שפות</description>
-        <description lang="hr_HR">Glazbeni dodatak za pristup 30000 međunarodnih radio stanica na rad.io, radio.de i radio.fr[CR]Trenutne značajke[CR]- engleski, njemački i francuski prijevodi[CR]- Pregledavajte stanice prema lokaciji, žanru, temi, zemlji, gradu i jeziku[CR]- Pretraživanje stanica[CR]- 115 žanrova, 59 tema, 94 zemalja, 1010 gradova, 63 jezika</description>
-        <description lang="hu_HU">Beépülő modul több, mint 30000 nemzetközi rádióadás eléréséhez a rad.io, radio.de és radio.fr oldalakról[CR]Jelenlegi tulajdonságok[CR]- Angol, német, francia és magyar nyelv[CR]- Állomások böngészése hely, műfaj, téma, ország, város és nyelv szerint[CR]- Állomások keresése[CR]- 115 műfaj, 59 téma, 94 ország, 1010 város, 63 nyelv</description>
-        <description lang="id_ID">Plugin musik untuk mengakses lebih dari 30000 siaran radio internasional dari rad.io, radio.de dan radio.fr[CR]Fitur saat ini[CR]- Terjemahan Inggris, Jerman dan Perancis[CR]- Jelajah stasiun berdasarkan lokasi, tema, topik, negara, kota dan bahasa[CR]- Cari stasiun[CR]- 115 tema, 59 topik, 94 negara, 1010 kota, 63 bahasa</description>
-        <description lang="it_IT">Plugin per accedere a oltre 30000 trasmissioni internazionali radiofoniche da rad.io, radio.de e radio.fr[CR]Caratteristiche[CR]- Supporta inglese, tedesco e francese[CR]- Sfoglia le stazioni per località, genere, argomento, paese, citta e lingua[CR]- Ricerca delle stazioni[CR]- 115 generi, 59 argomenti, 94 paesi, 1010 città e 63 lingue</description>
-        <description lang="lt_LT">Muzikos įskiepio prieiga prie daugiau nei 30000 tarptautinių radijo transliacijų iš rad.io, radio.de ir radio.fr [CR] Šiuo metu programoja išversta į [Cr] - anglų, vokiečių ir prancūzų kalbas [CR] - Naršyti stotis pagal: vietovę, žanrą, temą, šalį, miestą ir/ar kalbą [CR] - Ieškoti radio stočių pagal:[Cr] - 115 žanrai, 59 temos, 94 šalys, 1010 miestų, 63 kalbos</description>
-        <description lang="nl_NL">muziek plug-in om toegang te krijgen tot over 30000 internationale radiouitzendingen van rad.io, radio.de en radio.fr[CR]Huidige functies[CR]- engels, duits en frans vertaalt[CR]- Zoek naar stations vanuit locatie, genre, onderwerp, land, plaats en taal[CR]- zoek voor stations[CR]- 115 genres. 59 onderwerpen, 94 landen. 1010 plaatsen, 63 talen</description>
-        <description lang="pl_PL">Wtyczka muzyczna dająca dostęp do ponad 30000 międzynarodowych stacji radiowych z[CR]rad.io, radio.de, daio.fr[CR]Obecnie w językach[CR]- Angielski, Niemiecki i Francuski[CR]- Szukaj stacji według lokacji, gatunku, tematu, kraju, miasta czy języka[CR]- 115 gatunków, 59 tematów, 94 kraje, 1010 miasta, 63 języki</description>
-        <description lang="pt_PT">Plugin de música para aceder a mais de 30000 transmissões de rádio internacionais de rad.io, radio.de, radio.fr, radio.pt e radio.es[CR]Actualmente, disponibiliza:[CR]- Traduções em vários idiomas[CR]- Navegar estações por localização, género, tópico, país, cidade e idioma[CR]- Procurar por estações[CR]- 115 géneros, 59 tópicos, 94 países, 1010 cidades, 63 idiomas</description>
-        <description lang="pt_BR">Plugin de música para acessar mais de 30000 emissoras de rádio internacionais de rad.io, radio.de, radio.fr, radio.pt e radio.es [CR] Principais características [CR] - Inglês, Alemão e Francês traduzido [CR] - Procure estações por localização, gênero, tópico, país , cidade e  linguagem [CR] - Procure estações [CR] - 115 gêneros, 59 temas, 94 países, 1010 cidades, 63 idiomas</description>
-        <description lang="sk_SK">Hudobný doplnok na prístup k vyše 30000 medzinárodným rádio vysielaniam z rad.io, radio.de a radio.fr&#10;Momentálne podporuje:&#10;- anglické, nemecké a francúzske preklady&#10;- prehliadanie staníc podľa umiestnenia, žánru, témy, krajiny, mesta a jazyka&#10;- vyhľadávanie staníc&#10;- 115 žánrov, 59 tém, 94 krajín, 1010 miest, 63 jazykov</description>
-        <description lang="sv_SE">Musiktillägg som ger åtkomst till över 30000 internationella radiosändningar från rad.io, radio.de och radio.fr[CR]Nuvarande funktioner[CR]- Engelsk, tysk, svensk och fransk översättning[]- Bläddra efter stationer baserat på genre, ämne, land, stad och språk[CR]- Sök efter stationer[CR]-115 genres, 59 ämnen, 94 länder, 1010 städer, 63 språk</description>
-        <description lang="ta_IN">இசை துணை பயன் rad.io, radio.de மற்றும் radio.fr இருந்து 30000 க்கும் மேல் வானொலி ஒளிபரப்புகளை அணுக உதவி செய்யும்[CR]தற்போதைய அம்சங்கள்[CR]- ஆங்கிலம், ஜெர்மன் மற்றும் பிரெஞ்சு மொழியாக்கம்[CR]- இருப்பிடம், வகை, தலைப்பு, நாடு, நகரம் மற்றும் மொழி கொண்டு நிலையங்களை உலாவ முடியும்[CR]- நிலையங்களை தேடுதல்[CR]- 115 வகைகள், 59 தலைப்புகள், 94 நாடுகள், 1010 நகரங்கள், 63 மொழிகள்</description>
-        <description lang="zh_CN">访问rad.io、radio.de和radio.fr上超过7000个国际电台广播的音频插件[CR]现有功能[CR]- 英语、德语和法语支持[CR]- 按地点、类别、主题、国家、城市和语言浏览站点[CR]- 搜索站点[CR]- 115个类别、59个主题、94个国家、1010城市、63种语言</description>
-        <assets>
-            <icon>icon.png</icon>
-            <fanart>fanart.jpg</fanart>
-
-        </assets>
-    </extension>
-</addon>
-
 <addon id="plugin.program.flechanegra" name=" [B][COLOR orange]Flecha Negra Wizard[/COLOR][/B]" version="1.1" provider-name="[B][COLOR red]Flecha Negra[/COLOR][/B]">
   <requires>
     <import addon="xbmc.python" version="2.25.0"/>
@@ -86,46 +11,6 @@
   <extension point="xbmc.addon.metadata">
     <summary lang="en">Flecha Negra Wizard</summary>
     <description lang="en">Flecha Negra Wizard allows you to get access to the latest Custom Builds.</description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="plugin.program.SpeedTester.net" name="[COLOR red]Flecha Negra[/COLOR][COLORblack] Speed Tester[/COLOR]" version="10.0.2.2" provider-name="Flecha Negra">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">[COLOR red]Flecha Negra[/COLOR][COLORblack] Speed Tester[/COLOR] - Teste a velocidade de sua Internet no seu KODI.</summary>
-    <description lang="en">Flecha Negra Speed Tester powered by speedtest.net will give you accurate Internet speed/ping test results. - Teste a velocidade da Internet no seu KODI.</description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="plugin.video.blackarrow18" name="[COLOR red][B]black[/B][/COLOR] [COLOR yellow][B]arrow18[/B][/COLOR]" version="0.1" provider-name="Flechanegra">
-  <requires>
-	<import addon="script.module.t0mm0.common" version="2.0.0"/>
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.beautifulsoup4" />
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.requests" />
-    <import addon="script.module.httplib2" />
-    <import addon="script.module.youtube.dl" />
-    <import addon="plugin.video.youtube" version="3.0.0"/>
-    <import addon="script.module.urlresolver" optional="true"/>
-    <import addon="script.module.simplejson" />
-    <import addon="script.common.plugin.cache" version="2.5.2"/>
-    <import addon="script.module.metahandler" version="2.5.1"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">[COLOR red][B]Flecha[/B][/COLOR] [COLOR black][B]Negra[/B][/COLOR] [COLORorange][B]é um addon da familia K-PT FLECHANEGRA Team.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/B][/COLOR]</summary>
-    <description lang="en">[COLOR red][B]Flecha[/B][/COLOR] [COLOR black][B]Negra[/B][/COLOR] [COLORorange][B]é um addon da familia K-PT FLECHANEGRA Team.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/B][/COLOR]</description>
     <platform>all</platform>
   </extension>
 </addon>
@@ -142,7 +27,7 @@
     <import addon="script.module.youtube.dl" />
     <import addon="plugin.video.youtube" version="3.0.0"/>
     <import addon="script.module.urlresolver" optional="true"/>
-    <import addon="script.module.simplejson" />
+    <import addon="script.module.simplejson" /> 
     <import addon="script.common.plugin.cache" version="2.5.2"/>
     <import addon="script.module.metahandler" version="2.5.1"/>
   </requires>
@@ -155,7 +40,6 @@
     <platform>all</platform>
   </extension>
 </addon>
-
 <addon id="plugin.video.blackarrowplaylist" name="[COLOR red][B]Blackarrow[/B][/COLOR][COLOR black][B]Playlist [/B][/COLOR]"
 version="1.0" provider-name="Flechanegra">
   <requires>
@@ -174,12 +58,11 @@ version="1.0" provider-name="Flechanegra">
 
 </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">[COLOR red][B]Blackarrow[/B][/COLOR] [COLOR black][B]playlist[/B][/COLOR] [COLORorange][B]é um addon da familia Flecha Negra Team.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/B][/COLOR]</summary>
-    <description lang="en">[COLOR red][B]Blackarrow[/B][/COLOR] [COLOR black][B]playlist[/B][/COLOR] [COLORorange][B]é um addon da familia Flecha Negra Team.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/B][/COLOR]</description>
+    <summary lang="en">[COLOR red][B]Blackarrow[/B][/COLOR] [COLOR black][B]playlist[/B][/COLOR] [COLORorange][B]Ã© um addon da familia Flecha Negra Team.TODOS OS LINKS ESTÃƒO DISPONIVEIS NA INTERNET![/B][/COLOR]</summary>
+    <description lang="en">[COLOR red][B]Blackarrow[/B][/COLOR] [COLOR black][B]playlist[/B][/COLOR] [COLORorange][B]Ã© um addon da familia Flecha Negra Team.TODOS OS LINKS ESTÃƒO DISPONIVEIS NA INTERNET![/B][/COLOR]</description>
     <platform>all</platform>
   </extension>
 </addon>
-
 <addon id="plugin.video.Blackarrowtorrent"
        name="[COLOR red][B]BlackArrow [B][/COLOR] [COLOR red][B]Torrent[/B][/COLOR]"
        version="1.2"
@@ -205,11 +88,10 @@ version="1.0" provider-name="Flechanegra">
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary lang="en">BlackArrow Torrent</summary>
-    <description lang="en">BlackArrow é um addon torrent 2020</description>
+    <description lang="en">BlackArrow Ã© um addon torrent 2020</description>
     <platform>all</platform>
   </extension>
  </addon>
-
 <addon id="plugin.video.elementum" name="Elementum" version="0.1.58" provider-name="elgatito">
     <requires>
         <import addon="xbmc.addon" version="16.0.0" />
@@ -246,7 +128,6 @@ version="1.0" provider-name="Flechanegra">
         </assets>
     </extension>
 </addon>
-
 <addon id="plugin.video.f4mTester" version="3.0.0" name="F4mTester" provider-name="Shani">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
@@ -263,10 +144,9 @@ version="1.0" provider-name="Flechanegra">
         <platform>all</platform>
     </extension>
 </addon>
-
 <addon id="plugin.video.flash_brasil" name="[COLOR orange]Flash[/COLOR][COLORlime]Brasil[/COLOR]" version="3.5" provider-name="Flechanegra">
   <requires>
-	<import addon="script.module.t0mm0.common" version="2.0.0"/>
+  <import addon="script.module.t0mm0.common" version="2.0.0"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
     <import addon="script.module.simple.downloader" version="0.9.4"/>
     <import addon="script.module.beautifulsoup4" />
@@ -276,7 +156,7 @@ version="1.0" provider-name="Flechanegra">
     <import addon="script.module.youtube.dl" />
     <import addon="plugin.video.youtube" version="3.0.0"/>
     <import addon="script.module.urlresolver" optional="true"/>
-    <import addon="script.module.simplejson" />
+    <import addon="script.module.simplejson" /> 
     <import addon="script.common.plugin.cache" version="2.5.2"/>
     <import addon="script.module.metahandler" version="2.5.1"/>
   </requires>
@@ -292,7 +172,7 @@ version="1.0" provider-name="Flechanegra">
 
 <addon id="plugin.video.flechanegra" name="[COLOR red][B]Flecha[/B][/COLOR] [COLOR black][B]Negra[/B][/COLOR]" version="4.9" provider-name="Flechanegra">
   <requires>
-	<import addon="script.module.t0mm0.common" version="2.0.0"/>
+  <import addon="script.module.t0mm0.common" version="2.0.0"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
     <import addon="script.module.simple.downloader" version="0.9.4"/>
     <import addon="script.module.beautifulsoup4" />
@@ -302,7 +182,7 @@ version="1.0" provider-name="Flechanegra">
     <import addon="script.module.youtube.dl" />
     <import addon="plugin.video.youtube" version="3.0.0"/>
     <import addon="script.module.urlresolver" optional="true"/>
-    <import addon="script.module.simplejson" />
+    <import addon="script.module.simplejson" /> 
     <import addon="script.common.plugin.cache" version="2.5.2"/>
     <import addon="script.module.metahandler" version="2.5.1"/>
   </requires>
@@ -315,7 +195,6 @@ version="1.0" provider-name="Flechanegra">
     <platform>all</platform>
   </extension>
 </addon>
-
 <addon id="plugin.video.freshstart" name="Fresh Start"
 	version="1.0.5" provider-name="tvaddons.ag">
   <requires>
@@ -332,7 +211,6 @@ version="1.0" provider-name="Flechanegra">
     <website>http://www.tvaddons.ag/</website>
   </extension>
 </addon>
-
 <addon id="plugin.video.gdrive" version="0.8.66" name="gdrive" provider-name="ddurdle">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
@@ -345,13 +223,12 @@ version="1.0" provider-name="Flechanegra">
         <description>Plays music and video from your Google Drive account.  Not affiliated with Google.</description>
         <platform>all</platform>
     </extension>
-	<extension point="xbmc.service" library="service.py" start="login">
+  <extension point="xbmc.service" library="service.py" start="login">
     </extension>
 </addon>
-
 <addon id="plugin.video.IncoGnit" name="[COLOR lime]IncoGnit[/COLOR]" version="2.3" provider-name="Flechanegra">
   <requires>
-	<import addon="script.module.t0mm0.common" version="2.0.0"/>
+  <import addon="script.module.t0mm0.common" version="2.0.0"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
     <import addon="script.module.simple.downloader" version="0.9.4"/>
     <import addon="script.module.beautifulsoup4" />
@@ -361,7 +238,7 @@ version="1.0" provider-name="Flechanegra">
     <import addon="script.module.youtube.dl" />
     <import addon="plugin.video.youtube" version="3.0.0"/>
     <import addon="script.module.urlresolver" optional="true"/>
-    <import addon="script.module.simplejson" />
+    <import addon="script.module.simplejson" /> 
     <import addon="script.common.plugin.cache" version="2.5.2"/>
     <import addon="script.module.metahandler" version="2.5.1"/>
   </requires>
@@ -374,8 +251,7 @@ version="1.0" provider-name="Flechanegra">
     <platform>all</platform>
   </extension>
 </addon>
-
-<addon id="plugin.video.Infinity" name="[COLOR yellow][B]Infi[/B][/COLOR][COLOR yellow][B]nity[/B][/COLOR]" version="2.3" provider-name="Flechanegra">
+<addon id="plugin.video.Infinity" name="[COLOR yellow][B]Infi[/B][/COLOR][COLOR yellow][B]nity[/B][/COLOR]" version="2.1" provider-name="Flechanegra">
   <requires>
 	<import addon="script.module.t0mm0.common" version="2.0.0"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
@@ -387,7 +263,7 @@ version="1.0" provider-name="Flechanegra">
     <import addon="script.module.youtube.dl" />
     <import addon="plugin.video.youtube" version="3.0.0"/>
     <import addon="script.module.urlresolver" optional="true"/>
-    <import addon="script.module.simplejson" />
+    <import addon="script.module.simplejson" /> 
     <import addon="script.common.plugin.cache" version="2.5.2"/>
     <import addon="script.module.metahandler" version="2.5.1"/>
   </requires>
@@ -401,34 +277,7 @@ version="1.0" provider-name="Flechanegra">
   </extension>
 </addon>
 
-<addon id="plugin.video.K-PT" name="[COLOR orange]K-PT[/COLOR]" version="3.2" provider-name="[COLOR orange]@By_flecha_negra[/COLOR]">
-  <requires>
-	<import addon="script.module.t0mm0.common" version="2.0.0"/>
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.beautifulsoup4" />
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.requests" />
-    <import addon="script.module.httplib2" />
-    <import addon="script.module.youtube.dl" />
-    <import addon="plugin.video.youtube" version="3.0.0"/>
-    <import addon="script.module.urlresolver" optional="true"/>
-    <import addon="script.module.simplejson" />
-    <import addon="script.common.plugin.cache" version="2.5.2"/>
-    <import addon="script.module.metahandler" version="2.5.1"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>[COLOR yellow]K-PT addon, tv grátis para todos.[/COLOR]</summary>
-    <description>
-        [COLOR orange]K-PT[/COLOR]
 
-    </description>
-    <platform>all</platform>
-  </extension>
-</addon>
 
 <addon id="plugin.video.k.doc" name="K DOC" version="1.0" provider-name="KODIAZOR">
   <requires>
@@ -450,46 +299,34 @@ Toda a fonte  vem de utilizadores do Youtube. Addon criado pela Kodiazor Team.</
     <website></website>
   </extension>
 </addon>
-
-<addon id="plugin.video.kodipopcorntime" name="KODI Popcorn Time" version="1.7.3" provider-name="Markop159">
-    <requires>
-        <import addon="xbmc.python" version="2.14.0"/>
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="addon.py">
+<addon id="plugin.video.K-PT" name="[COLOR orange]K-PT[/COLOR]" version="3.2" provider-name="[COLOR orange]@By_flecha_negra[/COLOR]">
+  <requires>
+  <import addon="script.module.t0mm0.common" version="2.0.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.youtube.dl" />
+    <import addon="plugin.video.youtube" version="3.0.0"/>
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" /> 
+    <import addon="script.common.plugin.cache" version="2.5.2"/>
+    <import addon="script.module.metahandler" version="2.5.1"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <reuselanguageinvoker>false</reuselanguageinvoker>
-        <platform>all</platform>
-        <website><![CDATA[https://markop159.github.io/KodiPopcornTime/]]></website>
-        <forum><![CDATA[http://forums.tvaddons.ag/addon-releases/47568-kodi-popcorn-time]]></forum>
-        <source><![CDATA[https://github.com/Diblo/KODI-Popcorn-Time]]></source>
-        <license><![CDATA[GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007]]></license>
-        <summary lang="de"><![CDATA[Immediately stream movies, TV Shows and Animes.]]></summary>
-        <summary lang="en"><![CDATA[Immediately stream movies, TV Shows and Animes.]]></summary>
-        <summary lang="es"><![CDATA[Immediately stream movies, TV Shows and Animes.]]></summary>
-        <summary lang="fr"><![CDATA[Immediately stream movies, TV Shows and Animes.]]></summary>
-        <summary lang="hr"><![CDATA[Trenutačno gledajte filmove, TV Serije i Anime.]]></summary>
-        <summary lang="zh"><![CDATA[Immediately stream movies, TV Shows and Animes.]]></summary>
-        <summary lang="nl"><![CDATA[Immediately stream movies, TV Shows and Animes.]]></summary>
-        <summary lang="pl"><![CDATA[Immediately stream movies, TV Shows and Animes.]]></summary>
-        <summary lang="pt"><![CDATA[Immediately stream movies, TV Shows and Animes.]]></summary>
-        <summary lang="pt_BR"><![CDATA[Immediately stream movies, TV Shows and Animes.]]></summary>
-        <summary lang="sl"><![CDATA[Takojšnji ogled Filmov, TV Serij ter Anime.]]></summary>
-        <description lang="de"><![CDATA[With KODI Popcorn Time you can search for movies, TV shows and Animes that you can see immediately in KODI. NOTE: KODI Popcorn Time will continue sharing content while watching a movie TV show or Anime.]]></description>
-        <description lang="en"><![CDATA[With KODI Popcorn Time you can search for movies, TV shows and Animes that you can see immediately in KODI. NOTE: KODI Popcorn Time will continue sharing content while watching a movie TV show or Anime.]]></description>
-        <description lang="es"><![CDATA[With KODI Popcorn Time you can search for movies, TV shows and Animes that you can see immediately in KODI. NOTE: KODI Popcorn Time will continue sharing content while watching a movie TV show or Anime.]]></description>
-        <description lang="fr"><![CDATA[With KODI Popcorn Time you can search for movies, TV shows and Animes that you can see immediately in KODI. NOTE: KODI Popcorn Time will continue sharing content while watching a movie TV show or Anime.]]></description>
-        <description lang="hr"><![CDATA[Sa KODI Popcorn Time možete pretraživati filmove, TV serije i Anime koje možete odmah gledati u KODIJU. NAPOMENA: KODI Popcorn Time će nastaviti dijeliti sadržaj dok gledate film, TV seriju ili Anime.]]></description>
-        <description lang="zh"><![CDATA[With KODI Popcorn Time you can search for movies, TV shows and Animes that you can see immediately in KODI. NOTE: KODI Popcorn Time will continue sharing content while watching a movie TV show or Anime.]]></description>
-        <description lang="nl"><![CDATA[With KODI Popcorn Time you can search for movies, TV shows and Animes that you can see immediately in KODI. NOTE: KODI Popcorn Time will continue sharing content while watching a movie TV show or Anime.]]></description>
-        <description lang="pl"><![CDATA[With KODI Popcorn Time you can search for movies, TV shows and Animes that you can see immediately in KODI. NOTE: KODI Popcorn Time will continue sharing content while watching a movie TV show or Anime.]]></description>
-        <description lang="pt"><![CDATA[With KODI Popcorn Time you can search for movies, TV shows and Animes that you can see immediately in KODI. NOTE: KODI Popcorn Time will continue sharing content while watching a movie TV show or Anime.]]></description>
-        <description lang="pt_BR"><![CDATA[With KODI Popcorn Time you can search for movies, TV shows and Animes that you can see immediately in KODI. NOTE: KODI Popcorn Time will continue sharing content while watching a movie TV show or Anime.]]></description>
-        <description lang="sl"><![CDATA[Z KODI Popcorn Time lahko iščete Filme, TV Serije in Anime, ki si jih lahko takoj ogledaš v KODI-ju. OPOMBA: KODI Popcorn Time med ogledom filmov, TV Serij ter Anime deli video dalje tudi drugim uporabnikom.]]></description>
-    </extension>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>[COLOR yellow]K-PT addon, tv grátis para todos.[/COLOR]</summary>
+    <description>
+        [COLOR orange]K-PT[/COLOR]
+        
+    </description>
+    <platform>all</platform>
+  </extension>
 </addon>
-
 <addon id="plugin.video.live.sportslounge"
        name="[COLORred]Spo[/COLOR][COLORblack]rts[/COLOR][COLORlightblue]Lo[/COLOR][COLORwhite]un[/COLOR][COLORmaroon]ge[/COLOR]"
        version="2.8.2"
@@ -505,7 +342,7 @@ Toda a fonte  vem de utilizadores do Youtube. Addon criado pela Kodiazor Team.</
     <import addon="script.module.youtube.dl" optional="true"/>
     <import addon="plugin.video.youtube" optional="true" />
     <import addon="script.module.urlresolver" optional="true"/>
-    <import addon="script.module.simplejson" />
+    <import addon="script.module.simplejson" />    
      <import addon="script.module.livestreamer" optional="true"/>
      <import addon="script.module.pyamf" optional="true"/>
   </requires>
@@ -519,7 +356,6 @@ Toda a fonte  vem de utilizadores do Youtube. Addon criado pela Kodiazor Team.</
     <platform>all</platform>
   </extension>
 </addon>
-
 <addon id="plugin.video.marvelrus" version="1.0.0" name="[B][COLOR maroon]Marvel [COLOR white]R[/COLOR][COLORdarkblue] uS[/COLOR][/B]" provider-name="Marvelrus">
    <requires>
         <import addon="xbmc.python" version="2.19.0" />
@@ -529,7 +365,7 @@ Toda a fonte  vem de utilizadores do Youtube. Addon criado pela Kodiazor Team.</
         <import addon="script.module.resolveurl" />
         <import addon="script.module.requests" />
         <import addon="script.module.metahandler" />
-<!--        <import addon="script.module.lambdascrapers" />-->
+<!--        <import addon="script.module.lambdascrapers" />-->  
         <import addon="script.module.openscrapers" />
         <import addon="script.module.beautifulsoup4" />
     </requires>
@@ -553,7 +389,6 @@ Toda a fonte  vem de utilizadores do Youtube. Addon criado pela Kodiazor Team.</
     <news></news>
     </extension>
 </addon>
-
 <addon id="plugin.video.sport365.live" name="Sport365" version="2.6.1" provider-name="Bugatsinho">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
@@ -567,7 +402,7 @@ Toda a fonte  vem de utilizadores do Youtube. Addon criado pela Kodiazor Team.</
     </extension>
   <extension point="xbmc.addon.metadata">
     <summary lang="en">Sport365 originally made by GalAnonim</summary>
-    <description lang="en">Fork version 1.0 by GalAnonim!Kindly note that Sport365 Live is not an official part of the media player you are running, and therefore not to be mentioned within official support channels, this addon has nothing to do with the media player itself, nor it’s intended use, it is simply a third party plugin which has been added to your system.</description>
+    <description lang="en">Fork version 1.0 by GalAnonim!Kindly note that Sport365 Live is not an official part of the media player you are running, and therefore not to be mentioned within official support channels, this addon has nothing to do with the media player itself, nor itâ€™s intended use, it is simply a third party plugin which has been added to your system.</description>
     <disclaimer lang="en">Sport365 Live does not provide any streams of its own. Stream quality, content and copyright are responsibility of the ad-financed source web site.</disclaimer>
     <language>en</language>
     <platform>all</platform>
@@ -582,7 +417,6 @@ Toda a fonte  vem de utilizadores do Youtube. Addon criado pela Kodiazor Team.</
 - Fix links resolver</news>
   </extension>
 </addon>
-
 <addon
   id="plugin.video.SportsDevil"
   version="2018.09.20"
@@ -612,41 +446,41 @@ Toda a fonte  vem de utilizadores do Youtube. Addon criado pela Kodiazor Team.</
   </extension>
 </addon>
 
+
 <addon id="plugin.video.tempest" version="5.0.66" name="Tempest" provider-name="Tempest">
-	<requires>
-		<import addon="xbmc.python" version="2.19.0" />
-		<import addon="script.tempest.artwork" />
-		<import addon="script.tempest.metadata" />
-		<import addon="script.module.resolveurl" />
-		<import addon="script.module.requests" />
-		<import addon="script.module.metahandler" />
-		<import addon="script.module.beautifulsoup4" />
-		<import addon="plugin.video.youtube"/>
-	</requires>
-	<extension point="xbmc.python.pluginsource" library="tempest.py">
-		<provides>video</provides>
-	</extension>
-	<extension point="xbmc.service" library="service.py" start="startup" />
-	<extension point="xbmc.addon.metadata">
-		<description lang="en">[I][B]Tempest Movies and TV[/B][/I][CR][CR]This addon does not form part of the Kodi Media Centre. Please do not seek assistance with this addon from any of the Official Kodi Support Channels.[CR][CR]The author does not host any of the content in this addon and takes no responsibility for content found.</description>
-		<platform>all</platform>
-		<license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
-		<disclaimer lang="en">The author of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
-		<assets>
-			<icon>icon.png</icon>
-			<fanart>fanart.jpg</fanart>
-		</assets>
-		<news>
-			v5.0.66
+  <requires>
+    <import addon="xbmc.python" version="2.19.0" />
+    <import addon="script.tempest.artwork" />
+    <import addon="script.tempest.metadata" />
+    <import addon="script.module.resolveurl" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.metahandler" />
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="plugin.video.youtube"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="tempest.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.service" library="service.py" start="startup" />
+  <extension point="xbmc.addon.metadata">
+    <description lang="en">[I][B]Tempest Movies and TV[/B][/I][CR][CR]This addon does not form part of the Kodi Media Centre. Please do not seek assistance with this addon from any of the Official Kodi Support Channels.[CR][CR]The author does not host any of the content in this addon and takes no responsibility for content found.</description>
+    <platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+    <disclaimer lang="en">The author of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
+    <assets>
+      <icon>icon.png</icon>
+      <fanart>fanart.jpg</fanart>
+    </assets>
+    <news>
+      v5.0.66
 - Fixed UstvGo
 - Fixed Ustreamix
 - Fixed Myustv
 - Fixed Foreign Channels
 - Next Update will include a update to streamlive to fix some channels and remove some
-		</news>
-	</extension>
+    </news>
+  </extension>
 </addon>
-
 <addon id="plugin.video.youtube" name="YouTube" version="6.8.2" provider-name="anxdpanic, bromix">
     <requires>
         <import addon="xbmc.python" version="2.20.0"/>
@@ -730,24 +564,6 @@ Toda a fonte  vem de utilizadores do Youtube. Addon criado pela Kodiazor Team.</
     </extension>
 </addon>
 
-<addon id="program.indigo.blackarrowlimpa" version="0.0.3" name="blackarrowlimpa Indigo" provider-name="Flechanegra">
-    <requires>
-        <import addon="xbmc.python" version="2.19.0"/>
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="service.py">
-        <provides>executable</provides>
-    </extension>
-    <extension point="xbmc.service" library="service.py" start="[login|startup]" />
-    <extension point="xbmc.addon.metadata">
-        <summary>Force deletes Indigo on Kodi startup</summary>
-        <description>blackarrowlimpas Indigo every Kodi startup. Because blackarrowlimpa TVA</description>
-        <disclaimer lang="en">The author is not responsible for your addon. The authoer is also not responsible for breaking your stuff. You have been warned.</disclaimer>
-        <license>Beerware rev. 42</license>
-        <platform>all</platform>
-        <reuselanguageinvoker>false</reuselanguageinvoker>
-    </extension>
-</addon>
-
 <addon id="program.plexus"
        name="Plexus"
        version="0.1.7"
@@ -764,10 +580,10 @@ Toda a fonte  vem de utilizadores do Youtube. Addon criado pela Kodiazor Team.</
   <extension point="xbmc.addon.metadata">
     <summary>SopCast and AceStream for Kodi</summary>
     <description lang="en">Plexus - Any complex structure containing an intricate network of parts. Plexus brings native peer-to-peer support (AceStream and SopCast) for Kodi Entertainment Center for several platforms.[CR][CR]Documentation: (missing)</description>
-    <description lang="pt">Plexus - Uma estrutura complexa constituída por uma rede de partes. O Plexus adiciona suporte peer-to-peer nativo (AceStream e Sopcast) ao Kodi Entertainment Center para várias plataformas.[CR][CR]Documentação: (em falta)</description>
-    <description lang="es">Plexus - Una estructura compleja conteniendo una intrincada red de partes. Plexus añade soporte nativo peer-to-peer (AceStream y SopCast) al Centro de Entretenimiento Kodi para varias plataformas.[CR][CR]Documentacion: (falta)</description>
+    <description lang="pt">Plexus - Uma estrutura complexa constituÃ­da por uma rede de partes. O Plexus adiciona suporte peer-to-peer nativo (AceStream e Sopcast) ao Kodi Entertainment Center para vÃ¡rias plataformas.[CR][CR]DocumentaÃ§Ã£o: (em falta)</description>
+    <description lang="es">Plexus - Una estructura compleja conteniendo una intrincada red de partes. Plexus aÃ±ade soporte nativo peer-to-peer (AceStream y SopCast) al Centro de Entretenimiento Kodi para varias plataformas.[CR][CR]Documentacion: (falta)</description>
 	<disclaimer lang="en">The author does not host nor distribute any of the content you may watch using this addon. The author has no part in the development of any included technologies. When seeking help in Kodi's forum please respect rules (http://kodi.wiki/view/Forum_rules).</disclaimer>
-    <disclaimer lang="pt">Os autores não alojam nem distribuem nenhum do conteúdo que poderá ser reproduzido a partir deste addon. Os autores não têm qualquer parte no desenvolvimento de qualquer uma das tecnologias. Se procurar ajuda no fórum oficial do Kodi por favor respeite as regras do fórum (http://kodi.wiki/view/Forum_rules).</disclaimer>
+    <disclaimer lang="pt">Os autores nÃ£o alojam nem distribuem nenhum do conteÃºdo que poderÃ¡ ser reproduzido a partir deste addon. Os autores nÃ£o tÃªm qualquer parte no desenvolvimento de qualquer uma das tecnologias. Se procurar ajuda no fÃ³rum oficial do Kodi por favor respeite as regras do fÃ³rum (http://kodi.wiki/view/Forum_rules).</disclaimer>
    	<disclaimer lang="es">El autor no aloja ni distribuye cualquier contenido que ud. pudiera reproducir usando este addon. El autor no tiene participacion en el desarrollo de cualquier tecnologia incluida. Cuando requiera ayuda en el foro de Kodi por favor respete las reglas (http://kodi.wiki/view/Forum_rules).</disclaimer>
     <platform>all</platform>
   </extension>
@@ -1430,170 +1246,6 @@ Toda a fonte  vem de utilizadores do Youtube. Addon criado pela Kodiazor Team.</
 </addon>
 
 <addon
-  id="pvr.stalker"
-  version="3.4.10"
-  name="Stalker Client"
-  provider-name="Jamal Edey">
-  <requires>
-<import addon="kodi.binary.global.main" version="1.0.14"/>
-<import addon="kodi.binary.instance.pvr" version="5.10.3"/></requires>
-  <extension
-    point="xbmc.pvrclient"
-    library_linux="pvr.stalker.so.3.4.10"/>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="af_ZA">PVR Kliënt om Kodi aan Stalker Middleware te konnekteer</summary>
-    <summary lang="bg_BG">Клиент за ПВР за свързване на Kodi със „Stalker Middleware“</summary>
-    <summary lang="ca_ES">Client PVR per connectar Kodi al Middleware Stalker</summary>
-    <summary lang="cs_CZ">Klient PVR pro připojení Kodi k Stalker Middleware</summary>
-    <summary lang="da_DK">PVR klient som forbinder Kodi til Stalker Middleware</summary>
-    <summary lang="de_DE">PVR Client um Kodi mit Stalker Middleware zu verbinden</summary>
-    <summary lang="el_GR">ΠελάτηςPVR για σύνδεση του Kodi με τοStalker Middleware</summary>
-    <summary lang="en_GB">PVR Client to connect Kodi to Stalker Middleware</summary>
-    <summary lang="en_NZ">PVR Client to connect Kodi to Stalker Middleware</summary>
-    <summary lang="en_US">PVR Client to connect Kodi to Stalker Middleware</summary>
-    <summary lang="es_ES">Cliente PVR para conectar Kodi al Middleware Stalker</summary>
-    <summary lang="es_MX">Cliente PVR para conectar Kodi al Stalker Middleware</summary>
-    <summary lang="et_EE">PVR'i klient ühendamaks Kodi Stalker Middleware'ga</summary>
-    <summary lang="fi_FI">Kodin Stalker Middleware -asiakasohjelma</summary>
-    <summary lang="fr_CA">Client de numériscope pour connecter Kodi à l’intergiciel Stalker</summary>
-    <summary lang="fr_FR">Client enregistreur vidéo (PVR) pour connecter Kodi à l'intergiciel Stalker</summary>
-    <summary lang="gl_ES">Cliente PVR para conectar Kodi a un Stalker Middleware</summary>
-    <summary lang="he_IL">לקוח טלוויזיה חיה עבור Stalker Middleware</summary>
-    <summary lang="hr_HR">PVR klijent za povezivanje Kodija na Stalker Middleware</summary>
-    <summary lang="hu_HU">PVR ügyfél, ami összeköti a Kodit a Stalker köztes réteggel</summary>
-    <summary lang="id_ID">PVR Client untuk menghubungkan Kodi ke Stalker Middleware </summary>
-    <summary lang="is_IS">Upptökubiðlari til að tengja Kodi við Stalker Middleware</summary>
-    <summary lang="it_IT">Client PVR per connettere Kodi a Stalker Middleware</summary>
-    <summary lang="ko_KR">Kodi를 Stalker 미들웨어로 연결하는 PVR 클라이언트</summary>
-    <summary lang="lt_LT">PVR klientas Kodi sujungimui su Stalker Middleware</summary>
-    <summary lang="lv_LV">PVR klients, lai pieslēgtu Kodi pie Stalker Middleware</summary>
-    <summary lang="ms_MY">Klien PVR untuk sambungkan Kodi dengan Stalker Middleware</summary>
-    <summary lang="nb_NO">PVR-klient for å koble Kodi til Stalker Mellomvare</summary>
-    <summary lang="nl_NL">PVR-cliënt verbindt Kodi met Stalker Middleware</summary>
-    <summary lang="pl_PL">Klient telewizji dla platformy Stalker Middleware</summary>
-    <summary lang="pt_BR">Cliente PVR para conectar Kodi para o Middleware Stalker</summary>
-    <summary lang="pt_PT">Cliente PVR para ligar o Kodi ao Stalker Middleware</summary>
-    <summary lang="ro_RO">Client PVR pentru conectarea Kodi la platforma Stalker</summary>
-    <summary lang="ru_RU">Клиент PVR для подключения Stalker Middleware к Kodi</summary>
-    <summary lang="sk_SK">PVR klient na prepojenie Kodi so Stalker softverom</summary>
-    <summary lang="sl_SI">Odjemalec PVC, s katerim se Kodi poveže s Stalker Middleware</summary>
-    <summary lang="sr_RS">PVR Клијент за повезивање Kodi са Stalker Middleware</summary>
-    <summary lang="sr_RS@latin">PVR Klijent za povezivanje Kodi sa Stalker Middleware</summary>
-    <summary lang="sv_SE">PVR-klient för anslutning av Kodi till Stalker Middleware</summary>
-    <summary lang="szl">Klijynt telewizyje dlŏ platformy Stalker Middleware</summary>
-    <summary lang="tr_TR">PVR İstemcisi Kodi'yi Stalker Middleware'e bağlar</summary>
-    <summary lang="vi_VN">Trình PVR để kết nối Kodi với Stalker Middleware</summary>
-    <summary lang="zh_CN">Kodi 连接 Stalker Middleware 的 PVR 客户端</summary>
-    <summary lang="zh_TW">連接至 Stalker Middleware 的Kodi PVR用戶端</summary>
-    <description lang="af_ZA">PVR Kliënt om Kodi aan Stalker Middleware te konnekteer</description>
-    <description lang="bg_BG">Клиент за ПВР за свързване на Kodi със „Stalker Middleware“</description>
-    <description lang="ca_ES">Client PVR per connectar Kodi al Middleware Stalker</description>
-    <description lang="cs_CZ">Klient PVR pro připojení Kodi k Stalker Middleware</description>
-    <description lang="da_DK">PVR klient som forbinder Kodi til Stalker Middleware</description>
-    <description lang="de_DE">PVR Client um Kodi mit Stalker Middleware zu verbinden</description>
-    <description lang="el_GR">Πελάτης PVR για σύνδεση του Kodi με το Stalker Middleware</description>
-    <description lang="en_GB">PVR Client to connect Kodi to Stalker Middleware</description>
-    <description lang="en_NZ">PVR Client to connect Kodi to Stalker Middleware</description>
-    <description lang="en_US">PVR Client to connect Kodi to Stalker Middleware</description>
-    <description lang="es_ES">Cliente PVR para conectar Kodi al Middleware Stalker</description>
-    <description lang="es_MX">Cliente PVR para conectar Kodi al Stalker Middleware</description>
-    <description lang="et_EE">PVR'i klient ühendamaks Kodi Stalker Middleware'ga</description>
-    <description lang="fi_FI">PVR-asiakasohjelma, joka kytkeytyy Stalker Middlewareen</description>
-    <description lang="fr_CA">Client de numériscope pour connecter Kodi à l’intergiciel Stalker</description>
-    <description lang="fr_FR">Client enregistreur vidéo (PVR) pour connecter Kodi à l'intergiciel Stalker</description>
-    <description lang="gl_ES">Cliente PVR que conecta Kodi a un Stalker Middleware</description>
-    <description lang="he_IL">לקוח טלוויזיה חיה עבור Stalker Middleware</description>
-    <description lang="hr_HR">PVR klijent za povezivanje Kodija na Stalker Middleware</description>
-    <description lang="hu_HU">PVR ügyfél, ami összeköti a Kodit a Stalker köztes réteggel</description>
-    <description lang="id_ID">PVR Client untuk menghubungkan Kodi ke Stalker Middleware </description>
-    <description lang="is_IS">Upptökubiðlari til að tengja Kodi við Stalker Middleware</description>
-    <description lang="it_IT">Client PVR per connettere Kodi a Stalker Middleware</description>
-    <description lang="ko_KR">Kodi를 Stalker 미들웨어로 연결하는 PVR 클라이언트</description>
-    <description lang="lt_LT">PVR klientas Kodi sujungimui su Stalker Middleware</description>
-    <description lang="lv_LV">PVR klients, lai pieslēgtu Kodi pie Stalker Middleware</description>
-    <description lang="ms_MY">Klien PVR untuk sambungkan Kodi dengan Stalker Middleware</description>
-    <description lang="nb_NO">PVR Klient for å koble Kodi til Stalker-mellomvare</description>
-    <description lang="nl_NL">PVR-cliënt verbindt Kodi met Stalker Middleware</description>
-    <description lang="pl_PL">Klient telewizji dla platformy Stalker Middleware</description>
-    <description lang="pt_BR">Cliente PVR para conectar Kodi para o Middleware Stalker</description>
-    <description lang="pt_PT">Cliente PVR para ligar o Kodi ao Middleware Stalker</description>
-    <description lang="ro_RO">Client PVR pentru conectarea Kodi la platforma Stalker</description>
-    <description lang="ru_RU">Клиент PVR для подключения Stalker Middleware к Kodi</description>
-    <description lang="sk_SK">PVR klient na prepojenie Kodi so Stalker softverom</description>
-    <description lang="sl_SI">Odjemalec PVC, s katerim se Kodi poveže s Stalker Middleware</description>
-    <description lang="sr_RS">PVR Клијент за повезивање Kodi са Stalker Middleware</description>
-    <description lang="sr_RS@latin">PVR Klijent za povezivanje Kodi sa Stalker Middleware</description>
-    <description lang="sv_SE">PVR-klient för anslutning av Kodi till Stalker Middleware</description>
-    <description lang="szl">Klijynt telewizyje dlŏ platformy Stalker Middleware</description>
-    <description lang="tr_TR">PVR İstemcisi Kodi'yi Stalker Middleware'e bağlar</description>
-    <description lang="vi_VN">Trình PVR để kết nối Kodi với Stalker Middleware</description>
-    <description lang="zh_CN">Kodi 连接 Stalker Middleware 的 PVR 客户端</description>
-    <description lang="zh_TW">連接至 Stalker Middleware 的Kodi PVR用戶端</description>
-    <disclaimer lang="af_ZA">Hierdie is onstabiele sagteware! Die outeurs is op geen manier verantwoordelik vir gefaalde opnames, inkorrekte tydhouers, gemorsde ure, of enige ander ongewensde effekte.</disclaimer>
-    <disclaimer lang="be_BY">This is unstable software! The authors are in no way responsible for failed recordings, incorrect timers, wasted hours, or any other undesirable effects..</disclaimer>
-    <disclaimer lang="bg_BG">Тази програма е нестабилна! Авторите не носят отговорност за неуспешно записване, некоректни броячи, пропиляно време и други нежелани ефекти.</disclaimer>
-    <disclaimer lang="ca_ES">Això és programari inestable! Els autors no són de cap manera responsables dels enregistraments que han fallat, temporitzadors incorrectes, hores perdudes, o qualssevol altres efectes no desitjats..</disclaimer>
-    <disclaimer lang="cs_CZ">Tento software není stabilní! Autoři nejsou žádným způsobem zodpovědní za neúspěšná nahrávání, chybné časovače, ztracený čas nebo jakékoliv jiné nežádoucí výsledky…</disclaimer>
-    <disclaimer lang="cy_GB">Mae hwn yn feddalwedd ansad! Nid yw'r awduron yn gyfrifol mewn unrhyw ffordd am fethu recordio, amseru gwallus, oriau wedi eu gwastraffu nac effeithiau anymunol eraill.</disclaimer>
-    <disclaimer lang="da_DK">Dette er ustabil software! Ophavsmændene er på ingen måde ansvarlige for mislykkede optagelser, ukorrekte timere, spildte timer, eller andre uønskede konsekvenser..</disclaimer>
-    <disclaimer lang="de_DE">Dies ist instabile Software! Die Autoren sind in keiner Weise verantwortlich für fehlgeschlagene Aufnahmen, falsche Timer, verschwendete Zeit oder andere ungewünschte Effekte.</disclaimer>
-    <disclaimer lang="el_GR">Ασταθές πρόγραμμα! Οι δημιουργοί δεν είναι σε καμία περίπτωση υπεύθυνοι για αποτυχημένες εγγραφές, λανθασμένους χρονοδιακόπτες, χαμένες ώρες, ή κάθε είδους ανεπιθύμητα αποτελέσματα..</disclaimer>
-    <disclaimer lang="en_AU">This is unstable software! The authors are in no way responsible for failed recordings, incorrect timers, wasted hours, or any other undesirable effects..</disclaimer>
-    <disclaimer lang="en_GB">This is unstable software! The authors are in no way responsible for failed recordings, incorrect timers, wasted hours, or any other undesirable effects..</disclaimer>
-    <disclaimer lang="en_NZ">This is unstable software! The authors are in no way responsible for failed recordings, incorrect timers, wasted hours, or any other undesirable effects..</disclaimer>
-    <disclaimer lang="en_US">This is unstable software! The authors are in no way responsible for failed recordings, incorrect timers, wasted hours, or any other undesirable effects..</disclaimer>
-    <disclaimer lang="es_AR">¡Este software es inestable! Los autores no se responsabilizan por grabaciones fallidas, temporizadores incorrectos, horas perdidas, o cualquier otro efecto no deseado..</disclaimer>
-    <disclaimer lang="es_ES">¡Este es un software inestable! Los autores no son de ninguna manera responsables de las grabaciones fallidas o incorrectas, las temporizadores perdidas, ni otros efectos no deseables..</disclaimer>
-    <disclaimer lang="es_MX">¡Esto es software inestable! Los autores no son de ninguna manera responsables por grabaciones fallidas, temporizadores incorrectos, horas perdidas o cualquier otro efecto no deseado...</disclaimer>
-    <disclaimer lang="et_EE">See on ebastabiilne tarkvara! Autorid ei ole kuidagi moodi vastutavad nurjunud salvestiste, ebaõige aegrelee, raisatud tundide ega muude soovimatute asjade eest.</disclaimer>
-    <disclaimer lang="eu_ES">Software hau ezegonkorra da! Egilea ez da arduratzen grabazio-erroreetaz, kronometro-erroreetaz, ordu galduetaz edo beste edozein ondorio ezerosoetaz.</disclaimer>
-    <disclaimer lang="fi_FI">Tämä on epävakaa ohjelma! Sen tekijät eivät ole millään muotoa vastuussa epäonnistuneista tallennuksista, virheellisistä ajastuksista, haaskatusta ajasta, verenpaineen noususta tai mistään muusta epäsuotuisasta vaikutuksesta.</disclaimer>
-    <disclaimer lang="fr_CA">Ce logiciel est instable ! Les auteurs ne sont aucunement responsables des enregistrements défaillants, des minuteries erronées, des heures perdues ou tout autre effet indésirable.</disclaimer>
-    <disclaimer lang="fr_FR">Logiciel en cours d'élaboration ! Les auteurs ne sont en aucun cas responsables de l'échec des enregistrements, programmations défectueuses, temps perdu ou autres effets indésirables.</disclaimer>
-    <disclaimer lang="gl_ES">Software non estable, os autores non se fan responsábeis dos erros na gravacións, temporizadores incorrectos, e outros efectos non desexados.</disclaimer>
-    <disclaimer lang="he_IL">זוהי איננה הרחבה יציבה! המפתחים אינם אחראים על כשלון בניגון, זמנים שגויים במדריך השידורים, שעות מבוזבזות או כל תופעה לא רצויה אחרת.</disclaimer>
-    <disclaimer lang="hr_HR">Ovo je nestabilan softver! Autori nisu ni na koji način odgovorni za neuspjelo snimanje, netočna vremena snimanja, izgubljene sate, ili bilo koje druge nepoželjne učinke.</disclaimer>
-    <disclaimer lang="hu_HU">Ez nem stabil szoftver! A készítők nem vállalnak felelősséget, a hibás felvételért, rossz időzítésért, elvesztegetett időért...</disclaimer>
-    <disclaimer lang="hy_AM">Սա անկայուն ծրագրային ապահովում է: Հեղինակները պատասխանատու չեն վատ ձայնագրումների, սխալ ժամանակացույցերի, կորած ժամանակի կամ այլ ոչ ցանկալի երևույթների համար:</disclaimer>
-    <disclaimer lang="id_ID">Ini merupakan software yang tidak stabil! Penulis tidak bertanggung jawab untuk rekaman gagal, timer salah, waktu terbuang, atau efek tak diinginkan lainnya...</disclaimer>
-    <disclaimer lang="is_IS">Þetta er óstöðugur hugbúnaður! Höfundarnir eru á engan hátt ábyrgir fyrir misheppnuðum upptökum, röngum upptökutímum, klukkustundum sem að fóru í súginn eða nokkrum öðrum óæskilegum áhrifum.</disclaimer>
-    <disclaimer lang="it_IT">Questo software è instabile! Gli autori non sono in alcun modo responsabile per le fallite registrazioni, timer non corretti, ore perse o qualsiasi altro effetto non desiderato...</disclaimer>
-    <disclaimer lang="ja_JP">これは不安定なソフトウェアです！本プログラムの作者は、録画の失敗、正確に作動しなかったタイマー、無駄にした時間、その他あらゆる好ましくない結果について責任を負わないものとします。</disclaimer>
-    <disclaimer lang="ko_KR">이 소프트웨어는 불안정합니다! 제작자는 녹화 실패, 부정확한 타이머, 시간 낭비 및 기타 예상하지 못한 결과에 대해 책임지지 않습니다..</disclaimer>
-    <disclaimer lang="lt_LT">Tai yra nestabili programinė įranga! Autorius jokiu būdu neatsakingas už nepavykusius įrašus, neteisingus laikmačius, iššvaistytas valandas, ar nutikus kitiems nepageidaujamiems poveikiams ...[COLOR=red](Kodi.lt rekomenduoja/siūlo testuojant šį priedą persijungti į Anglų [orinali] kalbą)[/COLOR]</disclaimer>
-    <disclaimer lang="lv_LV">Šī ir nestabila programmatūra! Autori nav atbildīgi par nesanākušiem ierakstiem, nepareiziem taimeriem, iztērētām stundām vai jebkādiem citiem nevēlamiem efektiem..</disclaimer>
-    <disclaimer lang="mk_MK">Ова е нестабилен софтвер! Авторите на ниту еден начин не одговараат за неуспешни снимки, неточни тајмери, потрошени часови, или било кои други несакани ефекти.</disclaimer>
-    <disclaimer lang="mn_MN">Тус програм нь гүйцэд хийгдэж дуусаагүй! Зохиогч нь алдаатай бичлэг, цагийн буруу хөтлөлт, алдагдсан цаг хугацаа эсвэл бусад ямар нэгэн хүсээгүй үр дүнд хариуцлага хүлээхгүй.</disclaimer>
-    <disclaimer lang="ms_MY">Ini merupakan perisian tidak stabil! Pengarang tidak bertanggungjawab atas kegagalan rakaman, pemasa tidak betul, masa yang dibazirkan, atau apa jua kesan yang tidak dikehendaki..</disclaimer>
-    <disclaimer lang="mt_MT">Dan il-programm mhuwiex stabbli! L-Awturi m'humiex responsabbli bl-ebda mod għal rekordings li ma jirnexxewx, arloġġi żbaljati, siegħat moħlija, jew kwalunkwe effett ieħor mhux mixtieq.</disclaimer>
-    <disclaimer lang="nb_NO">Dette er ustabil programvare! Skaperen har ikke på noen måte ansvar for feilede opptak, uriktige tidsur, bortkastede timer, eller andre uønskede effekter..</disclaimer>
-    <disclaimer lang="nl_NL">Dit is instabiele software! De makers zijn op geen enkele wijze verantwoordelijk voor foutieve opnames, incorrecte timers, verloren uren, of andere ongewenste bijverschijnselen.</disclaimer>
-    <disclaimer lang="pl_PL">Oprogramowanie nadal jest w fazie rozwoju i jest niestabilne! Autorzy w żaden sposób nie są odpowiedzialni za nieudane nagrania, błędy w harmonogramie nagrań, zmarnowany czas ani jakiekolwiek inne niepożądane efekty.</disclaimer>
-    <disclaimer lang="pt_BR">Este é um software instável! Os autores não são responsáveis por falhas nas gravações, agendamentos incorretos, horas dispendidas, ou quaisquer outros efeitos indesejáveis</disclaimer>
-    <disclaimer lang="pt_PT">Este software é instável! Os autores não podem ser responsabilizados por gravações falhadas, temporizadores incorretos, horas desperdiçadas ou qualquer outro tipo de efeitos indesejáveis...</disclaimer>
-    <disclaimer lang="ro_RO">Acesta nu este o aplicație definitivă! Autorii nu sunt în nici un fel responsabili pentru înregistrări eșuate, cronometre incorecte, ore pierdute, sau orice alte efecte nedorite...</disclaimer>
-    <disclaimer lang="ru_RU">Это тестовая программа! Авторы не несут ответственности за неудачные записи, неверные таймеры, потраченное время и прочие нежелательные эффекты..</disclaimer>
-    <disclaimer lang="si_LK">මෙය අස්ථිර මෘදුකාංගයකි! මෙහි සිදුවන පටිගත කිරීම් අසාර්ථක වීම්, සාවද්‍ය මුහුර්තක, නාස්ති වූ කාලයන්, හෝ වෙනත් යමිකිසි නුසුදුසු බලපෑම් සඳහා කතෘ වග කියනු නොලැබේ.</disclaimer>
-    <disclaimer lang="sk_SK">Tento softvér nie je stabilný! Autori nenesú žiadnu zodpovednosť za chybné nahrávky vysielania, nesprávne časovače alebo iné neželané udalosti spôsobené týmto softvérom..</disclaimer>
-    <disclaimer lang="sl_SI">To je nestabilna programska oprema! Avtorji niso odgovorni za neuspela snemanja, nepravilne časovnike, zapravljen čas in katerikoli drug neželen učinek...</disclaimer>
-    <disclaimer lang="sq_AL">Ky program nuk është ende stabël! Autorët e këtij programi nuk janë në as një menyr përgjegjës për rregistrime të gabuara, timer të pasaktë, kohë të humbur ose efekte të tilla të padëshirueshme.</disclaimer>
-    <disclaimer lang="sr_RS">Овај софтвер је нестабилан! Аутори ни на који начин нису одговорни за неуспела снимања, неисправне тајмере, изгубљене сате, или било које друге нежељене ефекте.</disclaimer>
-    <disclaimer lang="sr_RS@latin">Ovaj softver je nestabilan! Autori ni na koji način nisu odgovorni za neuspela snimanja, neispravne tajmere, izgubljene sate, ili bilo koje druge neželjene efekte.</disclaimer>
-    <disclaimer lang="sv_SE">Detta är instabil mjukvara! Upphovsmännen är inte ansvariga för misslyckade inspelningar, inkorrekta timers, bortslösade timmar, eller några andra oönskade effekter..</disclaimer>
-    <disclaimer lang="szl">To je niystabilny softwer! Autōry niy sōm ôdpedzialne za niypodarzōne graniy, niynŏleżne godziny EPG, stracōne godziny i inksze niychciane efekty.</disclaimer>
-    <disclaimer lang="te_IN">ఇది అస్థిర సాఫ్ట్వేర్! విఫలమైన రికార్డింగ్లు, తప్పు టైమర్లు, వృధా గంటల, లేదా ఏ ఇతర అవాంఛనీయ ప్రభావాలకు ఏ విధంగా రచయితలు భాద్యుతులు కారు.</disclaimer>
-    <disclaimer lang="tg_TJ">Ин нармафзори ноустувор аст! Муаллифон барои вайрониҳои сабт, вақтсанҷҳои нодуруст, соатҳои бефоида ва дигар таъсирҳои номатлуб ҷавобгар намебошанд.</disclaimer>
-    <disclaimer lang="th_TH">นี่คือโปรแกรมที่ยังไม่เสถียร! ผู้เขียนไม่อยู่ในทางที่จะรับผิดชอบในการบันทึกที่ล้มเหลว, การตั้งเวลาที่ไม่ถูกต้อง, การเสียเวลา, หรือผลกระทบที่ไม่พึงประสงค์อื่น ๆ..</disclaimer>
-    <disclaimer lang="tr_TR">Bu kararsız bir yazılımdır! Yapımcılar hatalı kayıtlardan, bozuk sürelerden, harcanan vakitten veya herhangi bir olumsuz etkiden dolayı sorumlu tutulamaz.</disclaimer>
-    <disclaimer lang="uk_UA">Це нестабільна програма! Автори не несуть відповідальності за попсуті записи, неправильні таймери, втрачений час та інші небажані ефекти.</disclaimer>
-    <disclaimer lang="vi_VN">Đây là phần mềm không ổn định! Các tác giả không chịu trách nhiệm đối với bản ghi chương trình thất bại, hẹn giờ không chính xác, giờ lãng phí, hoặc bất kỳ tác dụng không mong muốn khác..</disclaimer>
-    <disclaimer lang="zh_CN">这是不稳定版的软件！作者不对录像失败、错误定时造成时间浪费或其它不良影响负责。</disclaimer>
-    <disclaimer lang="zh_TW">這是測試版軟體！其原創作者並無法對於以下情況負責，包含：錄影失敗，不正確的定時設定，多餘時數，或任何產生的其它不良影響...</disclaimer>
-    <platform></platform>
-  </extension>
-</addon>
-
-<addon
   id="pvr.flechanegraw686"
   version="0.0.1"
   name="Flechanegra Client"
@@ -1758,6 +1410,7 @@ Toda a fonte  vem de utilizadores do Youtube. Addon criado pela Kodiazor Team.</
   </extension>
 </addon>
 
+
 <addon id="repository.elementum" name="Elementum Repository" version="0.1.51" provider-name="elgatito"><requires></requires><extension point="xbmc.addon.repository" name="Elementum Repository"><info compressed="false">http://127.0.0.1:65220/repository/elgatito/plugin.video.elementum/addons.xml</info><checksum>http://127.0.0.1:65220/repository/elgatito/plugin.video.elementum/addons.xml.md5</checksum><datadir zip="true">http://127.0.0.1:65220/repository/elgatito/</datadir></extension><extension point="xbmc.addon.metadata"><platform>all</platform><summary lang="en">GitHub repository for Elementum updates</summary></extension></addon>
 
 <addon id="repository.exodusredux" name="Exodus Redux Repo" version="0.0.6" provider-name="I-A-C">
@@ -1781,9 +1434,9 @@ Toda a fonte  vem de utilizadores do Youtube. Addon criado pela Kodiazor Team.</
 </addon>
 
 <addon id="repository.flechanegra" name="[COLOR red]Flecha[/COLOR] [COLOR black]Negra[/COLOR] Repository" version="2.6" provider-name="Flecha Negra">
-	<requires>
+  <requires>
         <import addon="xbmc.python" version="2.1.0"/>
-		<import addon="xbmc.addon" version="12.0.0"/>
+    <import addon="xbmc.addon" version="12.0.0"/>
         <import addon="script.module.simple.downloader" version="0.9.4"/>
         <import addon="script.module.t0mm0.common" version="2.0.0"/>
         <import addon="script.module.beautifulsoup4" />
@@ -1792,37 +1445,37 @@ Toda a fonte  vem de utilizadores do Youtube. Addon criado pela Kodiazor Team.</
         <import addon="script.module.simple.downloader" version="0.9.4"/>
         <import addon="plugin.video.youtube" version="5.2.1" />
         <import addon="script.module.urlresolver" />
-        <import addon="script.module.simplejson" />
+        <import addon="script.module.simplejson" />    
         <import addon="script.module.livestreamer"/>
         <import addon="script.module.pyamf"/>
         <import addon="script.common.plugin.cache" version="2.5.2"/>
         <import addon="script.module.metahandler" version="2.5.1"/>
-	    <import addon="script.module.addon.common" />
-	    <import addon="script.module.addon.signals" version="0.0.1"/>
-	    <import addon="script.module.youtube.dl" optional="true"/>
-	</requires>
-	<extension point="xbmc.addon.repository" name="[COLOR red]Flecha Negra [COLOR red]repositorio[/COLOR]">
-		    <info compressed="false">https://raw.githubusercontent.com/flechanegra/repository.flechanegra/master/addons.xml</info>
-		    <checksum>https://raw.githubusercontent.com/flechanegra/repository.flechanegra/master/addons.xml.md5</checksum>
-		    <datadir zip="true">https://raw.githubusercontent.com/flechanegra/repository.flechanegra/master</datadir>
-		<dir minversion="17.0.0">
-			<info compressed="true">https://raw.githubusercontent.com/flechanegra/repository.flechanegra/master/krypton/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/flechanegra/repository.flechanegra/master/krypton/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/flechanegra/repository.flechanegra/master/krypton</datadir>
-		</dir>
-		<dir minversion="17.9.0">
-			<info compressed="true">https://raw.githubusercontent.com/flechanegra/repository.flechanegra/master/leia/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/flechanegra/repository.flechanegra/master/leia/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/flechanegra/repository.flechanegra/master/leia</datadir>
-		</dir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>repositorio Flecha Negra</summary>
-		<description>repositorio oficial Flecha Negra - Proibido reproducao sem previa autorizacao</description>
-		<disclaimer></disclaimer>
-		<platform>all</platform>
-		<news>[I]v1.2[/I][CR]- Suporte para uma Skin!</news>
-	</extension>
+      <import addon="script.module.addon.common" />
+      <import addon="script.module.addon.signals" version="0.0.1"/>
+      <import addon="script.module.youtube.dl" optional="true"/>  
+  </requires>
+  <extension point="xbmc.addon.repository" name="[COLOR red]Flecha Negra [COLOR red]repositorio[/COLOR]">
+        <info compressed="false">https://raw.githubusercontent.com/flechanegra/repository.flechanegra/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/flechanegra/repository.flechanegra/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/flechanegra/repository.flechanegra/master</datadir>
+    <dir minversion="17.0.0">
+      <info compressed="true">https://raw.githubusercontent.com/flechanegra/repository.flechanegra/master/krypton/addons.xml</info>
+      <checksum>https://raw.githubusercontent.com/flechanegra/repository.flechanegra/master/krypton/addons.xml.md5</checksum>
+      <datadir zip="true">https://raw.githubusercontent.com/flechanegra/repository.flechanegra/master/krypton</datadir>
+    </dir>
+    <dir minversion="17.9.0">
+      <info compressed="true">https://raw.githubusercontent.com/flechanegra/repository.flechanegra/master/leia/addons.xml</info>
+      <checksum>https://raw.githubusercontent.com/flechanegra/repository.flechanegra/master/leia/addons.xml.md5</checksum>
+      <datadir zip="true">https://raw.githubusercontent.com/flechanegra/repository.flechanegra/master/leia</datadir>
+    </dir>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>repositorio Flecha Negra</summary>
+    <description>repositorio oficial Flecha Negra - Proibido reproducao sem previa autorizacao</description>
+    <disclaimer></disclaimer>
+    <platform>all</platform>
+    <news>[I]v1.2[/I][CR]- Suporte para uma Skin!</news>
+  </extension>
 </addon>
 
 <addon id="repository.plexus-streams" name="Plexus-Streams Repository" version="1.0.0" provider-name="D4FC">
@@ -1857,10 +1510,9 @@ Toda a fonte  vem de utilizadores do Youtube. Addon criado pela Kodiazor Team.</
     <assets>
       <icon>icon.png</icon>
       <fanart>fanart.jpg</fanart>
-    </assets>
+    </assets> 
   </extension>
 </addon>
-
 <addon id="repository.tempest" name="Tempest Repo" version="0.0.5" provider-name="Tempest">
 	<extension point="xbmc.addon.repository" name="Tempest Repo">
         <info compressed="false">https://raw.githubusercontent.com/Tempest0580/tempest/master/zips/addons.xml</info>
@@ -2021,25 +1673,6 @@ Toda a fonte  vem de utilizadores do Youtube. Addon criado pela Kodiazor Team.</
     </extension>
 </addon>
 
-<addon id="script.module.m3u8" name="m3u8" version="0.2.10" provider-name="globocom, Timewasted">
-	<requires>
-        <import addon="xbmc.python" version="2.14.0"/>
-        <import addon="script.module.iso8601" version="0.1.11"/>
-	</requires>
-	<extension point="xbmc.python.module" library="lib"/>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Python m3u8 Parser for HTTP Live Streaming (HLS) Transmissions</summary>
-		<description lang="en">Packed for XBMC from https://github.com/globocom/m3u8</description>
-		<language>en</language>
-		<platform>all</platform>
-		<license>MIT</license>
-		<forum></forum>
-		<website>https://github.com/globocom/m3u8</website>
-		<source>https://github.com/timewasted/script.module.m3u8</source>
-		<email>ryan@timewasted.me</email>
-	</extension>
-</addon>
-
 <addon id="script.module.marvelrus" version="2.0.7" name="[B][COLOR red]Marvelrus[/COLOR] Script.Module[/B]" provider-name="Marvelrus">
     <requires>
         <import addon="xbmc.python" version="2.1.0" />
@@ -2087,7 +1720,24 @@ Toda a fonte  vem de utilizadores do Youtube. Addon criado pela Kodiazor Team.</
     <source></source>
   </extension>
 </addon>
-
+<addon id="script.module.m3u8" name="m3u8" version="0.2.10" provider-name="globocom, Timewasted">
+	<requires>
+        <import addon="xbmc.python" version="2.14.0"/>
+        <import addon="script.module.iso8601" version="0.1.11"/>
+	</requires>
+	<extension point="xbmc.python.module" library="lib"/>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Python m3u8 Parser for HTTP Live Streaming (HLS) Transmissions</summary>
+		<description lang="en">Packed for XBMC from https://github.com/globocom/m3u8</description>
+		<language>en</language>
+		<platform>all</platform>
+		<license>MIT</license>
+		<forum></forum>
+		<website>https://github.com/globocom/m3u8</website>
+		<source>https://github.com/timewasted/script.module.m3u8</source>
+		<email>ryan@timewasted.me</email>
+	</extension>
+</addon>
 <addon id="script.module.openscrapers" name="OpenScrapers Module" version="0.0.2.004" provider-name="Addons4Kodi">
 	<requires>
 		<import addon="xbmc.python" version="2.25.0" />
@@ -2149,27 +1799,19 @@ Toda a fonte  vem de utilizadores do Youtube. Addon criado pela Kodiazor Team.</
     </assets>
   </extension>
 </addon>
-
-<addon id="script.module.resolveurl" name="ResolveURL" version="5.0.31" provider-name="jsergio">
-	<requires>
-		<import addon="xbmc.python" version="2.1.0" />
-		<import addon="plugin.video.youtube" optional="true" />
-		<import addon="script.module.python.twitch" optional="true" />
-		<import addon="script.module.cryptopy" version="1.2.6" optional="true" />
-		<import addon="plugin.video.gdrive" optional="true" />
-	</requires>
-	<extension point="xbmc.python.module" library="lib" />
-	<extension point="xbmc.python.pluginsource" library="lib/default.py" />
-	<extension point="xbmc.addon.metadata">
-		<platform>all</platform>
-		<summary lang="en">Resolve common video host URL's to be playable in XBMC/Kodi.</summary>
-		<summary lang="es">Resolver enlaces a videos de sitios populares para poder reproducirlos en XBMC/Kodi.</summary>
-		<summary lang="hr">Prilagodi najčešće URL-ove video izvora kako bi radili u XBMC/Kodiju.</summary>
-		<description lang="en">Resolve common video host URL's to be playable in XBMC/Kodi, simplify addon development of video plugins requiring multi video hosts.</description>
-		<description lang="hr">Prilagodi najčešće URL-ove video izvora kako bi radili u XBMC/Kodiju, pojednostavnjuje razvoj priključaka za video dodatke koji zahtjevaju višestruke video izvore.</description>
-	</extension>
+<addon id="script.module.simple.downloader" name="Simple Downloader for xbmc plugins" provider-name="TheCollective" version="0.9.4">
+  <requires>
+    <import addon="xbmc.python" version="2.0" />
+    <import addon="script.common.plugin.cache" version="1.5.0" />
+    <import addon="script.module.parsedom" version="1.5.1" />
+  </requires>
+  <extension library="default.py" point="xbmc.service" />
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">Simple downloader for xbmc plugins.</summary>
+  </extension>
+  <extension library="lib" point="xbmc.python.module" />
 </addon>
-
 <addon id="script.module.simple.downloader" name="Simple Downloader for xbmc plugins" provider-name="TheCollective" version="1.9.5">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
@@ -2183,29 +1825,6 @@ Toda a fonte  vem de utilizadores do Youtube. Addon criado pela Kodiazor Team.</
   </extension>
   <extension library="lib" point="xbmc.python.module" />
 </addon>
-
-<addon id="script.module.slproxy" name="SLProxy" version="0.0.3" provider-name="devilsport">
-  <requires>
-    <import addon="xbmc.python" version="2.24.0"/>
-    <import addon="script.module.requests"/>
-	  <import addon="script.module.streamlink.base" />
-  </requires>
-  <extension point="xbmc.python.module" library="lib/"/>
-  <extension point="xbmc.addon.metadata">
-    <summary>StreamLink Proxy DS</summary>
-    <description>Streamlink proxy for Kodi</description>
-    <platform>all</platform>
-    <license>Simplified BSD</license>
-    <source></source>
-    <language>en</language>
-    <assets>
-      <icon>icon.png</icon>
-    </assets>
-    <news>
-    </news>
-  </extension>
-</addon>
-
 <addon id="script.module.slyguy" name="SlyGuy Shared" provider-name="SlyGuy" version="0.10.4">
   <requires>
     <!-- <import addon="xbmc.python" version="2.1.0"/> -->
@@ -2227,6 +1846,27 @@ Toda a fonte  vem de utilizadores do Youtube. Addon criado pela Kodiazor Team.</
       <icon>icon.png</icon>
       <fanart>fanart.jpg</fanart>
     </assets>
+  </extension>
+</addon>
+<addon id="script.module.slproxy" name="SLProxy" version="0.0.3" provider-name="devilsport">
+  <requires>
+    <import addon="xbmc.python" version="2.24.0"/>
+    <import addon="script.module.requests"/>
+	  <import addon="script.module.streamlink.base" />
+  </requires>
+  <extension point="xbmc.python.module" library="lib/"/>
+  <extension point="xbmc.addon.metadata">
+    <summary>StreamLink Proxy DS</summary>
+    <description>Streamlink proxy for Kodi</description>
+    <platform>all</platform>
+    <license>Simplified BSD</license>
+    <source></source>
+    <language>en</language>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+    <news>
+    </news>
   </extension>
 </addon>
 
@@ -2322,51 +1962,6 @@ Toda a fonte  vem de utilizadores do Youtube. Addon criado pela Kodiazor Team.</
 	</extension>
 </addon>
 
-<addon id="script.skinshortcuts" name="Skin Shortcuts" version="1.0.18" provider-name="BigNoid,marcelveldt">
-	<requires>
-		<import addon="xbmc.python" version="2.20.0"/>
-		<import addon="script.module.simplejson" version="3.3.0"/>
-		<import addon="script.module.unidecode" version="0.4.14"/>
-	</requires>
-	<extension point="xbmc.python.library" library="default.py"/>
-	<extension point="xbmc.addon.metadata">
-		<news>Template improvements and bug fixes</news>
-		<description lang="bg">Добавка за облици, която осигурява просто управление и списък с потребителски преки пътища (изисква поддръжка от облика)</description>
-		<description lang="de">Add-on für Skins für einfache Bearbeitung und Auflistung von benutzerdefinierten Verknüpfungen (erfordert Skin-Unterstützung)</description>
-		<description lang="el">Πρόσθετο για κελύφη, το οποίο παρέχει έναν απλό τρόπο διαχείρισης και κατηγοριοποίησης των συντομεύσεων του χρήστη (πρέπει να υποστηρίζεται από το κέλυφος)</description>
-		<description lang="en">Add-on for skins to provide simple managing and listing of user shortcuts (requires skin support)</description>
-		<description lang="en_NZ">Add-on for skins to provide simple managing and listing of user shortcuts (requires skin support)</description>
-		<description lang="en_US">Add-on for skins to provide simple managing and listing of user shortcuts (requires skin support)</description>
-		<description lang="es">Complemento para las pieles para proporcionar una gestión sencilla y lista de atajos de usuario (requiere que la piel lo soporte)</description>
-		<description lang="fr_CA">Addiciel pour habillages qui fournit une gestion simple et un listage des raccourcis utilisateurs (exige la prise en charge de l'habillage)</description>
-		<description lang="gl">Complemento que fornece aos temas dunha xestión sinxela dos atallos dos usuarios (require soporte do tema)</description>
-		<description lang="hr">Dodatak za presvlake koja omogućava jednostavno upravljanje i prikaz korisnikovih prečaca (zahtijeva podršku presvlake) </description>
-		<description lang="hu">Felszín kiegészítő amely könnyen kezelhetővé és listázhatóvá teszi a felhasználói parancsikonokat (Felszín támogatás szükséges)</description>
-		<description lang="is">Viðbót fyrir viðmót til að halda utan um flýtivísa og fá yfirlit yfir þá (þarfnast stuðnings frá viðmóti)</description>
-		<description lang="it">Add-on per gli skin per consentire un facile gestione ed elenco delle scorciatoie utente (richiede che lo skin lo supporti)</description>
-		<description lang="lt">Priedas teminėms išvaizdoms, kad jos turėtų galimybę paprastai tvarkyti ir atvaizduoti vartotojo  sukurtas nuorodas (reikalingas teminės išvaizdos palaikymas)</description>
-		<description lang="nl">Add-on voor skins om te voorzien in het eenvoudig beheren en sorteren van gebruikers snelkoppelingen (vereist skin ondersteuning)</description>
-		<description lang="no">Tillegg for enkel administrering og opplisting av bruker-snarveier i tema (krever støtte i tema)</description>
-		<description lang="pl">Wtyczka dla skór, która zapewnia proste zarządzanie i tworzenie list skrótów użytkownika (wymaga wsparcia skóry)</description>
-		<description lang="pt">Um add-on que permite que os temas tenham recursos simples para gerir e listar atalhos de utilizadores (é necessário suporte do tema)</description>
-		<description lang="pt_BR">Add-on para que as skins possam prover gerenciamento de lista de atalhos para o menu principal (requer suporte da skin)</description>
-		<description lang="ru">Дополнение для обложек, предоставляющее простой способ управления и список пользовательских ярлыков (требуется поддержка обложкой)</description>
-		<description lang="sv">Skinntillägg som tillhandahåller enkel hantering och översikt av användargenvägar (om skinnet stöder det)</description>
-		<description lang="zh">插件为皮肤提供了简单的管理和用户连接方式列表 (需要皮肤支持)</description>
-		<language></language>
-		<platform>all</platform>
-		<license>GNU General Public License, v2</license>
-		<forum>http://forum.xbmc.org/showthread.php?tid=178294</forum>
-		<website></website>
-		<email></email>
-		<source>https://github.com/BigNoid/script.skinshortcuts</source>
-	<assets>
-		<icon>icon.png</icon>
-		<fanart>fanart.jpg</fanart>
-	</assets>
-	</extension>
-</addon>
-
 <addon id="script.video.F4mProxy"
 	     name="F4mProxy"
 	     version="2.8.7"
@@ -2418,27 +2013,6 @@ Toda a fonte  vem de utilizadores do Youtube. Addon criado pela Kodiazor Team.</
 		</assets>
 	</extension>
 </addon>
-
-<addon id="service.subtitles.opensubtitles.free" name="OpenSubtitles Free" provider-name="amet and Flecha" version="0.0.3">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension library="service.py" point="xbmc.subtitle.module"/>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">Retrieved from version 5.0.16 OpenSubtitles.</summary>
-	<summary lang="pt">Retirado da versao 5.0.16 OpenSubtitles.</summary>
-    <description lang="en">Search and download subtitles on opensubtitles.org without resistance.</description>
-	<description lang="pt">Pesquise e baixe legendas em opensubtitles.org sem resisto.</description>
-    <disclaimer lang="en"/>
-    <platform>all</platform>
-    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-    <forum></forum>
-    <website/>
-    <email/>
-    <source></source>
-  </extension>
-</addon>
-
 <addon id="slyguy.disney.plus" name="Disney+" provider-name="Slyguy" version="0.4.8">
   <requires>
     <import addon="script.module.slyguy"/>
@@ -2462,6 +2036,26 @@ Abbonamento richiesto.</description>
       <icon>icon.png</icon>
       <fanart>fanart.jpg</fanart>
     </assets>
+  </extension>
+</addon>
+
+<addon id="service.subtitles.opensubtitles.free" name="OpenSubtitles Free" provider-name="amet and Flecha" version="0.0.2">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension library="service.py" point="xbmc.subtitle.module"/>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Retrieved from version 5.0.16 OpenSubtitles.</summary>
+	<summary lang="pt">Retirado da versao 5.0.16 OpenSubtitles.</summary>
+    <description lang="en">Search and download subtitles on opensubtitles.org without resistance.</description>
+	<description lang="pt">Pesquise e baixe legendas em opensubtitles.org sem resisto.</description>
+    <disclaimer lang="en"/>
+    <platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <forum></forum>
+    <website/>
+    <email/>
+    <source></source>
   </extension>
 </addon>
 </addons>
