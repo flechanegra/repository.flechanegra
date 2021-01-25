@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.flechanegra_matrix" name="[COLOR red]Flecha[/COLOR] [COLOR black]Negra[/COLOR]_[COLOR cyan]Matrix[/COLOR] Repository" version="19.0" provider-name="Flecha Negra">
+	<requires>
+        
+		<import addon="xbmc.addon" version="12.0.0"/>
+	</requires>
+	<extension point="xbmc.addon.repository" name="[COLOR red]Flecha Negra [COLOR red]repositorio[/COLOR]_[COLOR cyan]Matrix[/COLOR]">
+		    
+		<dir minversion="18.9.1">
+			<info compressed="false">https://raw.githubusercontent.com/flechanegra/repository.flechanegra/master/matrix/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/flechanegra/repository.flechanegra/master/matrix/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/flechanegra/repository.flechanegra/master/matrix</datadir>
+		</dir>
+
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>repositorio Flecha Negra</summary>
+		<description>repositorio oficial Flecha Negra - Proibido reproducao sem previa autorizacao</description>
+	</extension>	
+</addon>
