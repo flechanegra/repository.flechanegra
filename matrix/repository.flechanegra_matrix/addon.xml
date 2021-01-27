@@ -17,4 +17,8 @@
 		<summary>repositorio Flecha Negra</summary>
 		<description>repositorio oficial Flecha Negra - Proibido reproducao sem previa autorizacao</description>
 	</extension>	
+	<assets>
+            <icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+        </assets>
 </addon>
