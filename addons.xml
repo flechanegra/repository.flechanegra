@@ -104,6 +104,34 @@ version="1.0" provider-name="Flechanegra">
     <platform>all</platform>
   </extension>
 </addon>
+<addon id="plugin.video.blackarrowradiopt" name="[COLORred]Flecha[/COLOR] [COLORblack]Negra[/COLOR]Blackarrow[COLORcyan]Radio PT[/COLOR] " version="KDS1.1" provider-name="Kodish Team e Flecha Negra">
+<requires>
+  <import addon="script.module.routing" version="0.2.3"/>
+  <import addon="xbmc.python2" version="3.0.0"/>
+</requires>
+<extension point="xbmc.python.pluginsource" library="resources/lib/addon_entry.py">
+  <provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+  <summary lang="en_GB">[COLORred]Flecha[/COLOR] [COLORblack]Negra[/COLOR]Blackarrow[COLORcyan]Radio PT[/COLOR]</summary>
+  <description lang="en_GB">Flecha Negra Blackarrow melhor addon radio de portugal para mundo</description>
+  <disclaimer lang="en_GB"></disclaimer>
+  <language>en</language>
+  <platform>all</platform>
+  <license>GPL-3.0-only</license>
+  <website></website>
+  <source></source>
+  <forum></forum>
+  <news>
+  </news>
+  <assets>
+    <icon>resources/media/icon.png</icon>
+    <fanart>resources/media/fanart.jpg</fanart>
+  </assets>
+  <reuselanguageinvoker>true</reuselanguageinvoker>
+</extension>
+</addon>
+
 
 <addon id="plugin.video.Blackarrowtorrent"
        name="[COLOR red][B]BlackArrow [B][/COLOR] [COLOR red][B]Torrent[/B][/COLOR]"
@@ -1764,5 +1792,20 @@ Abbonamento richiesto.</description>
       <fanart>fanart.jpg</fanart>
     </assets>
   </extension>
+</addon>
+
+<addon id="xbmc.python2" version="3.0.0" provider-name="Team Kodi">
+  <backwards-compatibility abi="2.1.0"/>
+  <requires>
+    <import addon="xbmc.core" version="0.1.0"/>
+  </requires>
+  <extension-point id="script" schema="script.xsd"/>
+  <extension-point id="subtitles" schema="script.xsd"/>
+  <extension-point id="lyrics" schema="script.xsd"/>
+  <extension-point id="weather" schema="script.xsd"/>
+  <extension-point id="library" schema="script.xsd"/>
+  <extension-point id="screensaver" schema="script.xsd"/>
+  <extension-point id="plugin" schema="pluginsource.xsd"/>
+  <extension-point id="context.item" schema="contextitem.xsd"/>
 </addon>
 </addons>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.blackarrowradiopt" name="[COLORred]Flecha[/COLOR] [COLORblack]Negra[/COLOR]Blackarrow[COLORcyan]Radio PT[/COLOR] " version="KDS1.1" provider-name="Kodish Team e Flecha Negra">
+<requires>
+  <import addon="script.module.routing" version="0.2.3"/>
+  <import addon="xbmc.python2" version="3.0.0"/>
+</requires>
+<extension point="xbmc.python.pluginsource" library="resources/lib/addon_entry.py">
+  <provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+  <summary lang="en_GB">[COLORred]Flecha[/COLOR] [COLORblack]Negra[/COLOR]Blackarrow[COLORcyan]Radio PT[/COLOR]</summary>
+  <description lang="en_GB">Flecha Negra Blackarrow melhor addon radio de portugal para mundo</description>
+  <disclaimer lang="en_GB"></disclaimer>
+  <language>en</language>
+  <platform>all</platform>
+  <license>GPL-3.0-only</license>
+  <website></website>
+  <source></source>
+  <forum></forum>
+  <news>
+  </news>
+  <assets>
+    <icon>resources/media/icon.png</icon>
+    <fanart>resources/media/fanart.jpg</fanart>
+  </assets>
+  <reuselanguageinvoker>true</reuselanguageinvoker>
+</extension>
+</addon>
