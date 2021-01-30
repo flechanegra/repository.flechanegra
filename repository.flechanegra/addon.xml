@@ -23,7 +23,7 @@
 	<extension point="xbmc.addon.repository" name="[B][COLOR red]Flecha Negra [COLOR red]repositorio[/B][/COLOR]">
 		   
         <dir minversion="18.9.0">
-            <info compressed="false">https://raw.githubusercontent.com/flechanegra/repository.flechanegra/master//addons.xml</info>
+            <info compressed="false">https://raw.githubusercontent.com/flechanegra/repository.flechanegra/master/addons.xml</info>
             <checksum>https://raw.githubusercontent.com/flechanegra/repository.flechanegra/master/addons.xml.md5</checksum>
             <datadir zip="true">https://raw.githubusercontent.com/flechanegra/repository.flechanegra/master/</datadir>
             <hashes>false</hashes>
