@@ -1,33 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.blackarrowradiopt" name="[B]Flecha Negra Blackarrow[/B]" version="KDS1.1" provider-name="Kodish Team e Flecha Negra">
-<requires>
-  <import addon="script.module.routing" version="0.2.3"/>
-  <import addon="xbmc.python2" version="3.0.0"/>
-</requires>
-<extension point="xbmc.python.pluginsource" library="resources/lib/addon_entry.py">
-  <provides>video</provides>
-</extension>
-<extension point="xbmc.addon.metadata">
-  <summary lang="en_GB">[B]Flecha Negra Blackarrow[/B]</summary>
-  <description lang="en_GB">[B]Flecha Negra Blackarrow melhor addon radio de portugal para mundo[/B]</description>
-  <disclaimer lang="en_GB"></disclaimer>
-  <language>en</language>
-  <platform>all</platform>
-  <license>GPL-3.0-only</license>
-  <website></website>
-  <source></source>
-  <forum></forum>
-  <news>
-  </news>
-  <assets>
-    <icon>resources/media/icon.png</icon>
-    <fanart>resources/media/fanart.jpg</fanart>
-  </assets>
-  <reuselanguageinvoker>true</reuselanguageinvoker>
-</extension>
-</addon>
-
 
 <addon id="plugin.program.flechanegra" name=" [B][COLOR orange]Flecha Negra Wizard[/COLOR][/B]" version="1.1" provider-name="[B][COLOR red]Flecha Negra[/COLOR][/B]">
   <requires>
@@ -132,6 +104,34 @@ version="1.0" provider-name="Flechanegra">
     <description lang="en">[COLOR red][B]Blackarrow[/B][/COLOR] [COLOR black][B]playlist[/B][/COLOR] [COLORorange][B]é um addon da familia Flecha Negra Team.TODOS OS LINKS ESTÃO DISPONIVEIS NA INTERNET![/B][/COLOR]</description>
     <platform>all</platform>
   </extension>
+</addon>
+
+<addon id="plugin.video.blackarrowradiopt" name="[B]Flecha Negra Blackarrow[/B]" version="KDS1.1" provider-name="Kodish Team e Flecha Negra">
+<requires>
+  <import addon="script.module.routing" version="0.2.3"/>
+  <import addon="xbmc.python2" version="3.0.0"/>
+</requires>
+<extension point="xbmc.python.pluginsource" library="resources/lib/addon_entry.py">
+  <provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+  <summary lang="en_GB">[B]Flecha Negra Blackarrow[/B]</summary>
+  <description lang="en_GB">[B]Flecha Negra Blackarrow melhor addon radio de portugal para mundo[/B]</description>
+  <disclaimer lang="en_GB"></disclaimer>
+  <language>en</language>
+  <platform>all</platform>
+  <license>GPL-3.0-only</license>
+  <website></website>
+  <source></source>
+  <forum></forum>
+  <news>
+  </news>
+  <assets>
+    <icon>resources/media/icon.png</icon>
+    <fanart>resources/media/fanart.jpg</fanart>
+  </assets>
+  <reuselanguageinvoker>true</reuselanguageinvoker>
+</extension>
 </addon>
 
 <addon id="plugin.video.Blackarrowtorrent"
@@ -1745,14 +1745,14 @@ Toda a fonte  vem de utilizadores do Youtube. Addon criado pela Kodiazor Team.</
 		    <checksum>https://raw.githubusercontent.com/flechanegra/repository.flechanegra/master/addons.xml.md5</checksum>
 		    <datadir zip="true">https://raw.githubusercontent.com/flechanegra/repository.flechanegra/master</datadir>
 		<dir minversion="17.0.0">
-			<info compressed="true">https://raw.githubusercontent.com/flechanegra/repository.flechanegra/master/krypton/addons.xml</info>
+			<info compressed="true">https://raw.githubusercontent.com/flechanegra/repository.flechanegra/master/addons.xml</info>
 			<checksum>https://raw.githubusercontent.com/flechanegra/repository.flechanegra/master/krypton/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/flechanegra/repository.flechanegra/master/krypton</datadir>
+			<datadir zip="true">https://raw.githubusercontent.com/flechanegra/repository.flechanegra/master/</datadir>
 		</dir>
 		<dir minversion="17.9.0">
 			<info compressed="true">https://raw.githubusercontent.com/flechanegra/repository.flechanegra/master/leia/addons.xml</info>
 			<checksum>https://raw.githubusercontent.com/flechanegra/repository.flechanegra/master/leia/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/flechanegra/repository.flechanegra/master/leia</datadir>
+			<datadir zip="true">https://raw.githubusercontent.com/flechanegra/repository.flechanegra/master/</datadir>
 		</dir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
